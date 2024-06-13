@@ -23,7 +23,7 @@ body, html {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 50px auto;
     background: white;
     padding: 20px;
@@ -41,8 +41,10 @@ body, html {
 
 .album-cover {
     position: relative;
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px;
+    height: 0;
+    padding-bottom: 100%; /* Maintain aspect ratio */
     background-image: url('static/OfficerSaid.png');
     background-size: cover;
     background-position: center;
@@ -56,7 +58,7 @@ body, html {
     align-items: center;
 }
 
-.buttons button {
+.buttons a, .buttons button {
     background-color: #e0e0e0;
     border: none;
     border-radius: 5px;
@@ -65,9 +67,12 @@ body, html {
     cursor: pointer;
     font-size: 16px;
     width: 150px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
-.buttons button:hover {
+.buttons a:hover, .buttons button:hover {
     background-color: #d0d0d0;
 }
 
