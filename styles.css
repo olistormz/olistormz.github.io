@@ -23,7 +23,7 @@ body, html {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 50px auto;
     background: white;
     padding: 20px;
@@ -41,14 +41,14 @@ body, html {
 
 .album-cover {
     position: relative;
-    width: 100%; /* Adjust width as needed */
-    max-width: 500px;
-    height: 0;
-    padding-bottom: 100%; /* Maintain aspect ratio */
+    width: 70%; /* Reduced by 30% */
+    max-width: 350px; /* Ensure it doesn't get too large on big screens */
+    padding-bottom: 70%; /* Maintain aspect ratio */
     background-image: url('static/OfficerSaid.png');
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
+    margin: 0 auto; /* Center the cover */
 }
 
 .buttons {
