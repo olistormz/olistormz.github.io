@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="background-blur"></div>
     <div class="container">
-        <div class="album-cover" style="background-image: url('olistormz.github.io/static/OfficerSaid.png');">
-            <div class="play-button"></div>
+        <div class="album-section">
+            <div class="album-cover" style="background-image: url('static/OfficerSaid.png');">
+                <div class="play-button" onclick="playVideo()"></div>
+            </div>
+            <div class="buttons">
+                <button class="follow">Follow</button>
+                <button class="share">Share</button>
+            </div>
         </div>
         <div class="progress-bar"><span></span></div>
         <div class="time">5:31</div>
@@ -24,6 +31,35 @@
             <a href="#"><img src="youtube-logo-url.png" alt="YouTube">YouTube</a>
             <a href="#"><img src="deezer-logo-url.png" alt="Deezer">Deezer</a>
         </div>
+        <div class="social-follow">
+            <a href="https://www.instagram.com/olistormz" target="_blank">
+                <img src="static/instagram-logo.png" alt="Follow on Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@olistormz" target="_blank">
+                <img src="static/tiktok-logo.png" alt="Follow on TikTok">
+            </a>
+        </div>
+        <div class="buy-section">
+            <a href="#" class="buy-button">
+                <img src="static/cart-icon.png" alt="Buy from Artist">
+                Buy from Artist
+            </a>
+        </div>
+        <div class="bio-section">
+            <p>I'm Oli Stormz...maybe when I know what I'm doing I'll update my bio. Probably never in that case.</p>
+            <p class="release-date">Released June 2024</p>
+        </div>
+        <div class="video-player">
+            <video id="musicVideo" width="100%" controls>
+                <source src="static/ohyeah.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
+    <script>
+        function playVideo() {
+            document.getElementById('musicVideo').play();
+        }
+    </script>
 </body>
 </html>
