@@ -10,12 +10,11 @@ body, html {
 }
 
 .background-blur {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: 50%;
+    left: 0;
     width: 100%;
     height: 100%;
-    transform: translateX(-50%);
     background-image: url('static/OfficerSaid.png');
     background-size: cover;
     background-position: center;
@@ -35,46 +34,22 @@ body, html {
 
 .album-section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .album-cover {
-    position: relative;
-    width: 70%; /* Reduced by 30% */
-    max-width: 350px; /* Ensure it doesn't get too large on big screens */
-    height: 0;
-    padding-bottom: 70%; /* Maintain aspect ratio */
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     background-image: url('static/OfficerSaid.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 100%;
     margin-bottom: 20px;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.buttons a, .buttons button {
-    background-color: #e0e0e0;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    width: 150px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
-.buttons a:hover, .buttons button:hover {
-    background-color: #d0d0d0;
 }
 
 .title {
@@ -149,9 +124,6 @@ body, html {
     .album-section {
         flex-direction: column;
     }
-    .buttons {
-        margin-left: 0;
-    }
     .platforms a {
         width: 100%;
         margin-bottom: 10px;
@@ -160,4 +132,3 @@ body, html {
         width: 100%;
     }
 }
-
