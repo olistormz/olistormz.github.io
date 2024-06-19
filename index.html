@@ -13,8 +13,8 @@
             <div class="album-cover" style="background-image: url('static/OfficerSaid.png');"></div>
         </div>
         <div class="audio-player">
-            <audio width="100%" controls>
-                <source src="https://github.com/olistormz/olistormz.github.io/raw/main/static/ohyeah.mp3" type="audio/mpeg">
+            <audio id="audioPlayer" width="100%" controls>
+                <source id="audioSource" src="https://github.com/olistormz/olistormz.github.io/raw/main/static/ohyeah.mp3" type="audio/mp3">
                 Your browser does not support the audio tag.
             </audio>
         </div>
@@ -53,5 +53,23 @@
             <p>Powered by Oli Stormz. ©2024 <a href="https://www.olistormz.com">OLISTORMZ.COM</a>. If you're an artist seeking a similar page, <a href="mailto:olistormzofficial@gmail.com">contact me</a>.</p>
         </div>
     </div>
+
+    <script>
+        // Function to detect Safari browser
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var audioSource = document.getElementById("audioSource");
+            if (isSafari()) {
+                audioSource.src = "static/ohyeah.wav";
+                audioSource.type = "audio/wav";
+                var audioPlayer = document.getElementById("audioPlayer");
+                audioPlayer.load(); // Needed to load the new source
+            }
+        });
+    </script>
 </body>
 </html>
+
