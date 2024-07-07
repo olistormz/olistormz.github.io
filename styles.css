@@ -219,3 +219,9 @@ body.driftin {
     }
 }
 
+.greyed-out {
+        pointer-events: none; /* Disable clicking */
+        opacity: 0.5; /* Make it look greyed out */
+        position: relative; /* Needed for the tooltip */
+        display: inline-block; /* Ensures proper spacing for the tooltip */
+}
