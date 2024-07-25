@@ -24,7 +24,7 @@
         </div>
         <div class="audio-player">
             <audio id="audioPlayer" width="100%" controls>
-                <source id="audioSource" src="https://github.com/olistormz/olistormz.github.io/raw/main/static/friends.mp3" type="audio/mp3">
+                <source id="audioSource" src="https://github.com/olistormz/olistormz.github.io/raw/main/static/there-i-go.mp3" type="audio/mp3">
                 Your browser does not support the audio tag.
             </audio>
         </div>
@@ -79,7 +79,7 @@
         document.addEventListener("DOMContentLoaded", function() {
             var audioSource = document.getElementById("audioSource");
             if (isSafari()) {
-                audioSource.src = "static/friends.wav";
+                audioSource.src = "static/there-i-go.wav";
                 audioSource.type = "audio/wav";
                 var audioPlayer = document.getElementById("audioPlayer");
                 audioPlayer.load(); // Needed to load the new source
