@@ -12,15 +12,15 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oli Stormz Official - Driftin'</title>
+    <title>Oli Stormz Official - There I Go</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="static/driftin.png" type="image/png">
+    <link rel="icon" href="static/there-i-go.png" type="image/png">
 </head>
-<body class="driftin">
+<body class="there-i-go">
     <div class="navbar-container"></div>
     <div class="container">
         <div class="album-section">
-            <div class="album-cover" style="background-image: url('static/driftin.png');"></div>
+            <div class="album-cover" style="background-image: url('static/there-i-go.png');"></div>
         </div>
         <div class="audio-player">
             <audio id="audioPlayer" width="100%" controls>
@@ -28,13 +28,13 @@
                 Your browser does not support the audio tag.
             </audio>
         </div>
-        <div class="title">Driftin'</div>
+        <div class="title">There I Go</div>
         <div class="artist">by Oli Stormz</div>
-        <div class="release-date">Released July 7th, 2024</div>
+        <div class="release-date">Releasing August 8th, 2024</div>
         <div class="platforms">
-            <a href="https://open.spotify.com/track/4apOH7UZYFmrt5Fyc32Q5J"><img src="static/spotify-logo.png" alt="Spotify">Spotify</a>
-            <a href="https://music.apple.com/es/album/driftin/1754571621?i=1754571622"><img src="static/apple-music-logo.png" alt="Apple Music">Apple Music</a>
-            <a href="https://youtu.be/cciwq7IxBd4"><img src="static/youtube-logo.png" alt="YouTube">Music Video</a>
+            <a class="greyed-out" href="https://open.spotify.com/track/4apOH7UZYFmrt5Fyc32Q5J"><img src="static/spotify-logo.png" alt="Spotify">Spotify</a>
+            <a class="greyed-out" href="https://music.apple.com/es/album/driftin/1754571621?i=1754571622"><img src="static/apple-music-logo.png" alt="Apple Music">Apple Music</a>
+            <a class="greyed-out" href="https://youtu.be/cciwq7IxBd4"><img src="static/youtube-logo.png" alt="YouTube">Music Video</a>
             <!--
             <a class="greyed-out">
                 <img src="static/youtube-logo.png" alt="YouTube">Music Video (07/21)
@@ -42,8 +42,8 @@
             -->
         </div>
         <div class="platforms">
-            <a href="https://youtu.be/rdFQalUYEwk"><img src="static/youtube-logo.png" alt="YouTube">Lyric Video</a>
-            <a href="https://www.instagram.com/p/C9Hd6A3NkKu/"><img src="static/instagram-logo.png" alt="Amazon">Official Reel</a>
+            <a class="greyed-out" href="https://youtu.be/rdFQalUYEwk"><img src="static/youtube-logo.png" alt="YouTube">Lyric Video</a>
+            <a class="greyed-out" href="https://www.instagram.com/p/C9Hd6A3NkKu/"><img src="static/instagram-logo.png" alt="Amazon">Official Reel</a>
         </div>
         <div id="bio-social-container"></div>
         <div class="footer">
@@ -61,7 +61,7 @@
             .then(response => response.text())
             .then(data => {
                 document.querySelector('.navbar-container').innerHTML = data;
-                document.getElementById('link-driftin').classList.add('active');
+                document.getElementById('link-there-i-go').classList.add('active');
             });
 
         // Load bio and social section from external file
@@ -88,6 +88,7 @@
     </script>
 </body>
 </html>
+
 
 
 

@@ -17,10 +17,7 @@
     <link rel="icon" href="static/OfficerSaid.png" type="image/png">
 </head>
 <body class="what-the-officer-said">
-   <div class="navbar">
-        <a href="index.html" class="active">1. What The Officer Said</a>
-        <a href="driftin.html">2. Driftin'</a>
-    </div>
+   <div id="navbar-container"></div>
     <div class="container">
         <div class="album-section">
             <div class="album-cover" style="background-image: url('static/OfficerSaid.png');"></div>
@@ -43,24 +40,8 @@
 <!--            <a href="#"><img src="static/itunes-logo.png" alt="iTunes">iTunes</a>-->
             <a href="https://youtu.be/24jJIePbmMo"><img src="static/youtube-logo.png" alt="YouTube">Lyric Video</a>
             <a href="https://www.instagram.com/p/C8ZcOepNlLi/"><img src="static/instagram-logo.png" alt="Amazon">Official Reel</a>
-           
         </div>
-        <div class="bio-section">
-            <p>I'm Oli Stormz.<br><br>They say your life should be your message. <br><br> Let my music be mine. </p>
-        </div>
-        <div class="social-follow">
-            <a href="https://www.instagram.com/olistormz" target="_blank">
-                <img src="static/instagram-logo.png" alt="Follow on Instagram">
-            </a>
-            <a href="https://www.tiktok.com/@olistormz" target="_blank">
-                <img src="static/tiktok-logo.png" alt="Follow on TikTok">
-            </a>
-        </div>
-        <div class="follow-text">
-            <img src="static/arrow.png" alt="Arrow">
-            <br>
-            <p>Follow me and see more of my shenanigans. I'm just getting started.</p>
-        </div>
+        <div id="bio-social-container"></div>
         <div class="footer">
             <hr>
             <p>Powered by Oli Stormz. ©2024 <a href="https://www.olistormz.com">OLISTORMZ.COM</a>. If you're an artist seeking a similar page, <a href="mailto:olistormzofficial@gmail.com">contact me</a>.</p>
@@ -71,6 +52,21 @@
     </div>
 
     <script>
+        // Load navbar from external file
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+                document.getElementById('link-what-the-officer-said').classList.add('active');
+            });
+
+        // Load bio and social section from external file
+        fetch('bio-social.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('bio-social-container').innerHTML = data;
+            });
+
         // Function to detect Safari browser
         function isSafari() {
             return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
@@ -88,3 +84,4 @@
     </script>
 </body>
 </html>
+

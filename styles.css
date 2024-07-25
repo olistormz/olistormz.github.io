@@ -20,6 +20,11 @@ body.driftin {
     background-size: contain;
 }
 
+body.there-i-go {
+    background: url('static/there-i-go.png') center; /* Background image settings */
+    background-size: contain;
+}
+
 .navbar {
     background-color: white;
     overflow: hidden;
