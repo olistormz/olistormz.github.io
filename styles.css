@@ -25,6 +25,11 @@ body.there-i-go {
     background-size: contain;
 }
 
+body.gun-dutta-one {
+    background: url('static/gun-dutta-one.png') center; /* Background image settings */
+    background-size: contain;
+}
+
 .navbar {
     background-color: white;
     overflow: hidden;
