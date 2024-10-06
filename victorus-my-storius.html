@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2G0SF73RTS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2G0SF73RTS');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oli Stormz Official - Victorus My Storius</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="static/victorus-my-storius.png" type="image/png">
+</head>
+<body class="victorus-my-storius">
+    <div class="navbar-container"></div>
+    <div class="container">
+        <div class="album-section">
+            <div class="album-cover" style="background-image: url('static/victorus-my-storius.png');"></div>
+        </div>
+        <div class="audio-player">
+            <audio id="audioPlayer" width="100%" controls>
+                <source id="audioSource" src="https://github.com/olistormz/olistormz.github.io/raw/main/static/victorus-my-storius.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <div class="title">Victorus My Storius</div>
+        <div class="artist">by Oli Stormz</div>
+        <div class="release-date">Released 10/10/24</div>
+        <div class="platforms">
+            <a href=""><img src="static/spotify-logo.png" alt="Spotify">Spotify</a>
+            <a href=""><img src="static/apple-music-logo.png" alt="Apple Music">Apple Music</a>
+            <!-- <a href="https://youtu.be/C2fdW4BHmx8"><img src="static/youtube-logo.png" alt="YouTube">Music Video</a> -->
+        <a class="greyed-out">
+                <img src="static/youtube-logo.png" alt="YouTube">Music Video (10/21)
+            </a>
+        </div>
+        <div class="platforms">
+            <a href=""><img src="static/youtube-logo.png" alt="YouTube">YouTube</a>
+            <a href="https://www.instagram.com/p/DAadaV9u-MK/"><img src="static/instagram-logo.png" alt="Amazon">Official Reel</a>
+        </div>
+        <div id="bio-social-container"></div>
+        <div class="footer">
+            <hr>
+            <p>Powered by Oli Stormz. ©2024 <a href="https://www.olistormz.com">OLISTORMZ.COM</a>. If you're an artist seeking a similar page, <a href="mailto:olistormzofficial@gmail.com">contact me</a>.</p>
+            <!--
+            <a href="static/WhatTheOfficerSaidOliStormz.mp3" class="download-button">For Radio Station - Download Radio Ready 320 mp3 file</a>
+            -->
+        </div>
+    </div>
+
+    <script>
+        // Load navbar from external file
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.querySelector('.navbar-container').innerHTML = data;
+                document.getElementById('link-gun-dutta-one').classList.add('active');
+            });
+
+        // Load bio and social section from external file
+        fetch('bio-social.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('bio-social-container').innerHTML = data;
+            });
+
+        // Function to detect Safari browser
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var audioSource = document.getElementById("audioSource");
+            if (isSafari()) {
+                audioSource.src = "static/victorus-my-storius.wav";
+                audioSource.type = "audio/wav";
+                var audioPlayer = document.getElementById("audioPlayer");
+                audioPlayer.load(); // Needed to load the new source
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+        

@@ -30,6 +30,11 @@ body.gun-dutta-one {
     background-size: contain;
 }
 
+body.victorus-my-storius {
+    background: url('static/victorus-my-storius.png') center; /* Background image settings */
+    background-size: contain;
+}
+
 .navbar {
     background-color: white;
     overflow: hidden;
