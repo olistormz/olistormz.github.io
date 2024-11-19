@@ -92,7 +92,7 @@ function App() {
     },
     // Post-it Note 2
     {
-      noteText: 'We know leetle...we find mucho...- my Dad',
+      noteText: 'We know leetle...we find mucho...- a guru',
       isPostIt: true,
       backgroundColor: '#B0E0E6', // Example pastel color
       animation: 'float1', // Unique animation class
@@ -300,6 +300,25 @@ function FloatingElement({ data, animationClass }) {
           </CardContent>
         </Card>
       </Modal>
+    </div>
+  );
+}
+
+function AudioElement() {
+  return (
+    <div className="audio-element-container">
+      <img src={pushpinImage} alt="Pushpin" className="pushpin" />
+      <Card className="audio-card">
+        <CardContent>
+          <Typography variant="h6" component="h2">
+            My Audio Track
+          </Typography>
+          <audio controls className="audio-player">
+            <source src="path/to/your-audio-file.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        </CardContent>
+      </Card>
     </div>
   );
 }

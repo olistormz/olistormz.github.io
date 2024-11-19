@@ -69,8 +69,6 @@
   justify-content: center; /* Center the grid items horizontally */
 }
 
-
-
 /* Grid item styling to center content */
 .floating-element,
 .non-clickable-image,
@@ -330,4 +328,5 @@
   }
 
 }
+
 
