@@ -53,7 +53,7 @@ function App() {
     },
     // Post-it Note 1
     {
-      noteText: 'leave me alone too long by myself and I be blowing thru barriers.',
+      noteText: 'leave someone alone too long and they blow thru barriers.',
       isPostIt: true,
       backgroundColor: '#FFDEAD', // Example pastel color
       animation: 'float1', // Unique animation class
