@@ -181,7 +181,7 @@ function App() {
 
   return (
     <div className="app">
-      <video className="background-video" autoPlay loop muted>
+      <video className="background-video" autoPlay loop muted playsInline>
         <source src={backgroundVideo} type="video/mp4" />
       </video>
       <header className="header">
