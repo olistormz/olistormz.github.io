@@ -303,7 +303,10 @@
   .app {
     padding: 20px 10px;
   .header-sentence {
-    font-size: 1rem; /* Reduced font size for mobile screens */
+    font-size: 1.5rem; /* Reduced font size for mobile screens */
+  }
+  .header-image {
+    max-width: 220px; /* Set a minimum width for image elements on mobile */
   }
   .social-media-icons {
     top: 20px; /* Move icons to the top */
