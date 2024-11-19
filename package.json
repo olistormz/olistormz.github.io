@@ -2,7 +2,7 @@
   "name": "olistormz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olistormz.github.io/olistormz",
+  "homepage": "https://olistormz.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -14,5 +14,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
