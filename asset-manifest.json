@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92187e6a.css",
+    "main.js": "/static/js/main.390060a5.js",
+    "static/js/453.f1e1f7a1.chunk.js": "/static/js/453.f1e1f7a1.chunk.js",
+    "static/media/image-4.png": "/static/media/image-4.f0850ed29e9aae31d14b.png",
+    "static/media/image-5.png": "/static/media/image-5.4bb228313e9c97095a57.png",
+    "static/media/image-6.png": "/static/media/image-6.e42a2b504ee7819d7fa2.png",
+    "static/media/image-1.png": "/static/media/image-1.f796d48e6a7eddeb5253.png",
+    "static/media/image-2.png": "/static/media/image-2.6c09f6abe1719dc7888b.png",
+    "static/media/image-3.png": "/static/media/image-3.98001a932254cc8ec4f2.png",
+    "static/media/background-video.mp4": "/static/media/background-video.c508646761012f8dc2c1.mp4",
+    "static/media/noclickimage-2.png": "/static/media/noclickimage-2.d92e9bc89fc291378315.png",
+    "static/media/noclickimage-3.png": "/static/media/noclickimage-3.46dd6349aa3298fbfedc.png",
+    "static/media/header.png": "/static/media/header.2142ac683dfb956e41b2.png",
+    "static/media/but.png": "/static/media/but.06d015c8a5f721a6f97b.png",
+    "static/media/lilac.png": "/static/media/lilac.5d579ad57eeb59f01ba4.png",
+    "static/media/noclickimage-4.png": "/static/media/noclickimage-4.8b89539cc8cd35312324.png",
+    "static/media/noclickimage-1.png": "/static/media/noclickimage-1.671777ec9d841e16fd08.png",
+    "static/media/youtube.png": "/static/media/youtube.71423b5d5dcada5e1f62.png",
+    "static/media/tiktok.png": "/static/media/tiktok.8a9452a0a4c037d9de63.png",
+    "static/media/pushpin.png": "/static/media/pushpin.081e5bde67b69fa75fff.png",
+    "static/media/instagram.png": "/static/media/instagram.75e0546a6b5abe4c0506.png",
+    "index.html": "/index.html",
+    "main.92187e6a.css.map": "/static/css/main.92187e6a.css.map",
+    "main.390060a5.js.map": "/static/js/main.390060a5.js.map",
+    "453.f1e1f7a1.chunk.js.map": "/static/js/453.f1e1f7a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92187e6a.css",
+    "static/js/main.390060a5.js"
+  ]
+}
