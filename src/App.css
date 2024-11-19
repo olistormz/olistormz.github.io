@@ -241,6 +241,9 @@
 }
 
 
+.float1 {
+  animation: float1 6s ease-in-out infinite;
+}
 /* Unique floating animations */
 @keyframes float1 {
   0%, 100% {
@@ -249,6 +252,12 @@
   50% {
     transform: translateY(-10px);
   }
+}
+
+
+
+.float2 {
+  animation: float2 8s linear infinite;
 }
 
 @keyframes float2 {
@@ -260,22 +269,34 @@
   }
 }
 
+.float3 {
+  animation: float3 10s ease-in infinite;
+}
 @keyframes float3 {
   0%, 100% {
-    transform: translateY(0);
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-5px) translateX(5px);
   }
   50% {
-    transform: translateY(-5px);
+    transform: translateY(5px) translateX(-5px);
+  }
+  75% {
+    transform: translateY(-5px) translateX(-5px);
   }
 }
 
-/* Additional keyframes for more unique animations */
+.float4 {
+  animation: float4 12s ease-out infinite;
+}
+
 @keyframes float4 {
   0%, 100% {
-    transform: translateY(0);
+    transform: rotate(0deg);
   }
   50% {
-    transform: translateY(-20px);
+    transform: rotate(2deg);
   }
 }
 

@@ -162,14 +162,14 @@ function App() {
         { label: 'Reel', url: 'https://www.instagram.com/p/C8ZcOepNlLi/' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/6GLwkFoC9b5yfQlEw7TXKQ' },
       ],
-      animation: 'float1', // Unique animation class
+      animation: 'float4', // Unique animation class
     },
        // Post-it Note 0
     {
       noteText: 'have u ever seen an eagle soar?',
       isPostIt: true,
       backgroundColor: '#A8D1D1', // Example pastel color
-      animation: 'float4', // Unique animation class
+      animation: 'float1', // Unique animation class
     },
     // Non-clickable Image 3
     {
