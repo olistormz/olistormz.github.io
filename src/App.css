@@ -1,38 +1,312 @@
-.App {
+
+.lacquer-regular {
+  font-family: "Lacquer", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jacquard-12-charted-regular {
+  font-family: "Jacquard 12 Charted", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.jacquard-12-regular {
+  font-family: "Jacquard 12", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply the custom cursor to the entire page */
+* {
+  cursor: url('./static/clicker.png'), auto; /* Path to your custom cursor image */
+}
+
+/* Background video styling */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure the video stays behind other content */
+}
+
+/* App container styling */
+.app {
+  position: relative;
+  padding: 20px;
+  z-index: 1; /* Make sure the content stays above the background video */
+}
+
+/* Header styling */
+.header {
   text-align: center;
+  margin-bottom: 20px;
+  margin: 0; /* Remove any default margin from the image */
+  padding: 0; /* Remove any default margin from the image */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-image {
+  max-width: 40%; /* Reduced size to 50% */
+  height: auto;
+  margin: 0; /* Remove any default margin from the image */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-sentence {
+  font-family: 'Jacquard 12', serif;
+  color: white;
+  font-size: 2rem; /* Adjust the font size as needed */
+  margin-top: 0; /* Remove any default margin from the image */
+  text-shadow: 2px 2px 0px black; /* Clear shadow leaning to the right */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Floating grid container */
+.floating-grid {
+  position: relative;
+  z-index: 1;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the grid items horizontally */
+}
+
+
+
+/* Grid item styling to center content */
+.floating-element,
+.non-clickable-image,
+.post-it-note {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  width: 100%; /* Ensure elements use full width of the grid item */
+  animation: float1 6s ease-in-out infinite; /* Default animation */
 }
 
-.App-link {
-  color: #61dafb;
+/* Image styling, reduced size to 50% */
+.element-image {
+  width: 100%; /* Default width to be responsive */
+  max-width: 230px; /* Maximum width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Element container styling */
+.element-container {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Non-clickable image styling */
+.non-clickable-image .element-image {
+  cursor: default; /* Remove the pointer cursor */
+}
+
+/* Post-it note styling */
+.post-it-note {
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%; 
+  height: auto;
+  margin: 0 auto; /* Center the post-it note horizontally */
+  font-family: 'Lacquer', sans-serif; /* Default font for headings */
+}
+
+/* Styling for the pushpin */
+.pushpin {
+  position: absolute;
+  top: -10px; /* Adjust to position the pushpin above the element */
+  left: 50%;
+  transform: translateX(-50%); /* Center the pushpin horizontally */
+  width: 30px; /* Adjust the size of the pushpin */
+  height: auto;
+  z-index: 10; /* Ensure the pushpin appears above the element */
+}
+
+/* Additional styles to ensure elements look like they are pinned */
+.non-clickable-image,
+.post-it-note {
+  position: relative; /* Make the container relative to position the pushpin */
+  margin-top: 30px; /* Add some margin to make space for the pushpin */
+}
+
+
+/* Modal card styling */
+.modal-card {
+  background-image: url('./static/lilac.png') !important; /* Path to your background image */
+  background-size: cover; /* Cover the entire card area */
+  background-position: center; /* Center the image */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  outline: none;
+  border-radius: 30px !important; /* Rounded corners for the card */
+  color: #fff; /* White text color */
+  padding: 0px !important; /* Padding inside the card */
+  margin: auto; /* Center the card in the modal */
+  font-family: 'Lacquer', sans-serif; /* Default font for headings */
+  cursor: url('./static/clicker.png'), auto; /* Special cursor for the card */
+}
+
+
+/* Heading styling */
+.modal-card h2 {
+  font-family: 'Lacquer', sans-serif;
+  font-size: 1.8rem; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Space below the heading */
+  margin-top: 0px;
+}
+
+/* Paragraph styling */
+.modal-card p {
+  font-family: 'Lacquer', sans-serif;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button group styling */
+.button-group .MuiButton-root {
+  background-image: url('./static/but.png') !important; /* Path to your background image */
+  background-size: cover; /* Cover the entire card area */
+  background-position: center; /* Center the image */
+  color: #fff !important; /* White text color */
+  border-radius: 20px !important; /* Rounded buttons */
+  padding: 0px 16px !important; /* Padding inside the buttons */
+  font-family: 'Jacquard 12', sans-serif !important; /* Custom font for buttons */
+  text-transform: none !important; /* Prevent uppercase transformation */
+  font-size: 2rem !important; /* Adjust font size as needed */
+  transition: background-color 0.3s !important; /* Smooth background color transition */
+}
+
+.button-group .MuiButton-root:hover {
+  background-color: #3A0069 !important; /* Darker purple on hover */
+}
+
+
+.spotify-embed {
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Center the player with margin */
+  max-width: 600px; /* Limit the maximum width on larger screens */
+  width: 100%; /* Make it responsive */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+
+/* Button group styling */
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.button-group button {
+  cursor: url('./static/clicker.png'), pointer; /* Custom cursor for buttons */
+}
+
+/* Social Media Icons Styling */
+.social-media-icons {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between icons */
+  z-index: 100; /* High z-index to make sure icons are above other elements */
+}
+
+.social-icon {
+  width: 40px; /* Adjust icon size */
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+
+/* Unique floating animations */
+@keyframes float1 {
+  0%, 100% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(-10px);
   }
 }
+
+@keyframes float2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes float3 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Additional keyframes for more unique animations */
+@keyframes float4 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .app {
+    padding: 20px 10px;
+  .header-sentence {
+    font-size: 1rem; /* Reduced font size for mobile screens */
+  }
+  .social-media-icons {
+    top: 20px; /* Move icons to the top */
+    right: 20px; /* Keep icons at the right */
+    transform: translateY(0); /* Remove the vertical centering */
+  }
+  .social-icon {
+    width: 28px; /* Reduce icon size by 30% */
+    height: 28px;
+  }  
+  .element-image {
+    max-width: 120px; /* Set a minimum width for image elements on mobile */
+  }
+  }
+  .post-it-note {
+    width: 100px; /* Reduce the width for mobile */
+    font-size: 0.8rem; /* Reduce the font size for mobile */
+    padding: 8px; /* Adjust padding for a more compact look */
+  }
+  .button-group {
+    height: 45px;
+  }
+
+}
+
