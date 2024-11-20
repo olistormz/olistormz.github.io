@@ -96,7 +96,7 @@ function App() {
     {
       noteText: 'I might be mayor of the pueblo, presidente del potato',
       isPostIt: true,
-      backgroundColor: '#ffcaaf', // Example pastel color
+      backgroundColor: '#FFDEAD', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // Victorus My Storius
