@@ -22,6 +22,8 @@ import image3 from './static/image-3.png';
 import image4 from './static/image-4.png';
 import image5 from './static/image-5.png';
 import image6 from './static/image-6.png';
+import image7 from './static/image-7.png';
+import image8 from './static/image-8.png';
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.png';
 import noclickimage2 from './static/noclickimage-2.png';
@@ -38,7 +40,46 @@ import pushpin from './static/pushpin.png'; // Import the pushpin image
 
 function App() {
   const elements = [
-    // Clickable Item 1
+    // // Dehydrated Making Declarations
+    // {
+    //   image: image8,
+    //   videoUrl: 'https://www.youtube.com/embed/-12uNnxIXgs',
+    //   title: 'Dehydrated Making Declarations: Released 1.11.25',
+    //   description: '8 minute wordplay. Rapping my psychoanalyis of the world.',
+    //   links: [
+    //     { label: 'Lyrics', url: 'https://youtu.be/OSMezVjWNwY' },
+    //     { label: 'Reel', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
+    //     { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
+    //   ],
+    //   animation: 'float4', // Unique animation class
+    // },
+    // // Post-it Note 1
+    // {
+    //   noteText: 'leave someone alone too long and they blow thru barriers.',
+    //   isPostIt: true,
+    //   backgroundColor: '#FFDEAD', // Example pastel color
+    //   animation: 'float1', // Unique animation class
+    // },
+    // // Shango's Decree
+    // {
+    //   image: image7,
+    //   videoUrl: 'https://www.youtube.com/embed/-12uNnxIXgs',
+    //   title: 'Shangos Decree: Released 12.12.24',
+    //   description: 'UK Drill. Yuh nuh want beef.',
+    //   links: [
+    //     { label: 'Lyrics', url: 'https://youtu.be/OSMezVjWNwY' },
+    //     { label: 'Reel', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
+    //     { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
+    //   ],
+    //   animation: 'float2', // Unique animation class
+    // },
+    // // Non-clickable Image 1
+    // {
+    //   image: noclickimage1,
+    //   isNonClickable: true,
+    //   animation: 'float3', // Unique animation class
+    // },
+    // Diana
     {
       image: image6,
       videoUrl: 'https://www.youtube.com/embed/-12uNnxIXgs',
@@ -51,14 +92,14 @@ function App() {
       ],
       animation: 'float4', // Unique animation class
     },
-    // Post-it Note 1
+    // Post-it Note 2
     {
-      noteText: 'leave someone alone too long and they blow thru barriers.',
+      noteText: 'I might be mayor of the pueblo, presidente del potato',
       isPostIt: true,
-      backgroundColor: '#FFDEAD', // Example pastel color
+      backgroundColor: '#ffcaaf', // Example pastel color
       animation: 'float1', // Unique animation class
     },
-    // Clickable Item 2
+    // Victorus My Storius
     {
       image: image5,
       videoUrl: 'https://www.youtube.com/embed/2DnsJlDN8vc',
@@ -77,7 +118,14 @@ function App() {
       isNonClickable: true,
       animation: 'float3', // Unique animation class
     },
-    // Clickable Item 3
+    // Post-it Note 2
+    {
+      noteText: 'We know leetle...we find mucho...- a guru',
+      isPostIt: true,
+      backgroundColor: '#B0E0E6', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
+    // Gun Dutta One
     {
       image: image4,
       videoUrl: 'https://www.youtube.com/embed/C2fdW4BHmx8',
@@ -89,13 +137,6 @@ function App() {
         { label: 'Spotify', url: 'https://open.spotify.com/track/6SLsp7H8oIj0SuNUsywmri?si=7d30fc9da4e94a9a' },
       ],
       animation: 'float3', // Unique animation class
-    },
-    // Post-it Note 2
-    {
-      noteText: 'We know leetle...we find mucho...- a guru',
-      isPostIt: true,
-      backgroundColor: '#B0E0E6', // Example pastel color
-      animation: 'float1', // Unique animation class
     },
       // Post-it Note 0
     {
@@ -110,7 +151,7 @@ function App() {
       isNonClickable: true,
       animation: 'float2', // Unique animation class
     },
-    // Clickable Item 5
+    // There I Go
     {
       image: image3,
       videoUrl: 'https://www.youtube.com/embed/37le8XBBtPg',
@@ -138,7 +179,7 @@ function App() {
       animation: 'float4', // Unique animation class
     },
     
-    // Clickable Item 6
+    // Driftin
     {
       image: image2,
       videoUrl: 'https://www.youtube.com/embed/cciwq7IxBd4',
@@ -151,7 +192,7 @@ function App() {
       ],
       animation: 'float4', // Unique animation class
     },
-    // Clickable Item 7
+    // What The Officer Said
     {
       image: image1,
       videoUrl: 'https://www.youtube.com/embed/jINjek6prIk',
