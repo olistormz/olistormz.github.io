@@ -15,14 +15,14 @@ import './App.css';
 // BACKGROUND
 import backgroundVideo from './static/background-video.mp4';
 // ALBUM COVERS
-import image1 from './static/image-1.png';
-import image2 from './static/image-2.png';
-import image3 from './static/image-3.png';
-import image4 from './static/image-4.png';
-import image5 from './static/image-5.png';
-import image6 from './static/image-6.png';
-import image7 from './static/image-7.png';
-import image8 from './static/image-8.png';
+import image1 from './static/image-1.webp';
+import image2 from './static/image-2.webp';
+import image3 from './static/image-3.webp';
+import image4 from './static/image-4.webp';
+import image5 from './static/image-5.webp';
+import image6 from './static/image-6.webp';
+import image7 from './static/image-7.webp';
+import image8 from './static/image-8.webp';
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.png';
 import noclickimage2 from './static/noclickimage-2.png';
@@ -232,14 +232,13 @@ function App() {
         <iframe
           className="spotify-embed"
           src="https://open.spotify.com/embed/playlist/1XmO0hptiqx0Cs5ML16iTo"
-          width="100%"
-          height="152"
+          width="300"
+          height="80"
           frameBorder="0"
           allowFullScreen
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
-
       </header>
       <Grid container spacing={2} className="floating-grid">
         {elements.map((element, index) => (
