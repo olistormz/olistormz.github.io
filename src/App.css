@@ -226,7 +226,6 @@
   gap: 15px; /* Space between icons */
   z-index: 100; /* High z-index to make sure icons are above other elements */
 }
-
 .social-icon {
   width: 40px; /* Adjust icon size */
   height: 40px;
@@ -298,7 +297,7 @@
   }
 }
 
-/* Responsive styling */
+/* Responsive styling MOBILE */
 @media (max-width: 768px) {
   .app {
     padding: 20px 10px;
@@ -309,10 +308,23 @@
     max-width: 220px; /* Set a minimum width for image elements on mobile */
   }
   .social-media-icons {
-    top: 20px; /* Move icons to the top */
-    right: 20px; /* Keep icons at the right */
-    transform: translateY(0); /* Remove the vertical centering */
+    position: absolute;
+    top: 10px; /* Place icons near the header */
+    left: 0; /* Start from the left */
+    right: 0; /* Stretch across */
+    display: flex;
+    justify-content: space-between; /* Distribute groups on either side of the header */
+    transform: none; /* Remove vertical centering */
+    flex-direction: row; /* Align groups in a row */
+    padding: 0 20px; /* Add spacing from the edges */
   }
+  .social-media-group {
+    display: flex;
+    flex-direction: column; /* Stack two icons vertically within each group */
+    gap: 10px; /* Add spacing between icons in the group */
+  }
+
+
   .social-icon {
     width: 28px; /* Reduce icon size by 30% */
     height: 28px;
@@ -331,6 +343,27 @@
   }
 
 }
+/* Responsive styling  DESKTOP */
+
+@media (min-width: 769px) {
+  .social-media-icons {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    right: 20px; /* Keep to the right side of the screen */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    gap: 15px; /* Space between the icons */
+  }
+   /* Adjust the individual groups */
+  .social-media-group {
+    display: flex;
+    flex-direction: column; /* Stack the icons within each group vertically */
+    gap: 15px; /* Space between icons in each group */
+  }
+}
+
+
 
 .background-video::-webkit-media-controls {
   display: none !important;

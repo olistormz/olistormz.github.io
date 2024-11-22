@@ -24,10 +24,10 @@ import image6 from './static/image-6.webp';
 import image7 from './static/image-7.webp';
 import image8 from './static/image-8.webp';
 // IMAGES
-import noclickimage1 from './static/noclickimage-1.png';
-import noclickimage2 from './static/noclickimage-2.png';
-import noclickimage3 from './static/noclickimage-3.png';
-import noclickimage4 from './static/noclickimage-4.png';
+import noclickimage1 from './static/noclickimage-1.webp';
+import noclickimage2 from './static/noclickimage-2.webp';
+import noclickimage3 from './static/noclickimage-3.webp';
+import noclickimage4 from './static/noclickimage-4.webp';
 // HEADER
 import headerImage from './static/header.png'; // Import the header image
 // SOCIAL MEDIA ICONS
@@ -261,18 +261,22 @@ function App() {
 
       {/* Social Media Icons */}
       <div className="social-media-icons">
+        <div className="social-media-group">
         <a href="https://www.instagram.com/olistormz" target="_blank" rel="noopener noreferrer">
           <img src={instagramIcon} alt="Instagram" className="social-icon" />
         </a>
         <a href="https://www.tiktok.com/@olistormz" target="_blank" rel="noopener noreferrer">
           <img src={tiktokIcon} alt="TikTok" className="social-icon" />
         </a>
+        </div>
+        <div className="social-media-group">
         <a href="https://www.youtube.com/@olistormz" target="_blank" rel="noopener noreferrer">
           <img src={youtubeIcon} alt="YouTube" className="social-icon" />
         </a>
         <a href="https://open.spotify.com/playlist/1XmO0hptiqx0Cs5ML16iTo?si=E_t9whORQoOW9vwrEEM4zw" target="_blank" rel="noopener noreferrer">
           <img src={spotifyIcon} alt="Spotify" className="social-icon" />
         </a>
+      </div>
       </div>
     </div>
   );
