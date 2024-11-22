@@ -34,6 +34,7 @@ import headerImage from './static/header.png'; // Import the header image
 import instagramIcon from './static/instagram.png'; // Import Instagram icon
 import tiktokIcon from './static/tiktok.png';       // Import TikTok icon
 import youtubeIcon from './static/youtube.png';     // Import YouTube icon
+import spotifyIcon from './static/spotify.png';     // Import Spotify icon
 import pushpin from './static/pushpin.png'; // Import the pushpin image
 
 // Lazy load FloatingElement
@@ -229,16 +230,7 @@ function App() {
       <header className="header">
         <img src={headerImage} alt="Header" className="header-image" />
         <p className="header-sentence">I built a dream, then lived in it.</p>
-        <iframe
-          className="spotify-embed"
-          src="https://open.spotify.com/embed/playlist/1XmO0hptiqx0Cs5ML16iTo"
-          width="300"
-          height="80"
-          frameBorder="0"
-          allowFullScreen
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
+
       </header>
       <Grid container spacing={2} className="floating-grid">
         {elements.map((element, index) => (
@@ -257,17 +249,7 @@ function App() {
                 <img src={pushpin} alt="Pushpin" className="pushpin" /> {/* Pushpin */}
                 {element.noteText}
               </div>
-            ) : element.isSpotify ? (
-              <div className={`spotify-embed ${element.animation}`}>
-                <iframe
-                  src={element.playlistUrl}
-                  width="300"
-                  height="380"
-                  frameBorder="0"
-                  allowtransparency="true"
-                  allow="encrypted-media"
-                ></iframe>
-              </div>
+            
             ) : (
             <Suspense fallback={<div>Loading...</div>}>
               <FloatingElement data={element} animationClass={element.animation} />
@@ -288,65 +270,14 @@ function App() {
         <a href="https://www.youtube.com/@olistormz" target="_blank" rel="noopener noreferrer">
           <img src={youtubeIcon} alt="YouTube" className="social-icon" />
         </a>
+        <a href="https://open.spotify.com/playlist/1XmO0hptiqx0Cs5ML16iTo?si=E_t9whORQoOW9vwrEEM4zw" target="_blank" rel="noopener noreferrer">
+          <img src={spotifyIcon} alt="Spotify" className="social-icon" />
+        </a>
       </div>
     </div>
   );
 }
 
-
-// function FloatingElement({ data, animationClass }) {
-//   const [open, setOpen] = useState(false);
-
-//   const handleOpen = (e) => {
-//     e.stopPropagation(); // Prevent the event from propagating
-//     console.log('Opening modal'); // Debugging log
-//     setOpen(true);
-//   };
-
-//   const handleClose = (e) => {
-//     e.stopPropagation(); // Prevent the event from propagating
-//     console.log('Closing modal'); // Debugging log
-//     setOpen(false);
-//   };
-
-//   // const handleOpen = () => setOpen(true);
-//   // const handleClose = () => setOpen(false);
-
-//   return (
-//     <div className={`floating-element ${animationClass}`} onClick={handleOpen}>
-//       <img src={data.image} alt={data.title} className="element-image" />
-
-//       <Modal
-//         open={open}
-//         onClose={handleClose} // Closes the modal when clicking outside
-//       >
-
-//         <Card className="modal-card">
-//           <iframe
-//             width="100%"
-//             height="315"
-//             src={data.videoUrl}
-//             title={data.title}
-//             frameBorder="0"
-//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-//             allowFullScreen
-//           ></iframe>
-//           <CardContent>
-//             <h2>{data.title}</h2>
-//             <p>{data.description}</p>
-//             <div className="button-group">
-//               {data.links.map((link, index) => (
-//                 <Button key={index} variant="contained" href={link.url}>
-//                   {link.label}
-//                 </Button>
-//               ))}
-//             </div>
-//           </CardContent>
-//         </Card>
-//       </Modal>
-//     </div>
-//   );
-// }
 
 
 export default App;
