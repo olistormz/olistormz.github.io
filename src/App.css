@@ -237,6 +237,15 @@
   transform: scale(1.1); /* Slightly enlarge icon on hover */
 }
 
+.spotify-embed {
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Center the player with margin */
+  max-width: 600px; /* Limit the maximum width on larger screens */
+  width: 100%; /* Make it responsive */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
 
 .float1 {
   animation: float1 6s ease-in-out infinite;
