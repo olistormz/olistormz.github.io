@@ -1,5 +1,5 @@
 // App.js
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import Dialog from '@mui/material/Dialog';
 import Modal from '@mui/material/Modal';
 import Grid from '@mui/material/Grid';
@@ -9,7 +9,6 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import './App.css';
-
 
 
 
@@ -37,6 +36,8 @@ import tiktokIcon from './static/tiktok.png';       // Import TikTok icon
 import youtubeIcon from './static/youtube.png';     // Import YouTube icon
 import pushpin from './static/pushpin.png'; // Import the pushpin image
 
+// Lazy load FloatingElement
+const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded component
 
 function App() {
   const elements = [
@@ -269,7 +270,9 @@ function App() {
                 ></iframe>
               </div>
             ) : (
+            <Suspense fallback={<div>Loading...</div>}>
               <FloatingElement data={element} animationClass={element.animation} />
+            </Suspense>  
             )}
           </Grid>
         ))}
@@ -291,78 +294,60 @@ function App() {
   );
 }
 
-function FloatingElement({ data, animationClass }) {
-  const [open, setOpen] = useState(false);
 
-  const handleOpen = (e) => {
-    e.stopPropagation(); // Prevent the event from propagating
-    console.log('Opening modal'); // Debugging log
-    setOpen(true);
-  };
+// function FloatingElement({ data, animationClass }) {
+//   const [open, setOpen] = useState(false);
 
-  const handleClose = (e) => {
-    e.stopPropagation(); // Prevent the event from propagating
-    console.log('Closing modal'); // Debugging log
-    setOpen(false);
-  };
+//   const handleOpen = (e) => {
+//     e.stopPropagation(); // Prevent the event from propagating
+//     console.log('Opening modal'); // Debugging log
+//     setOpen(true);
+//   };
 
-  // const handleOpen = () => setOpen(true);
-  // const handleClose = () => setOpen(false);
+//   const handleClose = (e) => {
+//     e.stopPropagation(); // Prevent the event from propagating
+//     console.log('Closing modal'); // Debugging log
+//     setOpen(false);
+//   };
 
-  return (
-    <div className={`floating-element ${animationClass}`} onClick={handleOpen}>
-      <img src={data.image} alt={data.title} className="element-image" />
+//   // const handleOpen = () => setOpen(true);
+//   // const handleClose = () => setOpen(false);
 
-      <Modal
-        open={open}
-        onClose={handleClose} // Closes the modal when clicking outside
-      >
+//   return (
+//     <div className={`floating-element ${animationClass}`} onClick={handleOpen}>
+//       <img src={data.image} alt={data.title} className="element-image" />
 
-        <Card className="modal-card">
-          <iframe
-            width="100%"
-            height="315"
-            src={data.videoUrl}
-            title={data.title}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <CardContent>
-            <h2>{data.title}</h2>
-            <p>{data.description}</p>
-            <div className="button-group">
-              {data.links.map((link, index) => (
-                <Button key={index} variant="contained" href={link.url}>
-                  {link.label}
-                </Button>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-      </Modal>
-    </div>
-  );
-}
+//       <Modal
+//         open={open}
+//         onClose={handleClose} // Closes the modal when clicking outside
+//       >
 
-function AudioElement() {
-  return (
-    <div className="audio-element-container">
-      <img src={pushpinImage} alt="Pushpin" className="pushpin" />
-      <Card className="audio-card">
-        <CardContent>
-          <Typography variant="h6" component="h2">
-            My Audio Track
-          </Typography>
-          <audio controls className="audio-player">
-            <source src="path/to/your-audio-file.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-          </audio>
-        </CardContent>
-      </Card>
-    </div>
-  );
-}
+//         <Card className="modal-card">
+//           <iframe
+//             width="100%"
+//             height="315"
+//             src={data.videoUrl}
+//             title={data.title}
+//             frameBorder="0"
+//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+//             allowFullScreen
+//           ></iframe>
+//           <CardContent>
+//             <h2>{data.title}</h2>
+//             <p>{data.description}</p>
+//             <div className="button-group">
+//               {data.links.map((link, index) => (
+//                 <Button key={index} variant="contained" href={link.url}>
+//                   {link.label}
+//                 </Button>
+//               ))}
+//             </div>
+//           </CardContent>
+//         </Card>
+//       </Modal>
+//     </div>
+//   );
+// }
 
 
 export default App;
