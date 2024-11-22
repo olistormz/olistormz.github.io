@@ -230,16 +230,6 @@ function App() {
       <header className="header">
         <img src={headerImage} alt="Header" className="header-image" />
         <p className="header-sentence">I built a dream, then lived in it.</p>
-        // <iframe
-        //   className="spotify-embed"
-        //   src="https://open.spotify.com/embed/playlist/1XmO0hptiqx0Cs5ML16iTo?utm_source=generator&theme=0"
-        //   width="300"
-        //   height="80"
-        //   frameBorder="0"
-        //   allowFullScreen
-        //   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        //   loading="lazy"
-        // ></iframe>
       </header>
       <Grid container spacing={2} className="floating-grid">
         {elements.map((element, index) => (
