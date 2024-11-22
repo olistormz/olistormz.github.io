@@ -166,12 +166,18 @@ function App() {
       ],
       animation: 'float4', // Unique animation class
     },
-    
-    // Non-clickable Image 3
+    // What The Officer Said
     {
-      image: noclickimage3,
-      isNonClickable: true,
-      animation: 'float2', // Unique animation class
+      image: image1,
+      videoUrl: 'https://www.youtube.com/embed/jINjek6prIk',
+      title: 'What The Officer Said: Debut 6.6.24',
+      description: 'My debut. Improvised in one take...deep meanings to be found?',
+      links: [
+        { label: 'Lyrics', url: 'https://youtu.be/24jJIePbmMo' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/C8ZcOepNlLi/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/6GLwkFoC9b5yfQlEw7TXKQ' },
+      ],
+      animation: 'float4', // Unique animation class
     },
       // Post-it Note 0
     {
@@ -194,18 +200,11 @@ function App() {
       ],
       animation: 'float4', // Unique animation class
     },
-    // What The Officer Said
+    // Non-clickable Image 3
     {
-      image: image1,
-      videoUrl: 'https://www.youtube.com/embed/jINjek6prIk',
-      title: 'What The Officer Said: Debut 6.6.24',
-      description: 'My debut. Improvised in one take...deep meanings to be found?',
-      links: [
-        { label: 'Lyrics', url: 'https://youtu.be/24jJIePbmMo' },
-        { label: 'Reel', url: 'https://www.instagram.com/p/C8ZcOepNlLi/' },
-        { label: 'Spotify', url: 'https://open.spotify.com/album/6GLwkFoC9b5yfQlEw7TXKQ' },
-      ],
-      animation: 'float4', // Unique animation class
+      image: noclickimage3,
+      isNonClickable: true,
+      animation: 'float2', // Unique animation class
     },
        // Post-it Note 0
     {
@@ -229,7 +228,8 @@ function App() {
       </video>
       <header className="header">
         <img src={headerImage} alt="Header" className="header-image" />
-        <p className="header-sentence">I built a dream, then lived in it.</p>
+        <p className="header-sentence">Wherever my dreams lead me, <br />
+        is where I wanna be.</p>
       </header>
       <Grid container spacing={2} className="floating-grid">
         {elements.map((element, index) => (
@@ -271,7 +271,7 @@ function App() {
         <a href="https://www.youtube.com/@olistormz" target="_blank" rel="noopener noreferrer">
           <img src={youtubeIcon} alt="YouTube" className="social-icon" />
         </a>
-        <a href="https://open.spotify.com/playlist/1XmO0hptiqx0Cs5ML16iTo?si=E_t9whORQoOW9vwrEEM4zw" target="_blank" rel="noopener noreferrer">
+        <a href="https://open.spotify.com/artist/0qLSNquxJm7uXg5SRUlYgj/discography/all" target="_blank" rel="noopener noreferrer">
           <img src={spotifyIcon} alt="Spotify" className="social-icon" />
         </a>
       </div>
