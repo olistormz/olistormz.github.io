@@ -120,13 +120,6 @@ function App() {
       isNonClickable: true,
       animation: 'float3', // Unique animation class
     },
-    // Post-it Note 2
-    {
-      noteText: 'We know leetle...we find mucho...- a guru',
-      isPostIt: true,
-      backgroundColor: '#B0E0E6', // Example pastel color
-      animation: 'float1', // Unique animation class
-    },
     // Gun Dutta One
     {
       image: image4,
@@ -152,6 +145,13 @@ function App() {
       image: noclickimage2,
       isNonClickable: true,
       animation: 'float2', // Unique animation class
+    },
+    // Post-it Note 2
+    {
+      noteText: 'We know leetle...we find mucho...- a guru',
+      isPostIt: true,
+      backgroundColor: '#B0E0E6', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
     // There I Go
     {
@@ -206,18 +206,19 @@ function App() {
       isNonClickable: true,
       animation: 'float2', // Unique animation class
     },
-       // Post-it Note 0
-    {
-      noteText: 'have u ever seen an eagle soar?',
-      isPostIt: true,
-      backgroundColor: '#A8D1D1', // Example pastel color
-      animation: 'float1', // Unique animation class
-    },
+
     // Non-clickable Image 3
     {
       image: noclickimage4,
       isNonClickable: true,
       animation: 'float2', // Unique animation class
+    },
+      // Post-it Note 0
+    {
+      noteText: 'have u ever seen an eagle soar?',
+      isPostIt: true,
+      backgroundColor: '#A8D1D1', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
   ];
 
@@ -228,8 +229,7 @@ function App() {
       </video>
       <header className="header">
         <img src={headerImage} alt="Header" className="header-image" />
-        <p className="header-sentence">Wherever my dreams lead me, <br />
-        is where I wanna be.</p>
+        <p className="header-sentence">I built a dream, then lived in it.</p>
       </header>
       <Grid container spacing={2} className="floating-grid">
         {elements.map((element, index) => (
