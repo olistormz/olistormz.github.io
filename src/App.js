@@ -84,7 +84,7 @@ function App() {
     // Diana
     {
       image: image6,
-      videoUrl: 'https://www.youtube.com/watch?v=p_SSrNH27Ms',
+      videoUrl: 'https://www.youtube.com/embed/p_SSrNH27Ms?si=G9wWzU-MliTtL6be',
       title: 'Diana: Released 11.11.24',
       description: 'Melodic afrobeats. An ode to Diana and Athena.',
       links: [
