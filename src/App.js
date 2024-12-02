@@ -47,11 +47,11 @@ function App() {
     //   image: image8,
     //   videoUrl: 'https://www.youtube.com/embed/-12uNnxIXgs',
     //   title: 'Dehydrated Making Declarations: Released 1.11.25',
-    //   description: '8 minute wordplay. Rapping my psychoanalyis of the world.',
+    //   description: '3 part freestyle. Rapping my psychoanalyis of the world.',
     //   links: [
-    //     { label: 'Lyrics', url: 'https://youtu.be/OSMezVjWNwY' },
-    //     { label: 'Reel', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
-    //     { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
+    //     { label: 'Pt. 1', url: 'https://youtu.be/OSMezVjWNwY' },
+    //     { label: 'Pt. 2', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
+    //     { label: 'Pt. 3', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
     //   ],
     //   animation: 'float4', // Unique animation class
     // },
@@ -60,6 +60,13 @@ function App() {
     //   noteText: 'leave someone alone too long and they blow thru barriers.',
     //   isPostIt: true,
     //   backgroundColor: '#FFDEAD', // Example pastel color
+    //   animation: 'float1', // Unique animation class
+    // },
+        // Post-it Note 1
+    // {
+    //   noteText: 'It is beyond happiness..it is beyond joy..Freedom brings out unseen talent.this is Lilly pad ...not a rafting trip down Colorado river.',
+    //   isPostIt: true,
+    //   backgroundColor: '#bae1ff', // Example pastel color
     //   animation: 'float1', // Unique animation class
     // },
     // // Shango's Decree
@@ -75,6 +82,13 @@ function App() {
     //   ],
     //   animation: 'float2', // Unique animation class
     // },
+        // Post-it Note 1
+    {
+      noteText: 'I am a believer without a trace of doubt in my mind.',
+      isPostIt: true,
+      backgroundColor: '#baffc9', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // // Non-clickable Image 1
     // {
     //   image: noclickimage1,
@@ -93,13 +107,6 @@ function App() {
         { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
       ],
       animation: 'float4', // Unique animation class
-    },
-    // Post-it Note 2
-    {
-      noteText: 'I might be mayor of the pueblo, presidente del potato',
-      isPostIt: true,
-      backgroundColor: '#FFDEAD', // Example pastel color
-      animation: 'float1', // Unique animation class
     },
     // Victorus My Storius
     {
@@ -137,7 +144,7 @@ function App() {
     {
       noteText: 'U cannot fly and hold tha hand rails at same time. - My Dad',
       isPostIt: true,
-      backgroundColor: '#CCE2CB', // Example pastel color
+      backgroundColor: '#fff3d5', // Example pastel color
       animation: 'float4', // Unique animation class
     },
     // Non-clickable Image 2
@@ -181,9 +188,9 @@ function App() {
     },
       // Post-it Note 0
     {
-      noteText: 'me dont even know what tomorrow brings - Me in 2023',
+      noteText: 'An accumulation of choices and actions aimed at peace, tranquility, sustenance, and insight',
       isPostIt: true,
-      backgroundColor: '#F3B0C3', // Example pastel color
+      backgroundColor: '#ffd4e5', // Example pastel color
       animation: 'float4', // Unique animation class
     },
     
@@ -206,18 +213,24 @@ function App() {
       isNonClickable: true,
       animation: 'float2', // Unique animation class
     },
-
+     // Post-it Note 0
+    {
+      noteText: 'have u ever seen an eagle soar?',
+      isPostIt: true,
+      backgroundColor: '#d4ffea', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // Non-clickable Image 3
     {
       image: noclickimage4,
       isNonClickable: true,
       animation: 'float2', // Unique animation class
     },
-      // Post-it Note 0
+    // Post-it Note 2
     {
-      noteText: 'have u ever seen an eagle soar?',
+      noteText: 'Curse of consciousness: We want to win on our own, rather than allow the cosmos to be generous.',
       isPostIt: true,
-      backgroundColor: '#A8D1D1', // Example pastel color
+      backgroundColor: '#FFDEAD', // Example pastel color
       animation: 'float1', // Unique animation class
     },
   ];
