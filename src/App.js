@@ -64,24 +64,24 @@ function App() {
     // },
         // Post-it Note 1
     // {
-    //   noteText: 'It is beyond happiness..it is beyond joy..Freedom brings out unseen talent.this is Lilly pad ...not a rafting trip down Colorado river.',
+    //   noteText: 'It is beyond happiness..it is beyond joy...',
     //   isPostIt: true,
     //   backgroundColor: '#bae1ff', // Example pastel color
     //   animation: 'float1', // Unique animation class
     // },
-    // // Shango's Decree
-    // {
-    //   image: image7,
-    //   videoUrl: 'https://www.youtube.com/embed/-12uNnxIXgs',
-    //   title: 'Shangos Decree: Released 12.12.24',
-    //   description: 'UK Drill. Yuh nuh want beef.',
-    //   links: [
-    //     { label: 'Lyrics', url: 'https://youtu.be/OSMezVjWNwY' },
-    //     { label: 'Reel', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
-    //     { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
-    //   ],
-    //   animation: 'float2', // Unique animation class
-    // },
+    // Shango's Decree
+    {
+      image: image7,
+      videoUrl: 'https://www.youtube.com/embed/CJOKP3AXxbk?si=n6b7Zah94_vR84u8',
+      title: 'Shangos Decree: Released 12.12.24',
+      description: 'My ancestors dreamed of me.',
+      links: [
+        { label: 'Lyrics', url: 'https://youtu.be/tvlq5_bQwUo' },
+        { label: 'Reel', url: '#' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/3qCRQyYTUZzD8kh9pzvV26?si=f54c83bbe9db4ae6' },
+      ],
+      animation: 'float2', // Unique animation class
+    },
         // Post-it Note 1
     {
       noteText: 'I am a believer without a trace of doubt in my mind.',
