@@ -77,7 +77,7 @@ function App() {
       description: 'My ancestors dreamed of me.',
       links: [
         { label: 'Lyrics', url: 'https://youtu.be/tvlq5_bQwUo' },
-        { label: 'Reel', url: '#' },
+        { label: 'Reel', url: 'https://www.instagram.com/reel/DDdFKS0tw87/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' },
         { label: 'Spotify', url: 'https://open.spotify.com/track/3qCRQyYTUZzD8kh9pzvV26?si=f54c83bbe9db4ae6' },
       ],
       animation: 'float2', // Unique animation class
