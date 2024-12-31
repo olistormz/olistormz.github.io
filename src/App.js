@@ -42,19 +42,19 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function App() {
   const elements = [
-    // // Dehydrated Making Declarations
-    // {
-    //   image: image8,
-    //   videoUrl: 'https://www.youtube.com/embed/-12uNnxIXgs',
-    //   title: 'Dehydrated Making Declarations: Released 1.11.25',
-    //   description: '3 part freestyle. Rapping my psychoanalyis of the world.',
-    //   links: [
-    //     { label: 'Pt. 1', url: 'https://youtu.be/OSMezVjWNwY' },
-    //     { label: 'Pt. 2', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
-    //     { label: 'Pt. 3', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
-    //   ],
-    //   animation: 'float4', // Unique animation class
-    // },
+    // Dehydrated Making Declarations
+    {
+      image: image8,
+      videoUrl: 'https://www.youtube.com/embed/HnYUkb1SdGY?si=LPqWHFNgPQm50DTO',
+      title: 'Dedryhated Making Declarations: Released 1.11.25',
+      description: '3 part freestyle.  A psychoanalyis of the world.',
+      links: [
+        { label: 'Pt. 2', url: 'https://youtu.be/1qnA1SDZVKQ' },
+        { label: 'Reel', url: 'https://youtu.be/1qnA1SDZVKQ' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
+      ],
+      animation: 'float4', // Unique animation class
+    },
     // // Post-it Note 1
     // {
     //   noteText: 'leave someone alone too long and they blow thru barriers.',
@@ -62,13 +62,12 @@ function App() {
     //   backgroundColor: '#FFDEAD', // Example pastel color
     //   animation: 'float1', // Unique animation class
     // },
-        // Post-it Note 1
-    // {
-    //   noteText: 'It is beyond happiness..it is beyond joy...',
-    //   isPostIt: true,
-    //   backgroundColor: '#bae1ff', // Example pastel color
-    //   animation: 'float1', // Unique animation class
-    // },
+    {
+      noteText: 'It is beyond happiness..it is beyond joy...',
+      isPostIt: true,
+      backgroundColor: '#bae1ff', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // Shango's Decree
     {
       image: image7,
@@ -142,7 +141,7 @@ function App() {
     },
       // Post-it Note 0
     {
-      noteText: 'U cannot fly and hold tha hand rails at same time. - My Dad',
+      noteText: 'U cannot fly and hold tha hand rails at same time.',
       isPostIt: true,
       backgroundColor: '#fff3d5', // Example pastel color
       animation: 'float4', // Unique animation class
