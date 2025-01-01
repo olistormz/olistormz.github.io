@@ -50,8 +50,8 @@ function App() {
       description: '3 part freestyle.  A psychoanalyis of the world.',
       links: [
         { label: 'Pt. 2', url: 'https://youtu.be/1qnA1SDZVKQ' },
-        { label: 'Reel', url: 'https://youtu.be/1qnA1SDZVKQ' },
-        { label: 'Spotify', url: 'https://open.spotify.com/track/1GHutZBxoHTNtzjVcl9YZG?si=d15ef22f62494bb9' },
+        { label: 'Reel', url: 'https://www.instagram.com/reel/DER-QVFN_V-/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/5EQIws9lKS0ZRPmqs6GCEx?si=5d40926723644e59' },
       ],
       animation: 'float4', // Unique animation class
     },
