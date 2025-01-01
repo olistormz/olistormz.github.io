@@ -272,21 +272,24 @@ function App() {
       {/* Social Media Icons */}
       <div className="social-media-icons">
         <div className="social-media-group">
-        <a href="https://www.instagram.com/olistormz" target="_blank" rel="noopener noreferrer">
-          <img src={instagramIcon} alt="Instagram" className="social-icon" />
-        </a>
-        <a href="https://www.tiktok.com/@olistormz" target="_blank" rel="noopener noreferrer">
-          <img src={tiktokIcon} alt="TikTok" className="social-icon" />
-        </a>
+          <a href="https://www.instagram.com/olistormz" target="_blank" rel="noopener noreferrer">
+            <img src={instagramIcon} alt="Instagram" className="social-icon" />
+          </a>
+          <a href="https://www.tiktok.com/@olistormz" target="_blank" rel="noopener noreferrer">
+            <img src={tiktokIcon} alt="TikTok" className="social-icon" />
+          </a>
         </div>
         <div className="social-media-group">
-        <a href="https://www.youtube.com/@olistormz" target="_blank" rel="noopener noreferrer">
-          <img src={youtubeIcon} alt="YouTube" className="social-icon" />
-        </a>
-        <a href="https://open.spotify.com/artist/0qLSNquxJm7uXg5SRUlYgj/discography/all" target="_blank" rel="noopener noreferrer">
-          <img src={spotifyIcon} alt="Spotify" className="social-icon" />
-        </a>
-      </div>
+          <a href="https://www.youtube.com/@olistormz" target="_blank" rel="noopener noreferrer">
+            <img src={youtubeIcon} alt="YouTube" className="social-icon" />
+          </a>
+          <a href="https://open.spotify.com/artist/0qLSNquxJm7uXg5SRUlYgj/discography/all" target="_blank" rel="noopener noreferrer">
+            <img src={spotifyIcon} alt="Spotify" className="social-icon" />
+          </a>
+          <a href="mailto:management@olistormz.com" aria-label="Email Management">
+            <img src={require('./static/email.png')} alt="Email" className="social-icon email-icon" />
+          </a>
+        </div>
       </div>
     </div>
   );

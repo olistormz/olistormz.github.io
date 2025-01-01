@@ -311,12 +311,16 @@
     flex-direction: column; /* Stack two icons vertically within each group */
     gap: 10px; /* Add spacing between icons in the group */
   }
-
-
   .social-icon {
     width: 28px; /* Reduce icon size by 30% */
     height: 28px;
   }  
+  .email-icon {
+    position: fixed;
+    bottom: 20px; /* Stick the email icon to the bottom */
+    left: 10%;
+    transform: translateX(-50%);
+  }
   .element-image {
     max-width: 120px; /* Set a minimum width for image elements on mobile */
   }
@@ -331,6 +335,15 @@
   }
 
 }
+
+
+
+/* Specific Styling for Email Icon */
+.email-icon {
+  margin-top: 10px; /* Add some spacing specifically for the email icon */
+}
+
+
 /* Responsive styling  DESKTOP */
 
 @media (min-width: 769px) {
