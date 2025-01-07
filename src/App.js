@@ -42,10 +42,16 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function App() {
   const elements = [
+    {
+      noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
+      isPostIt: true,
+      backgroundColor: '#ffd4e5', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // Dehydrated Making Declarations
     {
       image: image8,
-      videoUrl: 'https://www.youtube.com/embed/HnYUkb1SdGY?si=LPqWHFNgPQm50DTO',
+      videoUrl: 'https://www.youtube.com/embed/SeTMdCWDAqs?si=dbaB8AmJNBG-HWcX',
       title: 'Dedryhated Making Declarations: Released 1.11.25',
       description: '3 part freestyle.  A psychoanalyis of the world.',
       links: [
