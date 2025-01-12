@@ -42,6 +42,12 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function App() {
   const elements = [
+    // {
+    //   noteText: 'Whatever you do, do it with the outmost devotion.',
+    //   isPostIt: true,
+    //   backgroundColor: '#FFDEAD', // Example pastel color
+    //   animation: 'float1', // Unique animation class
+    // },
     {
       noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
       isPostIt: true,
@@ -55,7 +61,7 @@ function App() {
       title: 'Dedryhated Making Declarations: Released 1.11.25',
       description: '3 part freestyle.  A psychoanalyis of the world.',
       links: [
-        { label: 'Pt. 2', url: 'https://youtu.be/1qnA1SDZVKQ' },
+        { label: 'Pt. 2', url: 'https://youtu.be/80vIzSej470' },
         { label: 'Reel', url: 'https://www.instagram.com/reel/DER-QVFN_V-/' },
         { label: 'Spotify', url: 'https://open.spotify.com/track/5EQIws9lKS0ZRPmqs6GCEx?si=5d40926723644e59' },
       ],
