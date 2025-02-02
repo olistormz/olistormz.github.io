@@ -23,6 +23,8 @@ import image5 from './static/image-5.webp';
 import image6 from './static/image-6.webp';
 import image7 from './static/image-7.webp';
 import image8 from './static/image-8.webp';
+import image9 from './static/image-9.webp';
+
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
 import noclickimage2 from './static/noclickimage-2.webp';
@@ -42,18 +44,31 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function App() {
   const elements = [
-    // {
-    //   noteText: 'Whatever you do, do it with the outmost devotion.',
-    //   isPostIt: true,
-    //   backgroundColor: '#FFDEAD', // Example pastel color
-    //   animation: 'float1', // Unique animation class
-    // },
+    // Eye Bring Thunda
     {
-      noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
+      image: image9,
+      videoUrl: 'https://www.youtube.com/embed/e9jq6aCSgMw?si=sqOEC-p5i-xFZoDD',
+      title: 'Eye Bring Thunda: Released 2.2.25',
+      description: 'Why say my peace?',
+      links: [
+        { label: 'Lyrics', url: 'https://youtu.be/33rYjrwgPYE' },
+        { label: 'Reel', url: 'https://www.instagram.com/reel/DFkNCx-tCPn/?igsh=MWE4N2d5ODU0cmw0cg==' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/6zi0DpBtakhB6DI1ol73oy?si=4bb23569800e4ea1' },
+      ],
+      animation: 'float2', // Unique animation class
+    },
+    {
+      noteText: 'Whatever you do, do it with the outmost devotion.',
       isPostIt: true,
-      backgroundColor: '#ffd4e5', // Example pastel color
+      backgroundColor: '#FFDEAD', // Example pastel color
       animation: 'float1', // Unique animation class
     },
+    // {
+    //   noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
+    //   isPostIt: true,
+    //   backgroundColor: '#ffd4e5', // Example pastel color
+    //   animation: 'float1', // Unique animation class
+    // },
     // Dehydrated Making Declarations
     {
       image: image8,
