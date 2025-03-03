@@ -24,6 +24,7 @@ import image6 from './static/image-6.webp';
 import image7 from './static/image-7.webp';
 import image8 from './static/image-8.webp';
 import image9 from './static/image-9.webp';
+import image10 from './static/image-10.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -44,6 +45,26 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function App() {
   const elements = [
+    // Big Taita
+    {
+      image: image10,
+      videoUrl: 'https://www.youtube.com/embed/qCMr1H2Eets?si=aeO5NLLLBPHKzoyO',
+      title: 'Big Taita: Released 3.3.25',
+      description: 'Sober and Celibate?',
+      links: [
+        { label: 'Lyrics', url: '' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DGuuYGotAjI/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/64fuWy1a7IV9PrRs45gMC9?si=6f07da3b09494f22' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
+      // Post-it Note 0
+    {
+      noteText: 'grasp the limitless infinity of your potential',
+      isPostIt: true,
+      backgroundColor: '#e6d7ff', // Example pastel color
+      animation: 'float4', // Unique animation class
+    },
     // Eye Bring Thunda
     {
       image: image9,
