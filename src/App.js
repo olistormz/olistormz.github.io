@@ -48,11 +48,11 @@ function App() {
     // Big Taita
     {
       image: image10,
-      videoUrl: 'https://www.youtube.com/embed/qCMr1H2Eets?si=aeO5NLLLBPHKzoyO',
+      videoUrl: 'https://www.youtube.com/embed/j6Z2MS5z7C0?si=kz6OylXRNafg2JLe',
       title: 'Big Taita: Released 3.3.25',
       description: 'Sober and Celibate?',
       links: [
-        { label: 'Lyrics', url: '' },
+        { label: 'Lyrics', url: 'https://youtu.be/qCMr1H2Eets?si=Ge9E0b1CnFWWzKkz' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DGuuYGotAjI/' },
         { label: 'Spotify', url: 'https://open.spotify.com/track/64fuWy1a7IV9PrRs45gMC9?si=6f07da3b09494f22' },
       ],
