@@ -25,6 +25,7 @@ import image7 from './static/image-7.webp';
 import image8 from './static/image-8.webp';
 import image9 from './static/image-9.webp';
 import image10 from './static/image-10.webp';
+import image11 from './static/image-11.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -45,6 +46,26 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function App() {
   const elements = [
+    // Ode To Flight
+    {
+      image: image11,
+      videoUrl: 'https://www.youtube.com/embed/poykJzi017M?si=tDrXfYk0iBYcJu2B',
+      title: 'Ode To Flight: Released 4.4.25',
+      description: 'Lift Off. Electronic/Melodic',
+      links: [
+        { label: 'Short', url: '' },
+        { label: 'Reel', url: '' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/2KRYbExuiGt8knRYtgmSey' },
+      ],
+      animation: 'float2', // Unique animation class
+    },
+      // Post-it Note 0
+    {
+      noteText: 'taking threads and strings and making costumes and music',
+      isPostIt: true,
+      backgroundColor: '#FFC5D3', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // Big Taita
     {
       image: image10,
