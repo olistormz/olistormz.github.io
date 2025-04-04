@@ -53,8 +53,8 @@ function App() {
       title: 'Ode To Flight: Released 4.4.25',
       description: 'Lift Off. Electronic/Melodic',
       links: [
-        { label: 'Short', url: '' },
-        { label: 'Reel', url: '' },
+        { label: 'Short', url: 'https://youtube.com/shorts/nwaaJqhi07o' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DIBCamHN5_L/' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/2KRYbExuiGt8knRYtgmSey' },
       ],
       animation: 'float2', // Unique animation class
