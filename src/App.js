@@ -26,6 +26,7 @@ import image8 from './static/image-8.webp';
 import image9 from './static/image-9.webp';
 import image10 from './static/image-10.webp';
 import image11 from './static/image-11.webp';
+import image12 from './static/image-12.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -48,13 +49,33 @@ function App() {
   const elements = [
     // Ode To Flight
     {
+      image: image12,
+      videoUrl: 'https://www.youtube.com/embed/0r5ivx56RIA?si=Hb2-MdoQTVqW7nzQ',
+      title: 'Shadow Wrath: Released 5.5.25',
+      description: 'UK Drill. Freestyle. Chop Skrew.',
+      links: [
+        { label: 'Short', url: 'https://youtube.com/shorts/nwaaJqhi07o' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DIBCamHN5_L/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/4rF7YsKVjJi2v2bLdZWSgo?si=5be7e891622f4185' },
+      ],
+      animation: 'float2', // Unique animation class
+    },
+      // Post-it Note 0
+    {
+      noteText: 'follow the path for the path to unfold',
+      isPostIt: true,
+      backgroundColor: '#B0E0E6', // Example pastel color
+      animation: 'float4', // Unique animation class
+    },
+    // Ode To Flight
+    {
       image: image11,
       videoUrl: 'https://www.youtube.com/embed/poykJzi017M?si=tDrXfYk0iBYcJu2B',
       title: 'Ode To Flight: Released 4.4.25',
       description: 'Lift Off. Electronic/Melodic',
       links: [
-        { label: 'Short', url: 'https://youtube.com/shorts/nwaaJqhi07o' },
-        { label: 'Reel', url: 'https://www.instagram.com/p/DIBCamHN5_L/' },
+        { label: 'Short', url: 'https://www.youtube.com/shorts/PDFrAAuypgE' },
+        { label: 'Reel', url: 'https://www.instagram.com/reel/DJPplDvtBs0/?igsh=MTh2YnpvNXJ1OXBybg==' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/2KRYbExuiGt8knRYtgmSey' },
       ],
       animation: 'float2', // Unique animation class
