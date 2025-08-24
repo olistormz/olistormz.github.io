@@ -1,3 +1,7 @@
+import { Routes, Route } from 'react-router-dom';
+import Interview from './Interview';
+import { Link } from 'react-router-dom';
+
 // App.js
 import React, { useState, lazy, Suspense } from 'react';
 import Dialog from '@mui/material/Dialog';
@@ -27,6 +31,7 @@ import image9 from './static/image-9.webp';
 import image10 from './static/image-10.webp';
 import image11 from './static/image-11.webp';
 import image12 from './static/image-12.webp';
+import image13 from './static/image-13.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -42,12 +47,30 @@ import youtubeIcon from './static/youtube.png';     // Import YouTube icon
 import spotifyIcon from './static/spotify.png';     // Import Spotify icon
 import pushpin from './static/pushpin.png'; // Import the pushpin image
 
+
 // Lazy load FloatingElement
 const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded component
 
-function App() {
+function HomePage() {
   const elements = [
-    // Ode To Flight
+    // ??
+    {
+      image: image13,            // grey question mark image
+      isNonClickable: true,      // mark it non-clickable
+      animation: 'float2',       // keep animation
+    },
+     // Post-it Note 0
+    {
+      noteText: (
+        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+        I Inter-Galactically viewed Myself (CLICK ME)
+        </Link>
+      ),
+      isPostIt: true,
+      backgroundColor: '#FFEE8C',
+      animation: 'float1',
+    },
+    // Shadow Wrath
     {
       image: image12,
       videoUrl: 'https://www.youtube.com/embed/0r5ivx56RIA?si=Hb2-MdoQTVqW7nzQ',
@@ -385,6 +408,19 @@ function App() {
   );
 }
 
-
+function App() {
+  return (
+    <Routes>
+      {/* Default route goes to Interview */}
+      <Route path="/" element={<Interview />} />
+      <Route path="/home" element={<HomePage />} />
+    </Routes>
+  );
+}
 
 export default App;
+
+    // <Routes>
+    //   <Route path="/" element={<HomePage />} />
+    //   <Route path="/interview" element={<Interview />} />
+    // </Routes>
