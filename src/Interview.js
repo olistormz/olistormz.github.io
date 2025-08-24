@@ -327,7 +327,7 @@ function Interview() {
      
       <h1 className="interview-title">I Inter-Galactically-Viewed Myself</h1>
       <h2 className="interview-subtitle">
-      This isn’t press. It’s prophecy. Press-ophocy. 
+      This isn’t press. It’s prophecy. Press-ophecy. 
       <br />
       <br />
       An Oli Stormz Ophthalmology.
