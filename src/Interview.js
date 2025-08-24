@@ -322,7 +322,7 @@ function Interview() {
 
     <div className="interview-page">
       <div className="back-button-container">
-        <a href="/home" className="back-button">HOMEPAGE</a>
+        <Link to="/home" className="back-button">HOMEPAGE</Link>
       </div>
      
       <h1 className="interview-title">I Inter-Galactically-Viewed Myself</h1>
