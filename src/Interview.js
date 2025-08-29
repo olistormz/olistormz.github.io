@@ -558,8 +558,8 @@ Don’t cross me.
         <p id="q23" className="answer">
         Hmm. I’m deeply connected to my purpose so I’m not sure many people can relate to the way I experience connection. My devotion is to my own path, its needs, and its timing. 
 Connection can be beautiful, but it’s also weighty. It comes with cords, expectations, and entanglement. People can derail your life without even meaning to. And coming back from repeated hits… it’s draining. I try to make choices that preserve my life force, build it, and protect it. And truthfully, I love my own company.
-<br /><br />I’ve studied humans for a long time. Humans love a butterfly, they want to admire it, celebrate it, even worship it… but eventually, they want to hold it. Own it. And the very thing they loved about its freedom becomes the thing they resent. I also see it in myself.
-People love independent thinking, until you disagree with them. Honesty until the truth is uncomfortable. Freedom until you’re not available. Contradictions are hard for people to hold. They don’t really want you, just the idea of you. So, I choose the course that keeps my wings big.
+<br /><br />I’ve studied humans for a long time. Humans love a butterfly, they want to admire it, celebrate it, even worship it… but eventually, they want to hold it. Own it. And the very thing they loved about its freedom becomes the thing they resent.
+People love independent thinking, until you disagree with them. Honesty until the truth is uncomfortable. Freedom until you’re not available. The mirror until it reflects them. Contradictions are hard for people to hold. They don’t really want you, just the idea of you. So, I choose the course that keeps my wings big.
         </p> 
 
       
