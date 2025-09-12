@@ -51,11 +51,18 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function HomePage() {
   const elements = [
-    // ??
+    // Shadow Wrath
     {
-      image: image13,            // grey question mark image
-      isNonClickable: true,      // mark it non-clickable
-      animation: 'float2',       // keep animation
+      image: image13,
+      videoUrl: 'https://www.youtube.com/embed/vkE6gU9UoJM?si=S7-6PDAaMc2PMEAp',
+      title: 'Every Time U Come Around: Released 9.12.25',
+      description: 'Dance/Pop/House/Electronic',
+      links: [
+        { label: 'Short', url: 'https://youtube.com/shorts/rcb4VbrIJYU' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DOV_iyyDfwW/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/track/3hV0vC4MjyjCa6DLE330yZ?si=e91700de24204991' },
+      ],
+      animation: 'float1', // Unique animation class
     },
      // Post-it Note 0
     {
