@@ -30,6 +30,7 @@ import image10 from './static/image-10.webp';
 import image11 from './static/image-11.webp';
 import image12 from './static/image-12.webp';
 import image13 from './static/image-13.webp';
+import image15 from './static/image-15.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -51,7 +52,31 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function HomePage() {
   const elements = [
-    // Shadow Wrath
+    // SHEKADI
+    {
+      image: image15,
+      videoUrl: 'https://www.youtube.com/embed/e8MQzUMtIow?si=pL1726XStbMfrJ0h',
+      title: 'Shekadi: Released 10.31.25',
+      description: 'Inspired by the Shekere & West African Traditions',
+      links: [
+        { label: 'Short', url: 'https://www.youtube.com/shorts/XlXiFbN1D9Y' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DQZQNEXgHs_/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/55CKtiQiZi6To0x52QAAxc' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
+     // INTERVIEW POST IT
+    {
+      noteText: (
+        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+        I Inter-Galactically viewed Myself (CLICK ME)
+        </Link>
+      ),
+      isPostIt: true,
+      backgroundColor: '#FFEE8C',
+      animation: 'float1',
+    },
+    // Every Time U Come Around
     {
       image: image13,
       videoUrl: 'https://www.youtube.com/embed/vkE6gU9UoJM?si=S7-6PDAaMc2PMEAp',
@@ -64,16 +89,12 @@ function HomePage() {
       ],
       animation: 'float1', // Unique animation class
     },
-     // Post-it Note 0
+       // Post-it Note 0
     {
-      noteText: (
-        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-        I Inter-Galactically viewed Myself (CLICK ME)
-        </Link>
-      ),
+      noteText: 'Life is as sacred or mundane as you make it',
       isPostIt: true,
-      backgroundColor: '#FFEE8C',
-      animation: 'float1',
+      backgroundColor: '#baffc9', // Example pastel color
+      animation: 'float4', // Unique animation class
     },
     // Shadow Wrath
     {
@@ -110,7 +131,7 @@ function HomePage() {
     },
       // Post-it Note 0
     {
-      noteText: 'taking threads and strings and making costumes and music',
+      noteText: 'Living prayers, Living omens, Living water',
       isPostIt: true,
       backgroundColor: '#FFC5D3', // Example pastel color
       animation: 'float1', // Unique animation class
@@ -154,12 +175,6 @@ function HomePage() {
       backgroundColor: '#FFDEAD', // Example pastel color
       animation: 'float1', // Unique animation class
     },
-    // {
-    //   noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
-    //   isPostIt: true,
-    //   backgroundColor: '#ffd4e5', // Example pastel color
-    //   animation: 'float1', // Unique animation class
-    // },
     // Dehydrated Making Declarations
     {
       image: image8,
@@ -173,13 +188,6 @@ function HomePage() {
       ],
       animation: 'float4', // Unique animation class
     },
-    // // Post-it Note 1
-    // {
-    //   noteText: 'leave someone alone too long and they blow thru barriers.',
-    //   isPostIt: true,
-    //   backgroundColor: '#FFDEAD', // Example pastel color
-    //   animation: 'float1', // Unique animation class
-    // },
     {
       noteText: 'It is beyond happiness..it is beyond joy...',
       isPostIt: true,
@@ -225,6 +233,13 @@ function HomePage() {
       ],
       animation: 'float4', // Unique animation class
     },
+      // Post-it Note 0
+    {
+      noteText: 'U cannot fly and hold tha hand rails at same time.',
+      isPostIt: true,
+      backgroundColor: '#fff3d5', // Example pastel color
+      animation: 'float4', // Unique animation class
+    },
     // Victorus My Storius
     {
       image: image5,
@@ -238,11 +253,25 @@ function HomePage() {
       ],
       animation: 'float1', // Unique animation class
     },
+    // Post-it Note 2
+    {
+      noteText: 'We know leetle...we find mucho...- a guru',
+      isPostIt: true,
+      backgroundColor: '#B0E0E6', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // Non-clickable Image 1
     {
       image: noclickimage1,
       isNonClickable: true,
       animation: 'float3', // Unique animation class
+    },
+     // Post-it Note 2
+    {
+      noteText: 'Curse of consciousness: We want to win on our own, rather than allow the cosmos to be generous.',
+      isPostIt: true,
+      backgroundColor: '#FFDEAD', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
     // Gun Dutta One
     {
@@ -257,12 +286,12 @@ function HomePage() {
       ],
       animation: 'float3', // Unique animation class
     },
-      // Post-it Note 0
+     // Post-it Note 0
     {
-      noteText: 'U cannot fly and hold tha hand rails at same time.',
+      noteText: 'have u ever seen an eagle soar?',
       isPostIt: true,
-      backgroundColor: '#fff3d5', // Example pastel color
-      animation: 'float4', // Unique animation class
+      backgroundColor: '#d4ffea', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
     // Non-clickable Image 2
     {
@@ -270,12 +299,12 @@ function HomePage() {
       isNonClickable: true,
       animation: 'float2', // Unique animation class
     },
-    // Post-it Note 2
+      // Post-it Note 0
     {
-      noteText: 'We know leetle...we find mucho...- a guru',
+      noteText: 'An accumulation of choices and actions aimed at peace, tranquility, sustenance, and insight',
       isPostIt: true,
-      backgroundColor: '#B0E0E6', // Example pastel color
-      animation: 'float1', // Unique animation class
+      backgroundColor: '#ffd4e5', // Example pastel color
+      animation: 'float4', // Unique animation class
     },
     // There I Go
     {
@@ -290,6 +319,13 @@ function HomePage() {
       ],
       animation: 'float4', // Unique animation class
     },
+    // note
+    {
+      noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
+      isPostIt: true,
+      backgroundColor: '#bae1ff', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // What The Officer Said
     {
       image: image1,
@@ -303,14 +339,13 @@ function HomePage() {
       ],
       animation: 'float4', // Unique animation class
     },
-      // Post-it Note 0
+      // Post-it Note 1
     {
-      noteText: 'An accumulation of choices and actions aimed at peace, tranquility, sustenance, and insight',
+      noteText: 'leave someone alone too long and they blow thru barriers.',
       isPostIt: true,
-      backgroundColor: '#ffd4e5', // Example pastel color
-      animation: 'float4', // Unique animation class
+      backgroundColor: '#FFDEAD', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
-    
     // Driftin
     {
       image: image2,
@@ -330,25 +365,11 @@ function HomePage() {
       isNonClickable: true,
       animation: 'float2', // Unique animation class
     },
-     // Post-it Note 0
-    {
-      noteText: 'have u ever seen an eagle soar?',
-      isPostIt: true,
-      backgroundColor: '#d4ffea', // Example pastel color
-      animation: 'float1', // Unique animation class
-    },
     // Non-clickable Image 3
     {
       image: noclickimage4,
       isNonClickable: true,
       animation: 'float2', // Unique animation class
-    },
-    // Post-it Note 2
-    {
-      noteText: 'Curse of consciousness: We want to win on our own, rather than allow the cosmos to be generous.',
-      isPostIt: true,
-      backgroundColor: '#FFDEAD', // Example pastel color
-      animation: 'float1', // Unique animation class
     },
   ];
 
