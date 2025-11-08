@@ -176,8 +176,3 @@ function Car() {
 }
 
 export default Car;
-
-
-      // <div className="stormz-interview-photo full-width">
-      //   <img src={require('./static/car/group.webp')} alt="Oli Stormz" />
-      // </div>

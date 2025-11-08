@@ -275,7 +275,23 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's20')}
           className={`stormz-sidebar-link ${activeId === 's20' ? 'active' : ''}`}
         >
-          20. That tendency, to want to “just get it right,” do you do that often? 
+          20. That tendency, to want to “just get it right,” do you do that often? Version 1
+        </a>
+
+        <a
+          href="#s20"
+          onClick={(e) => handleLinkClick(e, 's20')}
+          className={`stormz-sidebar-link ${activeId === 's20' ? 'active' : ''}`}
+        >
+          20. That tendency, to want to “just get it right,” do you do that often? Version 2
+        </a>
+
+        <a
+          href="#s20"
+          onClick={(e) => handleLinkClick(e, 's20')}
+          className={`stormz-sidebar-link ${activeId === 's20' ? 'active' : ''}`}
+        >
+          20. That tendency, to want to “just get it right,” do you do that often? Version 3
         </a>
 
         <a
@@ -660,15 +676,45 @@ Get away from this feeling. How am I back at square one… but worse?
       </div>
 
       <div className="stormz-interview-photo full-width">
-        <img src={require('./static/car/crouch.webp')} alt="Oli Stormz" />
+        <img src={require('./static/car/logo.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="stormz-qa-section">
-        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often?</h3>
+        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 1</h3>
         <p id="s20" className="stormz-answer">
         I can say that yes, there is a part of me that does. With my Kora, it arrived brown, and that part of me wanted it black. I told myself I’d dye it, make it right. And I did. And somehow, it was never right. But that’s the same old setup: the promise that relief lives in the external. If I just buy this, change this, have that, it will be perfect.
         </p>
+      </div>
 
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 2</h3>
+        <p id="s20" className="stormz-answer">
+
+I don’t know if it’s about “getting it right.” It’s more that I see it, what something wants to be…the potential shape of things. When I got my Kora, I remember looking at it and thinking no, it should be black wood, not brown. I told myself I’d dye it, make it right. And I did. But it carried that same flavor, almost right, but not there. What’s funny is, there was a black one. I could’ve bought it. But it was triple the price and would’ve taken six months to arrive. So of course I chose the brown one, the one that would teach me.
+<br /><br />
+
+And that impulse to fix, to change, to adjust, where does it really come from? Trauma? Taste? Preference? Avoidance? Love? Beauty? Do we just like what we like? Is it just a quiet knowing in your gut that something could be more alive? More harmonious? More disruptive? More striking? More expressive? Different than what it is? The brown didn’t move me, it didn’t sing. Maybe other people can’t understand why. Why change something already perfect? Why destroy the carpet? Crack the radio? Maybe I’ve internalized those voices and this is my rebellion. Maybe it’s the story of being human, this itch. How do you think I’m even able to write this? On a high-speed laptop, for the world to see, with color photos and code I wrote myself? It’s that same thing: the drive to move, to make, to meet what wants to exist.<br /><br />
+I’m not in the business of watching life from a safe distance, trying not to mess up. I’m a conscious participant. So I have to go through it. Feel it. Break it. Mess up just to remember. Just to ask, what does “messing up” even mean? Does it exist? When does vision turn into escape?
+        </p>
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/cheetahstand.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 3</h3>
+        <p id="s20" className="stormz-answer">
+        I keep picking the almost version, then hustling to turn the almost into the thing I actually wanted. Like I set up the whole pattern just so I could watch myself do it, so I could see myself seeing. It’s not the perfect radio that I want. The black Kora. The brand new carpets. The perfect paint job. The matte black Audi R8. Those are just costumes…fleeting desires, shifting aesthetics. What I’m really chasing is the feeling behind them. The pristine-ness, the new-ness, the untainted, the completion, the relief. The end of suffering. <br /><br />
+That’s what every “fix” has really been about, the fantasy that I can reach a clean slate outside myself and it will quiet that feeling inside. But it never does. It never has. It never will. Because it was never the thing. It was always me. I am the feeling I’m chasing. And that’s the real crux of it: I can be in a Honda or an Audi, on a bike or on foot, in a penthouse or a shack, it doesn’t matter. I’ll just keep meeting myself in every one of those places.
+        </p>
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/glare.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">  
         <h3 className="stormz-question">Q: What did you see in that loop?</h3>
         <p id="s21" className="stormz-answer">
         That it just finds new ways to be seen. This car is that loop writ large…the striving, the seeking, the salvation hunt. From what? Just seeing it. Feeling it. The jarringness of the crack. It just wants to be seen. Not changed. Or fixed. Or plastered over. Or erased. Even this “identity,” the one who’s striving and crashing and starting over, is just another mask. The masks switch with each other. One believes that the other’s pain and avoidance of pain is the whole truth. But even that, the forgetting and remembering, the becoming and unbecoming, the masks conversing, something sees that too.
@@ -753,6 +799,12 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/djiwhat.webp')} alt="Oli Stormz" />
       </div>
+      <div className="stormz-interview-photo full-width">
+          <img src={require('./static/car/djigarage.webp')} alt="Oli Stormz" />
+      </div>
+      <div className="stormz-interview-photo full-width">
+          <img src={require('./static/car/djiwing.webp')} alt="Oli Stormz" />
+      </div>
 
       <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: What emotion were you hoping that clear coat would erase?</h3>
@@ -828,10 +880,7 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>
         
         <div className="stormz-interview-photo full-width">
-          <img src={require('./static/car/djigarage.webp')} alt="Oli Stormz" />
-        </div>
-        <div className="stormz-interview-photo full-width">
-          <img src={require('./static/car/djiwing.webp')} alt="Oli Stormz" />
+          <img src={require('./static/car/tongue.webp')} alt="Oli Stormz" />
         </div>
 
       <div className="stormz-qa-section">
@@ -900,8 +949,11 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </h2>
       <h2 className="stormz-website-tag"> around and around we go, spirals into portals, portals into spirals </h2>
 
-        <div className="stormz-interview-photo full-width">
+      <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/carseat.webp')} alt="Oli Stormz" />
+      </div>
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/peace.webp')} alt="Oli Stormz" />
       </div>
 
         <div className="stormz-interview-photo full-width">
