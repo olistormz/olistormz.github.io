@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cffea6a3.css",
-    "main.js": "/static/js/main.d0d30ca8.js",
+    "main.js": "/static/js/main.34ffa64b.js",
     "static/js/370.5d83e498.chunk.js": "/static/js/370.5d83e498.chunk.js",
     "static/js/488.feced24d.chunk.js": "/static/js/488.feced24d.chunk.js",
     "static/js/197.ed3b2a79.chunk.js": "/static/js/197.ed3b2a79.chunk.js",
@@ -18,17 +18,21 @@
     "static/media/interview-4.webp": "/static/media/interview-4.79f7b64052ff81c60275.webp",
     "static/media/interview-11.webp": "/static/media/interview-11.63f3a7f50b244bec3631.webp",
     "static/media/interview-10.webp": "/static/media/interview-10.ee12e9204c40ef183752.webp",
+    "static/media/cheetahstand.webp": "/static/media/cheetahstand.a5adfdd5d977d19694be.webp",
+    "static/media/tongue.webp": "/static/media/tongue.90be89ba258b9132a847.webp",
     "static/media/interview-1.webp": "/static/media/interview-1.2285a5ade95d63804ae3.webp",
     "static/media/stand.webp": "/static/media/stand.0ac190a8b91ec6e5101a.webp",
     "static/media/background-video.mp4": "/static/media/background-video.8790372bfde86f0a8705.mp4",
     "static/media/face.webp": "/static/media/face.2d767d35f06cf90a1ab7.webp",
+    "static/media/peace.webp": "/static/media/peace.42f5f02a802438b40e8c.webp",
     "static/media/amigo.webp": "/static/media/amigo.ce92103b738b0452de36.webp",
     "static/media/djitape.webp": "/static/media/djitape.4469d22e81566d8d12f6.webp",
-    "static/media/crouch.webp": "/static/media/crouch.fd1eaf30a157c6747ce3.webp",
     "static/media/seatbelt.webp": "/static/media/seatbelt.c0bb2ed18b6caa24c2f7.webp",
+    "static/media/logo.webp": "/static/media/logo.0641d8a799ea22db218e.webp",
     "static/media/dirt.webp": "/static/media/dirt.b0c2ffb5e00f9ba80551.webp",
     "static/media/hood.webp": "/static/media/hood.9b842412e4fe39930147.webp",
     "static/media/standtall.webp": "/static/media/standtall.c8a3501b43d8b0f057fd.webp",
+    "static/media/glare.webp": "/static/media/glare.d2a4a6671a780bb14e82.webp",
     "static/media/tint.webp": "/static/media/tint.2d9a9dc91f759d78762e.webp",
     "static/media/mirror.webp": "/static/media/mirror.4d36c551b55fc8335519.webp",
     "static/media/djiclear.webp": "/static/media/djiclear.4980a5f7a6e7b1c071a8.webp",
@@ -86,13 +90,13 @@
     "static/media/image-2.webp": "/static/media/image-2.7ba29d4a32eabab5ef2f.webp",
     "index.html": "/index.html",
     "main.cffea6a3.css.map": "/static/css/main.cffea6a3.css.map",
-    "main.d0d30ca8.js.map": "/static/js/main.d0d30ca8.js.map",
+    "main.34ffa64b.js.map": "/static/js/main.34ffa64b.js.map",
     "370.5d83e498.chunk.js.map": "/static/js/370.5d83e498.chunk.js.map",
     "488.feced24d.chunk.js.map": "/static/js/488.feced24d.chunk.js.map",
     "197.ed3b2a79.chunk.js.map": "/static/js/197.ed3b2a79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cffea6a3.css",
-    "static/js/main.d0d30ca8.js"
+    "static/js/main.34ffa64b.js"
   ]
 }
