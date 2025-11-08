@@ -145,20 +145,6 @@ body {
   background-color: #ffc0cb;
 }
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .back-button-container {
-    justify-content: center; /* ✅ Centered on small screens */
-    padding: 1rem;
-  }
-
-  .back-button {
-    top: 8px;
-    left: 8px;
-    font-size: 0.95rem; /* Still slightly smaller for mobile */
-    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
-  }
-}
 
 
 /* Sidebar wrapper */
@@ -230,6 +216,11 @@ body {
   font-weight: bold;
 }
 
+.sidebar-container .sidebar-link:first-child {
+    margin-top: 2rem; /* adjust until it clears the pills */
+  }
+
+
 /* ✅ Desktop only: Shift content right when sidebar is open */
 @media (min-width: 769px) {
   .sidebar-open .interview-page {
@@ -243,6 +234,25 @@ body {
 
 /* ✅ Mobile: Make sure toggle button is still visible when sidebar open */
 @media (max-width: 768px) {
+  .back-button-container {
+    justify-content: center; /* ✅ Centered on small screens */
+    padding: 1rem;
+  }
+
+  .back-button {
+    top: 8px;
+    left: 8px;
+    font-size: 0.95rem; /* Still slightly smaller for mobile */
+    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
+  }
+
+  .stormzmobile-button {
+    top: 8px;
+    left: 8px;
+    font-size: 0.95rem; /* Still slightly smaller for mobile */
+    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
+  }
+
   .sidebar-container {
     width: 75vw;
     max-width: 300px;
@@ -261,8 +271,10 @@ body {
   }
 
   .sidebar-toggle {
-    left: 1rem; /* ✅ Prevent being hidden behind sidebar */
-    z-index: 2000; /* ✅ Stays visible */
+    top: 0.5rem;     /* nudge it up slightly */
+    left: 0.5rem;    /* tighter to the corner */
+    z-index: 3000;   /* keep it above the back button */
+    transform: scale(0.9); /* slightly smaller for less obstruction */
   }
 
   .interview-layout {
@@ -270,4 +282,3 @@ body {
   }
 
 }
-

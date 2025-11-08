@@ -1,3 +1,4 @@
+html,
 body {
   overflow-x: hidden;
 }
@@ -9,7 +10,6 @@ body {
   padding: 0;
   margin: 0;
   transition: margin-left 0.3s ease; /* ✅ Added for smooth shifting */
-
 }
 
 .stormz-interview-title,
@@ -124,26 +124,26 @@ body {
   z-index: 1000;
 }
 
+.stormz-home-back-button {
+  top: 5px;
+  left: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
 .stormz-back-button:hover {
   transform: scale(1.05);
   background-color: #ffc0cb;
 }
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  .stormz-back-button-container {
-    justify-content: center; /* ✅ Centered on small screens */
-    padding: 1rem;
-  }
-
-  .stormz-back-button {
-    top: 8px;
-    left: 8px;
-    font-size: 0.95rem; /* Still slightly smaller for mobile */
-    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
-  }
-}
-
 
 /* Sidebar wrapper */
 .stormz-sidebar-container {
@@ -170,7 +170,6 @@ body {
   left: 0;
 }
 
-
 /* Toggle button */
 .stormz-sidebar-toggle {
   position: fixed;
@@ -188,7 +187,7 @@ body {
 
 /* Layout wrapper */
 .stormz-interview-layout {
-  display: flex;
+  display: block; /* ✅ FIX: stop flexbox from creating ghost space */
   width: 100%;
   position: relative;
   max-width: 100vw; /* ✅ ADDED: Prevents horizontal scroll */
@@ -214,6 +213,10 @@ body {
   font-weight: bold;
 }
 
+.stormz-sidebar-container .stormz-sidebar-link:first-child {
+    margin-top: 2rem; /* adjust until it clears the pills */
+  }
+
 /* ✅ Desktop only: Shift content right when sidebar is open */
 @media (min-width: 769px) {
   .stormz-sidebar-open .stormz-interview-page {
@@ -237,6 +240,7 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     position: fixed; /* ✅ Ensure sidebar stays visible while scrolling on mobile */
+    padding-bottom: 2.5rem; /* 👈 only affects mobile, fixes cutoff */
   }
 
   .stormz-sidebar-collapsed .stormz-sidebar-container {
@@ -245,12 +249,32 @@ body {
   }
 
   .stormz-sidebar-toggle {
-    left: 1rem; /* ✅ Prevent being hidden behind sidebar */
-    z-index: 2000; /* ✅ Stays visible */
+    top: 0.5rem;     /* nudge it up slightly */
+    left: 0.5rem;    /* tighter to the corner */
+    z-index: 3000;   /* keep it above the back button */
+    transform: scale(0.9); /* slightly smaller for less obstruction */
   }
 
   .stormz-interview-layout {
     flex-direction: column;
+  }
+  .stormz-back-button-container {
+    justify-content: center; /* ✅ Centered on small screens */
+    padding: 1rem;
+  }
+
+  .stormz-back-button {
+    top: 8px;
+    left: 8px;
+    font-size: 0.95rem; /* Still slightly smaller for mobile */
+    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
+  }
+
+  .stormz-home-back-button {
+    top: 8px;
+    left: 8px;
+    font-size: 0.95rem; /* Still slightly smaller for mobile */
+    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
   }
 
 }

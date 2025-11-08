@@ -478,7 +478,7 @@ function Car() {
 
     <div className="stormz-interview-page">
       <div className="stormz-back-button-container">
-        <Link to="/" className="stormz-back-button">INTERVIEW</Link>
+        <Link to="/" className="stormz-back-button">INTERVIEW</Link><Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
       </div>
      
       <h1 className="stormz-interview-title">The Stormzmobile</h1>

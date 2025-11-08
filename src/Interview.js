@@ -308,7 +308,6 @@ function Interview() {
           26. What advice would you give, knowing most people will ignore it anyway?
         </a>
 
-
         </div>
       )}
 
@@ -322,10 +321,7 @@ function Interview() {
 
     <div className="interview-page">
       <div className="back-button-container">
-        <Link to="/home" className="back-button">HOMEPAGE</Link>
-      </div>
-      <div className="back-button-container">
-        <Link to="/stormzmobile" className="stormzmobile-button">STORMZMOBILE</Link>
+        <Link to="/home" className="back-button">HOMEPAGE</Link><Link to="/stormzmobile" className="stormzmobile-button">STORMZMOBILE</Link>
       </div>
      
       <h1 className="interview-title">I Inter-Galactically-Viewed Myself</h1>

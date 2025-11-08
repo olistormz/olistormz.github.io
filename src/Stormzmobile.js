@@ -136,26 +136,25 @@ function Car() {
       </audio>
 
 
-
     <div className="stormz-interview-page">
       <div className="stormz-back-button-container">
-        <Link to="/" className="stormz-back-button">INTERVIEW</Link>
+        <Link to="/" className="stormz-back-button">INTERVIEW</Link><Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
       </div>
      
       <h1 className="stormz-interview-title">The Stormzmobile</h1>
       <h2 className="stormz-interview-subtitle">
-      A 2006 Honda Civic Si Coupe 
-      <br />
-      <br />
-      that wouldn't leave me alone,
-      <br />
-      <br />
-      until I saw myself
-      <br />
-      <br />
-      in its unfinished paint.
-      <br />
-      <br />
+        A 2006 Honda Civic Si Coupe 
+        <br />
+        <br />
+        that wouldn't leave me alone,
+        <br />
+        <br />
+        until I saw myself
+        <br />
+        <br />
+        in its unfinished paint.
+        <br />
+        <br />
       </h2>
 
       <div className="stormz-interview-photo full-width">
@@ -167,19 +166,18 @@ function Car() {
         <p id="s1" className="stormz-answer">
         A chariot? A declaration? A mirror? A 2006 Honda Civic Si Coupe? 
         </p> 
-
-
-
-
       </div>
 
 
-
-
-
     </div>
     </div>
+
   );
 }
 
 export default Car;
+
+
+      // <div className="stormz-interview-photo full-width">
+      //   <img src={require('./static/car/group.webp')} alt="Oli Stormz" />
+      // </div>
