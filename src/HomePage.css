@@ -286,56 +286,64 @@
 }
 
 /* Responsive styling MOBILE */
+
+
 @media (max-width: 768px) {
   .app {
     padding: 20px 10px;
+  }
+
   .header-sentence {
-    font-size: 1.5rem; /* Reduced font size for mobile screens */
+    font-size: 1.5rem;
   }
+
   .header-image {
-    max-width: 220px; /* Set a minimum width for image elements on mobile */
+    max-width: 220px;
   }
+
+  /* ✅ FIXED: Icons stay in place on mobile */
   .social-media-icons {
-    position: absolute;
-    top: 10px; /* Place icons near the header */
-    left: 0; /* Start from the left */
-    right: 0; /* Stretch across */
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    transform: none;
     display: flex;
-    justify-content: space-between; /* Distribute groups on either side of the header */
-    transform: none; /* Remove vertical centering */
-    flex-direction: row; /* Align groups in a row */
-    padding: 0 20px; /* Add spacing from the edges */
+    justify-content: space-between; /* one group left, one right */
+    padding: 0 14px;
+    flex-direction: row;
+    z-index: 100;
   }
+
   .social-media-group {
     display: flex;
-    flex-direction: column; /* Stack two icons vertically within each group */
-    gap: 10px; /* Add spacing between icons in the group */
+    flex-direction: column; /* stack 2 icons left, 3 icons right */
+    gap: 8px;
   }
+
   .social-icon {
-    width: 28px; /* Reduce icon size by 30% */
+    width: 28px;
     height: 28px;
-  }  
+  }
+
   .email-icon {
-    position: fixed;
-    bottom: 20px; /* Stick the email icon to the bottom */
-    left: 10%;
-    transform: translateX(-50%);
+    margin-top: 4px;
   }
+
   .element-image {
-    max-width: 120px; /* Set a minimum width for image elements on mobile */
+    max-width: 120px;
   }
-  }
+
   .post-it-note {
-    width: 100px; /* Reduce the width for mobile */
-    font-size: 0.8rem; /* Reduce the font size for mobile */
-    padding: 8px; /* Adjust padding for a more compact look */
+    width: 100px;
+    font-size: 0.8rem;
+    padding: 8px;
   }
+
   .button-group {
     height: 45px;
   }
-
 }
-
 
 
 /* Specific Styling for Email Icon */
