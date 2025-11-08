@@ -324,6 +324,9 @@ function Interview() {
       <div className="back-button-container">
         <Link to="/home" className="back-button">HOMEPAGE</Link>
       </div>
+      <div className="back-button-container">
+        <Link to="/stormzmobile" className="stormzmobile-button">STORMZMOBILE</Link>
+      </div>
      
       <h1 className="interview-title">I Inter-Galactically-Viewed Myself</h1>
       <h2 className="interview-subtitle">
