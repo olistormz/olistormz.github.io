@@ -122,13 +122,21 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's1')}
           className={`stormz-sidebar-link ${activeId === 's1' ? 'active' : ''}`}
         >
-          11/8/25: What is the Stormzmobile?
+          Prologue From The Future
         </a>
 
         <a
           href="#s2"
           onClick={(e) => handleLinkClick(e, 's2')}
           className={`stormz-sidebar-link ${activeId === 's2' ? 'active' : ''}`}
+        >
+          11/8/25: What is the Stormzmobile?
+        </a>
+
+        <a
+          href="#s3"
+          onClick={(e) => handleLinkClick(e, 's3')}
+          className={`stormz-sidebar-link ${activeId === 's3' ? 'active' : ''}`}
         >
           11/9/25: Why are you telling this story one question at a time?
         </a>
@@ -519,13 +527,18 @@ function Car() {
       </div>
 
       <div className="stormz-qa-section">
-      <h3 className="stormz-question">Q: What is the Stormzmobile?</h3>
+      <h3 className="stormz-question">Prologue From The Future</h3>
         <p id="s1" className="stormz-answer">
+        It’s strange to watch a feeling lose its name. To watch a story lose its owner. A moment ago, Words were spoken And thoughts were thunk. My pain. My striving. My day. My life. Ow. My arm. Damn. It’s an amazing Story. Really intense From The vantage Point of the One telling it Like fast Motorcycles And love And loss And damn Mine Me Moo Mah Wait Who’s Talking Again? And then It’s like A moment So  Beautiful That Tears Cry Me Because It’s looking for a mouth to speak through and finding none.
+        </p> 
+
+      <h3 className="stormz-question">Q: What is the Stormzmobile?</h3>
+        <p id="s2" className="stormz-answer">
         A chariot? A declaration? A mirror? A 2006 Honda Civic Si Coupe? 
         </p> 
 
         <h3 className="stormz-question">Q: Why are you telling this story one question at a time?</h3>
-        <p id="s2" className="stormz-answer">
+        <p id="s3" className="stormz-answer">
         Because neither part of me would. The one that wants everything finished would post it all in one go… fast, raw, just to be done. And the one that loves beauty would want the perfect final reveal, not this slow unfolding. So I’m letting them meet here in the in-between…in awareness…where things can be beautiful and unfinished. For the first few weeks, I’ll move slowly, question by question. Then, when it’s ready, I’ll let the rest spill out all at once. It feels right that way, a rhythm between patience and release.<br /><br />
         <b>**Edited from the future 11 / 08 / 25, from the moment the telling overtook the teller.**</b> 
         <br />
@@ -541,11 +554,11 @@ function Car() {
   
       <div className="stormz-qa-section">
       <h3 className="stormz-question">Q: Where does the story start?</h3>
-        <p id="s3" className="stormz-answer">
+        <p id="s4" className="stormz-answer">
         About a year ago. I had a vision before I came to America. Driving crosscountry in a red sports car, heading west. Something waiting at the end of the road, though I couldn’t say what. I arrived in June, and the car was waiting. Left outside for a decade after an accident…undriven, weathered, with the smashed windshield replaced right before I arrived. Like it somehow knew the role it was about to play long before I did.
         </p>
       <h3 className="stormz-question">Q: Where does the story really start?</h3>
-        <p id="s4" className="stormz-answer">
+        <p id="s5" className="stormz-answer">
         When I was 16, I drove this car on a trip I’d long buried. But when I turned the key, the radio lit up and said: “HOLAA AMIGO!” I froze. I had programmed that message 15 years ago, on that trip, with that version of me. Since then, I’d (curiously) lived in Spain, learned Spanish…and here it was…saying hello back to me across time. Like a breadcrumb I’d planted for myself, just so that when I arrived, I would remember...it’s always been me. This life, this play, this matrix of time and space, birth and death, before and after…I'm just walking myself, scene by scene, through a movie I’ve already lived, pretending it exists on a linear plane. And catching up to myself in real time. The fun is in the forgetting. 
         </p>
        </div>
