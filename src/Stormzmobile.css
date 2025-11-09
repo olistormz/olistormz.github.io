@@ -49,6 +49,16 @@ body {
   letter-spacing: 2px;
 }
 
+.stormz-intro-tag {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 200;
+  font-style: none;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 30px 0;
+  letter-spacing: 2px;
+}
+
 .stormz-interview-photo {
   width: 100%;
   margin: 0;

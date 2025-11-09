@@ -155,6 +155,7 @@ function Car() {
         in its unfinished paint.
         <br />
         <br />
+        <h2 className="stormz-intro-tag">a story caught between amnesia & perfect recall</h2>
       </h2>
 
       <div className="stormz-interview-photo full-width">

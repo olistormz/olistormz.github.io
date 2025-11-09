@@ -511,6 +511,7 @@ function Car() {
       in its unfinished paint.
       <br />
       <br />
+      <h2 className="stormz-intro-tag">a story caught between amnesia & perfect recall</h2>
       </h2>
 
       <div className="stormz-interview-photo full-width">
@@ -525,12 +526,16 @@ function Car() {
 
         <h3 className="stormz-question">Q: Why are you telling this story one question at a time?</h3>
         <p id="s2" className="stormz-answer">
-        Because neither part of me would. The one that wants everything finished would post it all in one go… fast, raw, just to be done. And the one that loves beauty would want the perfect final reveal, not this slow unfolding. So I’m letting them meet here in the in-between…in awareness…where things can be beautiful and unfinished. For the first few weeks, I’ll move slowly, question by question. Then, when it’s ready, I’ll let the rest spill out all at once. It feels right that way, a rhythm between patience and release.
+        Because neither part of me would. The one that wants everything finished would post it all in one go… fast, raw, just to be done. And the one that loves beauty would want the perfect final reveal, not this slow unfolding. So I’m letting them meet here in the in-between…in awareness…where things can be beautiful and unfinished. For the first few weeks, I’ll move slowly, question by question. Then, when it’s ready, I’ll let the rest spill out all at once. It feels right that way, a rhythm between patience and release.<br /><br />
+        <b>**Edited from the future 11 / 08 / 25, from the moment the telling overtook the teller.**</b> 
+        <br />
+        <br />
+        [You might ask, "But how does today’s question already contain yesterday's edit, and have the nerve to say it’s “from the future”?" Because this is what happens when time tries to cross the threshold of awareness...it folds.]
+        <br /><br />EDIT: <b>Because that’s the only way awareness could unfold. Every day the seeing changed. The “I” who wrote on Monday wasn’t the one who spoke on Wednesday. Each moment, something else dropped away, another illusion dissolved. If I had tried to tell it all at once, I would have told it from the surface, from the perspective of the one still trying to finish, to get it out, to tell the story. But the deeper truth only revealed itself by being lived in real time. So I had to move slowly, one question, one day, one shedding at a time…until the story started to write itself. Until the storyteller dissolved into the telling, and only the seeing remained.</b> 
         </p>
       </div>
 
-
-      <div className="stormz-interview-photo">
+       <div className="stormz-interview-photo">
         <img src={require('./static/car/mirror.webp')} alt="Editorial shot" />
       </div>
   
@@ -618,6 +623,19 @@ In those moments, awareness fades, I identify as her, and of course, she can’t
       </div>
 
       <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: Why do you keep saying "a part of you" and "her"?</h3>
+        <p id="s2" className="stormz-answer">
+        <b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** </b><br /><br />
+I didn’t write this question when I started. It came after, once I'd already written half the interview and realized something else was happening. I’m dropping it here like a breadcrumb from the future. Because by the time I got to the middle, I wasn't the same “I” who began.
+It started as a car story. A story about her, the one chasing, fixing, yearning. And many other hers too. You’ll read some of that soon, maybe even above this line. But as I kept writing, it started to morph…kept shifting, from “she”, to “I”, to “parts of me.” Maybe that’s what this is, not a story, but awareness watching itself wake up, one question at a time. 
+        </p>
+       </div> 
+
+       <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/portal.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: Okay, so you ended up drying the carpet, then what?</h3>
         <p id="s13" className="stormz-answer">
         Then it was the radio. You give a mouse some cheese, it wants a cookie. You feed the unconscious, it wants more. I wanted the radio to feel modern. Sleek. New. The old one worked fine, but I thought it dated the car. So I ripped it out without reading too much. Cracked the frame in the process. No problem, I thought. It’s going to the junkyard anyway. Wrong.<br /><br />
@@ -667,34 +685,41 @@ Get away from this feeling. How am I back at square one… but worse?
         <h3 className="stormz-question">Q: What happened when the car sat too long?</h3>
         <p id="s18" className="stormz-answer"> 
         I said, screw it, and took it to the mechanic. They said three hundred at first. Then it became thousands. And of course, it sat a lot longer than I thought it would. And that moment cracked something open in me, because I realised the price of movement is still better than the cost of stagnation. I could panic, clutch, stall…or I could pay the bill and keep the car alive. So I did. That was my offering to motion. It taught me that even in this whole story, where I talk about rushing and freedom and my hunger to move, movement itself isn’t the enemy. It’s seeking safety in it that twists it. 
+        <br /><br /><b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** </b><br /><br />
+        <b>She didn’t leave the game...she just levelled up. Paid the toll, unlocked a new map. Still inside the simulation, but with a big fat red mushroom in her pocket now. She can run faster, jump higher, unlock a few more cool levels. If she were a Sim, she’d suddenly have another floor in her house and call it growth. And it is growth, to her, from her vantage point. She’d celebrate, redecorate…keep believing in effort, progress…cause and effect. <br /><br />But that kosmik niggle is still there, beneath it all, like a yearning she can’t quite name. It’s not her dissonance, it’s the quiet shimmer of what’s always been seeing, brushing against the edges of her dream. The awareness was never trying to pierce through, it’s only the story thinning, letting the light show through again. So she can keep playing, believing in the game, the house, the walls, the new view. She doesn’t have to wake up for me to see. </b>
         </p>     
-
-        <h3 className="stormz-question">Q: When did it stop being about the car?</h3>
-        <p id="s19" className="stormz-answer">
-        I don’t think it was ever about the car. But it took me 6 months to realise that. It was always a way for me to meet myself. Part of me thought that if I could just get this car exactly as I wanted it, everything would finally be okay. But that energy had nowhere to go… it kept building. One day it came out sideways; I lost my patience with my cat, which is so unlike me. That’s when I understood: this wasn’t about paint or perfection. It was about everything in me that’s been waiting to exhale.
-        </p>  
       </div>
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/logo.webp')} alt="Oli Stormz" />
       </div>
 
+      <div className="stormz-qa-section">    
+        <h3 className="stormz-question">Q: When did it stop being about the car?</h3>
+        <p id="s19" className="stormz-answer">
+        It was never about the car. But she needed six months to find that out…or to believe she did. From her view, it was the way to finally get it right, to make the world match her inner picture. From here, it’s clearer: she wasn’t meeting herself; she was being met by the seeing. She ran the show for a while. Painted, fixed, planned, pushed. Even the moment she said “I’ve realised it wasn’t about the car” was still her line…the identity claiming insight. But the real shift was quieter: the seeing of her doing all that. That’s when the story loosened. Not because she changed, but because she was seen. Because she never was the one seeing.
+        </p>  
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/tint.webp')} alt="Oli Stormz" />
+      </div>
+
       <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 1</h3>
         <p id="s20" className="stormz-answer">
-        I can say that yes, there is a part of me that does. With my Kora, it arrived brown, and that part of me wanted it black. I told myself I’d dye it, make it right. And I did. And somehow, it was never right. But that’s the same old setup: the promise that relief lives in the external. If I just buy this, change this, have that, it will be perfect.
+        A part of me does. With my Kora, it arrived brown, and that part of me wanted it black. I told myself I’d dye it, make it right. And that part of me did. And somehow, it was never right. But that’s the same old setup: the promise that relief lives in the external. If I just buy this, change this, have that, it will be perfect.
         </p>
       </div>
 
       <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 2</h3>
         <p id="s20" className="stormz-answer">
-
-I don’t know if it’s about “getting it right.” It’s more that I see it, what something wants to be…the potential shape of things. When I got my Kora, I remember looking at it and thinking no, it should be black wood, not brown. I told myself I’d dye it, make it right. And I did. But it carried that same flavor, almost right, but not there. What’s funny is, there was a black one. I could’ve bought it. But it was triple the price and would’ve taken six months to arrive. So of course I chose the brown one, the one that would teach me.
-<br /><br />
-
-And that impulse to fix, to change, to adjust, where does it really come from? Trauma? Taste? Preference? Avoidance? Love? Beauty? Do we just like what we like? Is it just a quiet knowing in your gut that something could be more alive? More harmonious? More disruptive? More striking? More expressive? Different than what it is? The brown didn’t move me, it didn’t sing. Maybe other people can’t understand why. Why change something already perfect? Why destroy the carpet? Crack the radio? Maybe I’ve internalized those voices and this is my rebellion. Maybe it’s the story of being human, this itch. How do you think I’m even able to write this? On a high-speed laptop, for the world to see, with color photos and code I wrote myself? It’s that same thing: the drive to move, to make, to meet what wants to exist.<br /><br />
-I’m not in the business of watching life from a safe distance, trying not to mess up. I’m a conscious participant. So I have to go through it. Feel it. Break it. Mess up just to remember. Just to ask, what does “messing up” even mean? Does it exist? When does vision turn into escape?
+        I don’t know if it’s about “getting it right.” It’s more that a part of me feels the pull of what she wants, the ache of the thing she can’t quite have. Always just beyond reach. When I bought my Kora, there was a black one, sleek, beautiful, exactly what I wanted, but it was triple the price and would’ve taken six months to arrive. So I bought the brown one instead and told myself I’d dye it, make it right. But of course, it never really was. <br /><br />
+The Kora wasn’t asking to be black. A part of me was. Trying to turn what she had into what she couldn’t have. And why couldn’t she have it? Because life wouldn’t let her sleepwalk through the illusion. It was protecting her, always trying to wake her up. Showing her that the ache itself was the doorway. That the wanting was never about the thing, it was the hand pulling her into suffering as “the one that wants and can't have” so that awareness could witness her. <br /><br />
+I’m here, writing her. The one who wanted. The one who ached. The one who looped. But if I can see her, her patterns, her pain, her identity, narrate her, from a place outside of her, then I can’t be her. Which means there’s something else here. <br /><br />
+And now back to a voice that wants to speak, “And that impulse to fix, to change, to adjust, where does it really come from? Trauma? Taste? Preference? Avoidance? Love? Beauty? Do we just like what we like? Is it just a quiet knowing in your gut that something could be more alive? More harmonious? More disruptive? More striking? More expressive? Different than what it is? The brown didn’t move me, it didn’t sing. Maybe other people can’t understand why. Why change something already perfect? Why destroy the carpet? Crack the radio? Maybe I’ve internalized those voices and this is my rebellion. Maybe it’s the story of being human, this itch. How do you think I’m even able to write this? On a high-speed laptop, for the world to see, with color photos and code I wrote myself? It’s that same thing: the drive to move, to make, to meet what wants to exist.<br /><br />
+I’m not in the business of watching life from a safe distance, trying not to mess up. I’m a conscious participant. So I have to go through it. Feel it. Break it. Mess up just to remember. Just to ask, what does “messing up” even mean? Does it exist? When does vision turn into escape?”
         </p>
       </div>
 
@@ -705,17 +730,33 @@ I’m not in the business of watching life from a safe distance, trying not to m
       <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 3</h3>
         <p id="s20" className="stormz-answer">
-        I keep picking the almost version, then hustling to turn the almost into the thing I actually wanted. Like I set up the whole pattern just so I could watch myself do it, so I could see myself seeing. It’s not the perfect radio that I want. The black Kora. The brand new carpets. The perfect paint job. The matte black Audi R8. Those are just costumes…fleeting desires, shifting aesthetics. What I’m really chasing is the feeling behind them. The pristine-ness, the new-ness, the untainted, the completion, the relief. The end of suffering. <br /><br />
-That’s what every “fix” has really been about, the fantasy that I can reach a clean slate outside myself and it will quiet that feeling inside. But it never does. It never has. It never will. Because it was never the thing. It was always me. I am the feeling I’m chasing. And that’s the real crux of it: I can be in a Honda or an Audi, on a bike or on foot, in a penthouse or a shack, it doesn’t matter. I’ll just keep meeting myself in every one of those places.
+        She keeps picking the almost version, then hustling to turn the almost into the thing she actually wanted. She sets up the pattern just so she can watch herself do it. So I can see myself seeing. It’s not the perfect radio that she wants. The black Kora. The brand new carpets. The perfect paint job. The matte black Audi R8. Those are just costumes…temporary skins for the same ache. What she’s really chasing is the feeling she perceives is behind them, the fantasy of arriving somewhere untouched. The pristine-ness, the new-ness, the untainted, the completion, the relief, the place where nothing hurts. Her idea of the end of suffering, from her vantage point, seen from within the dream. <br /><br />
+But really, she’s chasing the polarity itself. The current between the chaser and the chased. The swing that gives rise to striving, the striving that gives rise to story, and the story that gives rise to meaning. That’s the engine of her existence. How could it not be? From the moment she “came into the world,” as she perceives herself to have done so, she was bombarded with stories. Her name. Her birthday. The city she was born in. What she likes. What she fears. Who she’s supposed to become. Even the date she’ll die someday…all of it, a narrative scaffold around a center that was never actually there. So of course she builds her life around motion, chasing the next chapter, the next version, the next self. Because the swing keeps the story alive. The story keeps her alive. And as long as I think I’m her, yes, I’ll keep meeting myself in every car, every house, every moment of striving. <br /><br />
+But who’s talking now? Who’s seeing her? Who’s containing all of them? The ones who desire, reject, strive, hate, love, push, pull, repent, repeat? Do they need to be corrected? To renounce desire? Who would be the one correcting them, if not yet another one of them? Teacher face correcting student face. Spiritual-hat commanding true-self-hat. No. They just have to be seen. That’s all. Why try to change what I’m not? Why fix what was never broken? Awareness doesn’t need to edit the dream, only notice it’s dreaming.
+        </p>
+      </div>  
+
+
+       <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/glare.webp')} alt="Oli Stormz" />
+      </div>
+          
+      <div className="stormz-qa-section">
+
+        <h3 className="stormz-question">Q: Is this some kind of kosmik joke?</h3>
+        <p id="s2" className="stormz-answer">
+        <b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** </b><br /><br />
+        It does genuinely feel like that. “The One Who Sees” painted itself, on the car, through me, weeks ago and now here I am watching it play out in real time. Like awareness staged its own awakening through the dream of me…forgot…and then remembered…just to taste the remembering. Maybe that's what the universe keeps doing through itself, setting up mirrors, pretending not to know, and then laughing when it sees. Maybe this whole piece is one link cheeky wink from awareness to itself. 
         </p>
       </div>
 
+
       <div className="stormz-interview-photo full-width">
-        <img src={require('./static/car/glare.webp')} alt="Oli Stormz" />
+        <img src={require('./static/car/peace.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="stormz-qa-section">  
-        <h3 className="stormz-question">Q: What did you see in that loop?</h3>
+        <h3 className="stormz-question">Q: What did you find in the current where creation and control collide?</h3>
         <p id="s21" className="stormz-answer">
         That it just finds new ways to be seen. This car is that loop writ large…the striving, the seeking, the salvation hunt. From what? Just seeing it. Feeling it. The jarringness of the crack. It just wants to be seen. Not changed. Or fixed. Or plastered over. Or erased. Even this “identity,” the one who’s striving and crashing and starting over, is just another mask. The masks switch with each other. One believes that the other’s pain and avoidance of pain is the whole truth. But even that, the forgetting and remembering, the becoming and unbecoming, the masks conversing, something sees that too.
         </p>
@@ -730,8 +771,17 @@ That’s what every “fix” has really been about, the fantasy that I can reac
         <h3 className="stormz-question">Q: What part of you kept reaching for “new”?</h3>
         <p id="s22" className="stormz-answer">
         Maybe the part that still believes “new” means “safe.” The part that is always chasing the fresh, the untouched, the pristine. But nothing she ever touches stays that way. Everything ends up with a crack, a smudge, some kind of flavour. She reaches for glamour, and somewhere along the way it turns into dollar-store-meets…I don't know. It’s almost funny. Life just won’t give it to her, won’t let her have that kind of perfection that she thinks she wants. Because it keeps giving her what she needs: wholeness. Deep down, beneath the story of her ego, she yearns to feel what’s inside those cracks. That’s the real glamour…the feeling she’s been chasing all along. So really, life’s giving her exactly what she asked for. Leading her back to what’s true, again and again. She just forgets sometimes, looks with her human eyes, misses the spaces between the lines, and calls the gift a failure.
-        </p>
+        <br /><br /><b>**Edited from later, after the seeing shifted again.** </b><br /><br />
+        EDIT: <b> Within her dream, the not-getting, the cracks, the ache is the mechanism through which wholeness expresses itself…in her plane. It’s like, within illusion, there are still micro-awakenings. Within the dream, there are still lucid dreams. She levels up inside the dream, but awareness never left the bed. It’s like a dream inside a dream that keeps remembering itself for a split second before falling back asleep. And in that split second of remembering, the dream itself blushes…aware that it’s being seen from within. Maybe awareness, dreaming through her, keeps refining the dream…not to wake her up, but to let her dream more lucidly.<br /><br />
+        And even now, as it’s writing itself through me, something happens that I can’t name. Like a beauty that hurts to look at…an eclipse of everything. Where the seeing swallows the seer, and your heart hurts because there’s suddenly nowhere you’re not.
+        </b></p>
+      </div>  
 
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/awake.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: How did the graffiti come to be? </h3>
         <p id="s23" className="stormz-answer">
         Because that’s what the car asked of me. I saw it sitting there, bright red and too clean, and I knew it needed something real. It needed to speak my language. It’s been the vision since the start.
@@ -741,7 +791,6 @@ That’s what every “fix” has really been about, the fantasy that I can reac
         <p id="s24" className="stormz-answer">
         Yes. I paid for the paint job and everything.
         </p>
-
       </div>
 
       <div className="stormz-interview-photo full-width">
@@ -807,6 +856,14 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>
 
       <div className="stormz-qa-section">
+
+        <h3 className="stormz-question">Q: Before we keep going…does something else want to speak?</h3>
+        <p id="s26" className="stormz-answer">
+        <b>**Popping in from Beyond** </b><br /><br />
+        It’s weird, reading her answers now. It’s fun, actually. I don’t feel the need to fix them…I just love watching her dream. I love that she believes it. I love her dream. Except when it makes her sad. But even then, it only makes her sad because she’s forgotten that she’s me…the one who’s saying this. And really, I’m happy for her sadness too. Because every time she forgets, I get to remember again. So actually, I’m grateful for it. That’s the loop. That’s how I keep finding myself. Okay…back to her story. 
+        </p>
+
+
         <h3 className="stormz-question">Q: What emotion were you hoping that clear coat would erase?</h3>
         <p id="s26" className="stormz-answer">
         The unsettledness that I feel.  
@@ -952,9 +1009,6 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/carseat.webp')} alt="Oli Stormz" />
       </div>
-      <div className="stormz-interview-photo full-width">
-        <img src={require('./static/car/peace.webp')} alt="Oli Stormz" />
-      </div>
 
         <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/djibooth1.webp')} alt="Oli Stormz" />
@@ -988,9 +1042,6 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>
         <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/standtall.webp')} alt="Oli Stormz" />
-      </div>
-      <div className="stormz-interview-photo full-width">
-        <img src={require('./static/car/tint.webp')} alt="Oli Stormz" />
       </div>
 
     </div>
