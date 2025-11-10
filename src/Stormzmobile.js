@@ -105,6 +105,33 @@ function Car() {
       };
     }, []);
 
+    const [showFloatingHeart, setShowFloatingHeart] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+
+        // how far down the page the user is (0 to 1)
+        const scrollPercent = (scrollY + windowHeight) / docHeight;
+
+        // fade in around 40%–70% down the total document height
+        const showPoint = 0.1;
+        const hidePoint = 0.06;
+
+        if (!showFloatingHeart && scrollPercent > showPoint) {
+          setShowFloatingHeart(true);
+        } else if (showFloatingHeart && scrollPercent < hidePoint) {
+          setShowFloatingHeart(false);
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, [showFloatingHeart]);
+
+
 
 
   return (
@@ -141,6 +168,15 @@ function Car() {
           11/9/25: Why are you telling this story one question at a time?
         </a>
 
+        <a
+          href="#s4"
+          onClick={(e) => handleLinkClick(e, 's4')}
+          className={`stormz-sidebar-link ${activeId === 's4' ? 'active' : ''}`}
+        >
+          11/10/25: Where does the story start?
+        </a>
+
+
         </div>
       )}
 
@@ -153,7 +189,16 @@ function Car() {
 
     <div className="stormz-interview-page">
       <div className="stormz-back-button-container">
-        <Link to="/" className="stormz-back-button">INTERVIEW</Link><Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
+        <Link to="/" className="stormz-back-button">INTERVIEW</Link>
+        <Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
+        <a
+        href="https://www.paypal.me/ohansell"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="stormz-pp-button"
+      >
+        DONATE
+      </a>
       </div>
      
       <h1 className="stormz-interview-title">The Stormzmobile</h1>
@@ -203,8 +248,29 @@ function Car() {
         <img src={require('./static/car/mirror.webp')} alt="Editorial shot" />
       </div>
 
+      <div className="stormz-qa-section">
+      <h3 className="stormz-question">Q: Where does the story start?</h3>
+        <p id="s4" className="stormz-answer">
+        About a year ago. I had a vision before I came to America. Driving crosscountry in a red sports car, heading west. Something waiting at the end of the road, though I couldn’t say what. I arrived in June, and the car was waiting. Left outside for a decade after an accident…undriven, weathered, with the smashed windshield replaced right before I arrived. Like it somehow knew the role it was about to play long before I did.
+        </p>
+       </div>
+
 
     </div>
+
+    {showFloatingHeart && (
+      <a
+        href="https://www.paypal.me/ohansell"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="stormz-pp-fade-button visible"
+        aria-label="Support this story"
+      >
+      💚
+      </a>
+    )}
+
+
     </div>
 
   );

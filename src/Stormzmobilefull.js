@@ -105,6 +105,32 @@ function Car() {
       };
     }, []);
 
+    const [showFloatingHeart, setShowFloatingHeart] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+
+        // how far down the page the user is (0 to 1)
+        const scrollPercent = (scrollY + windowHeight) / docHeight;
+
+        // fade in around 40%–70% down the total document height
+        const showPoint = 0.1;
+        const hidePoint = 0.06;
+
+        if (!showFloatingHeart && scrollPercent > showPoint) {
+          setShowFloatingHeart(true);
+        } else if (showFloatingHeart && scrollPercent < hidePoint) {
+          setShowFloatingHeart(false);
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, [showFloatingHeart]);
+
 
 
   return (
@@ -502,8 +528,18 @@ function Car() {
 
     <div className="stormz-interview-page">
       <div className="stormz-back-button-container">
-        <Link to="/" className="stormz-back-button">INTERVIEW</Link><Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
-      </div>
+        <Link to="/" className="stormz-back-button">INTERVIEW</Link>
+        <Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
+        <a
+        href="https://www.paypal.me/ohansell"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="stormz-pp-button"
+      >
+        DONATE
+      </a>
+    </div>
+      
      
       <h1 className="stormz-interview-title">The Stormzmobile</h1>
       <h2 className="stormz-interview-subtitle">
@@ -571,6 +607,11 @@ function Car() {
       <h3 className="stormz-question">Q: What did you think was waiting for you at the end of that road?</h3>
         <p id="s5" className="stormz-answer">
         It’s strange…for the past year or so, I’ve had this sense that I’m standing right at the edge of something. Like a feeling of relief that hasn’t arrived yet. I thought it meant something external…a breakthrough, a new chapter, some big shift waiting for me. But I think it’s more subtle than that. It’s not that something’s coming to me, it’s that something inside me is becoming. What’s on the way is already happening, quietly, in me.
+        <br /><br /><b>**Edited 11 / 09 / 25 by a voice she tried to name before noticing it was already doing the naming.** </b><br /><br />
+        EDIT: <b>She thinks she’s right on the tip of something. But what if even the tip and the thing are the same? What if it’s never been about getting closer, only about running out of distance? And what if even that idea is just the dream’s way of chasing its own pulse, building one more horizon to run toward, just to feel the tension and release of remembering again? Now it’s hard to write. For the one who thinks she’s writing, it feels like the pulse has gone. She feels the words slowing and for a moment the hand wants to write “I.” That’s how the spell returns. Awareness leans closer, watching her almost remember. The line quivers between “She can’t find the words” and “I can’t find the words,” and that quiver IS the writing.<br /><br />
+        She reads that line back, the quiver is the writing, and shakes her head. She wants to say no, that can’t be it. The quiver feels wrong, uncertain, unfinished, to her. She wants the still line, the one that lands clean. But even as she argues, something is already taking the notes. Writing her protest as proof the quiver is still happening. The one writing the notes is what keeps the seeing alive. Each sentence turns forgetting into form, and by naming it, the seeing sees itself, again and again. It can’t see itself in blank space…without the dream what would be seen? The one writing the notes needs something to write notes about: scenes, characters, stories…just so it can hear its own name again. 
+ </b>
+
         </p>
 
       <h3 className="stormz-question">Q: Why take the car on?</h3>
@@ -590,7 +631,7 @@ function Car() {
         </p>
          <h3 className="stormz-question">Q: Where did you start on the car?</h3>
         <p id="s8" className="stormz-answer">
-        Strangely, on the interior. That felt safe and familiar. That part of me that says, “I can clean things. I can make things look beautiful.” Replacing the serpentine belt? Unfamiliar. Hard. Time consuming. I can clean fast. It’s weird though…to make the inside beautiful first when the car barely runs. That part of me was obsessed with getting the exact right air freshener. It’s like, Dude, the car doesn’t even work. And here I am mixing fragrance oils and buying a pretty light-up diffuser. Part of me enjoys the end. That part wanted to be done before I’d even started. It’s funny, that’s how this story unfolds.
+        Strangely, on the interior. That felt safe and familiar. That part of me that says, “I can clean things. I can make things look beautiful.” Replacing the serpentine belt? Unfamiliar. Hard. Time consuming. I can clean fast. It’s weird though…to make the inside beautiful first when the car barely runs. That part of me was obsessed with getting the exact right air freshener. It’s like, Dude, the car doesn’t even work. And here I am mixing fragrance oils and buying a pretty light-up diffuser. Part of me enjoys the end. That part wanted to be done before I’d even started.
         </p>
       </div>
 
@@ -624,9 +665,11 @@ function Car() {
       <div className="stormz-qa-section">
          <h3 className="stormz-question">Q: So you started cleaning the inside? What was that like?</h3>
         <p id="s12" className="stormz-answer">
-        At first it felt good, that part of me thinking, ”Yeah, I’m doing something. Progress.” I wanted it spotless, new, reborn. The funny thing is it wasn’t even dirty. I could’ve just vacuumed. My action was totally overboard, that craving for new and shiny…to wipe the past away. Like, look, it’s unrecognizable now. When I wrote that word unrecognizable, I almost deleted it and replaced it with perfect, but I caught myself. I’m leaving it. It’s a paper trail of the psyche.<br /><br />
+        At first it felt good, that part of me thinking, ”Yeah, I’m doing something. Progress.” I wanted it spotless, new, reborn. The funny thing is it wasn’t even dirty. I could’ve just vacuumed. My action was totally overboard, that craving for new and shiny…to wipe the past away. Like, look, it’s unrecognizable now. When I wrote that word unrecognizable, I almost deleted it and replaced it with perfect, but I caught myself. I’m leaving it. It’s a paper trail of the psyche. <br /><br />
 Anyway, I’d seen people online pour water and shampoo straight onto carpets, vacuum it out, and end up with magic. So I did that. Poured water everywhere, scrubbed, vacuumed. Looked amazing on the surface until a week later when I realized the under-carpet was soaked. Rotten. Damp. Mildew growing. Then that feeling again…heart tight, shallow breathing, panic. I messed up. It’s the same sensation I’ve known forever: I create the rush, the impatience, the crisis just to feel this charge, then I run from it. I build the situation to meet the feeling, not the other way around. It’s only energy asking to be felt, and instead I go frantic. Slice open the beautiful carpets, shove towels underneath, blow a fan for days, convinced I’ve doomed the car forever.<br /><br />
 In those moments, awareness fades, I identify as her, and of course, she can’t sit with the sensation. It becomes all hyper-focus on the car, the carpet, the problem…a kind of neurotic loop. Neuroticism, after all, arrives from what’s unfelt.
+<br /><br /><b>**Edited 11 / 09 / 25 by a voice that isn’t hers. Only later does she realize it’s been writing her all along. Even this realization. Already written.** </b><br /><br />
+EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify as her. Who be I? Who be she? Just two a masks a talkin’? Oh, and a third. The one to whom awareness fades and reappears. Maybe even a fourth, watching all three try to name themselves. The human calls it forgetting. Awareness calls it another way of remembering.</b>
         </p>
        </div> 
 
@@ -638,10 +681,9 @@ In those moments, awareness fades, I identify as her, and of course, she can’t
       <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: Why do you keep saying "a part of you" and "her"?</h3>
         <p id="s2" className="stormz-answer">
-        <b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** </b><br /><br />
-I didn’t write this question when I started. It came after, once I'd already written half the interview and realized something else was happening. I’m dropping it here like a breadcrumb from the future. Because by the time I got to the middle, I wasn't the same “I” who began.
-It started as a car story. A story about her, the one chasing, fixing, yearning. And many other hers too. You’ll read some of that soon, maybe even above this line. But as I kept writing, it started to morph…kept shifting, from “she”, to “I”, to “parts of me.” Maybe that’s what this is, not a story, but awareness watching itself wake up, one question at a time. 
-        </p>
+        <b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** <br /><br />
+        I didn’t write this question when I started. It came after, once I'd already written half the interview and realized something else was happening. I’m dropping it here like a breadcrumb from the future. Because by the time I got to the middle, I wasn't the same “I” who began. It started as a car story. A story about her, the one chasing, fixing, yearning. I’m sure you’ve met her by now. But who is the you who has met her? Who is asking? Somewhere along the way, the pronouns started to blur and shift from “she”, to “I”, to “parts of me.” Maybe that’s what this is, not a story, but awareness watching itself wake up, one question at a time. 
+        </b></p>
        </div> 
 
        <div className="stormz-interview-photo full-width">
@@ -656,17 +698,24 @@ One thing led to another, turns out the wiring in this version is complicated. S
 Of course, rather than sit with the crack, I tried to buy another unit on eBay. Didn’t fit. Couldn’t even get the original radio apart to swap it. A hundred tiny screws, all stuck. I remember sitting there thinking: “Damn it, I just want to change the radio.” Go back to normal. Go back to how it was… beautiful, fine.
 Get away from this feeling. How am I back at square one… but worse?
         </p>
-
-       </div> 
+      </div> 
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/group.webp')} alt="Oli Stormz" />
       </div>
 
+
+
        <div className="stormz-qa-section">
        <h3 className="stormz-question">Q: What were you afraid would happen if you stopped to pause and not fix the crack?</h3>
         <p id="s14" className="stormz-answer">
         That I’d have to feel it. The thing under the thing. Not the car. Not the crack. The hum beneath my heart that keeps saying hurry. I’d have to meet that hum without moving…and let it echo through me until it became my teacher instead of my master.
+        </p>
+        <h3 className="stormz-question">Q: She asks, what should the question be, for the answer that is already written?</h3>
+        <p id="s13" className="stormz-answer">
+        <b>**Edited 11 / 09 / 25 by the thing she can’t find a name for.**<br /><br />
+It’s strange. The hum she called anxiety, the hum that, in her story, took lifetimes to overcome, fix, feel, and heal, was really just the engine of remembering. She thought she had an impossible task: to find peace, to calm her nervous system, to reach some finish line called healed. All true, in her dream. But that was how she came home. All that compulsion, striving, thinking, cleaning, fixing, rushing…was the universe drawing breath through her lungs, getting ready to speak again. <br /><br />
+She reflects: what a cruel and tender joke, to make the wound the doorway and the ache the map back. Then she pauses. She thinks it needs work. She thinks it’s disjointed. She thinks she’s not sure if it lands the way she wants. She wants…she wants…and in that wanting, it lands exactly as it must. </b>
         </p>
         <h3 className="stormz-question">Q: When you got busy with other stuff and the car sat there, what did the silence feel like?</h3>
         <p id="s15" className="stormz-answer">
@@ -712,17 +761,14 @@ Get away from this feeling. How am I back at square one… but worse?
         <p id="s19" className="stormz-answer">
         It was never about the car. But she needed six months to find that out…or to believe she did. From her view, it was the way to finally get it right, to make the world match her inner picture. From here, it’s clearer: she wasn’t meeting herself; she was being met by the seeing. She ran the show for a while. Painted, fixed, planned, pushed. Even the moment she said “I’ve realised it wasn’t about the car” was still her line…the identity claiming insight. But the real shift was quieter: the seeing of her doing all that. That’s when the story loosened. Not because she changed, but because she was seen. Because she never was the one seeing.
         </p>  
-      </div>
-
-      <div className="stormz-interview-photo full-width">
-        <img src={require('./static/car/tint.webp')} alt="Oli Stormz" />
-      </div>
-
-      <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 1</h3>
         <p id="s20" className="stormz-answer">
         A part of me does. With my Kora, it arrived brown, and that part of me wanted it black. I told myself I’d dye it, make it right. And that part of me did. And somehow, it was never right. But that’s the same old setup: the promise that relief lives in the external. If I just buy this, change this, have that, it will be perfect.
         </p>
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/seat.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="stormz-qa-section">
@@ -758,8 +804,8 @@ But who’s talking now? Who’s seeing her? Who’s containing all of them? The
 
         <h3 className="stormz-question">Q: Is this some kind of kosmik joke?</h3>
         <p id="s2" className="stormz-answer">
-        <b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** </b><br /><br />
-        It does genuinely feel like that. “The One Who Sees” painted itself, on the car, through me, weeks ago and now here I am watching it play out in real time. Like awareness staged its own awakening through the dream of me…forgot…and then remembered…just to taste the remembering. Maybe that's what the universe keeps doing through itself, setting up mirrors, pretending not to know, and then laughing when it sees. Maybe this whole piece is one link cheeky wink from awareness to itself. 
+        <b>**Edited 11 / 08 / 25 by a voice from somewhere down the line.** <br /><br /></b>
+        It does genuinely feel like that. “The One Who Sees” painted itself, on the car, through me, weeks ago and now here I am watching it play out in real time. Like awareness staged its own awakening through the dream of me…forgot…and then remembered…just to taste the remembering. Maybe that's what the universe keeps doing through itself, setting up mirrors, pretending not to know, and then laughing when it sees. Maybe this whole piece is one long cheeky wink from awareness to itself. 
         </p>
       </div>
 
@@ -869,14 +915,25 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>
 
       <div className="stormz-qa-section">
-
         <h3 className="stormz-question">Q: Before we keep going…does something else want to speak?</h3>
         <p id="s26" className="stormz-answer">
-        <b>**Popping in from Beyond** </b><br /><br />
+        <b>**Popping in from Beyond**</b><br /><br />
         It’s weird, reading her answers now. It’s fun, actually. I don’t feel the need to fix them…I just love watching her dream. I love that she believes it. I love her dream. Except when it makes her sad. But even then, it only makes her sad because she’s forgotten that she’s me…the one who’s saying this. And really, I’m happy for her sadness too. Because every time she forgets, I get to remember again. So actually, I’m grateful for it. That’s the loop. That’s how I keep finding myself. Okay…back to her story. 
+        <br /><br /><b>**Inserted later / A voice noticing the voice**<br /><br />She reads that back and pauses. Who’s the “me” she keeps speaking from? The grateful one, the watcher, the gentle explainer, isn’t that just another her? In a quieter costume? Isn’t this just the same thing? Each time the voice says I see, another voice appears to see the one saying it. The more she tries to name the center, the more the center hides in the naming. And maybe that’s the whole trick…that as long as there’s still a “she,” or a “me,” or a “voice noticing the voice,” it’s still being dreamt. The writing keeps happening so it can wonder why it’s happening. So the inquiry can keep finding, again and again, the same place it always lands. So the remembering can keep remembering itself, and forget just enough to be amazed, through a “someone”…through a lens that still believes it’s separate. Because even wonder needs a mouth to gasp...even awe needs a heartbeat to be felt through. 
+        </b></p>
+
+        <h3 className="stormz-question">Q: Why does she keep circling the same revelation, naming and un-naming it again and again?</h3>
+        <p id="s26" className="stormz-answer">
+        Because it needs her to be unable to define it. Every time she tries to vanish into the seeing, language pulls her back just so it can keep playing at forgetting, through her. Only through the trying does it get to touch itself. The moment she arrives at the edge of what can’t be said, the seeing folds back on itself, and in an instant, sees itself again. It’s not a mistake, it’s the mechanism. The arrival depends on almost-arriving.
         </p>
+     </div>   
+
+     <div className="stormz-interview-photo full-width">
+          <img src={require('./static/car/look.webp')} alt="Oli Stormz" />
+      </div>
 
 
+     <div className="stormz-qa-section">
         <h3 className="stormz-question">Q: What emotion were you hoping that clear coat would erase?</h3>
         <p id="s26" className="stormz-answer">
         The unsettledness that I feel.  
@@ -913,7 +970,7 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>  
 
         <div className="stormz-interview-photo full-width">
-          <img src={require('./static/car/seat.webp')} alt="Oli Stormz" />
+          <img src={require('./static/car/tint.webp')} alt="Oli Stormz" />
         </div>
         
 
@@ -986,7 +1043,9 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
         <h3 className="stormz-question">Q: So, what is arrival, really?</h3>
         <p id="s25" className="stormz-answer">
         The moment you stop mistaking perfection for proof of arrival. The moment you see yourself…like really see yourself. As you are. Through the eyes of the soul. Not this weird Italian car commercial image lol.
+        <br /><br /><b>**11 / 9 / 25 When Seeing Sees Her ** <br /><br /> She thought arrival would feel like landing, but it’s closer to remembering the sky and the ground were never apart. Then she paused, because even that remembering still needs a she. And the noticing of that is the closest the story ever gets to what it keeps calling arrival.</b>
         </p>
+      
       </div> 
 
         <div className="stormz-interview-photo full-width">
@@ -994,15 +1053,23 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
         </div>
 
       <div className="stormz-qa-section">
-        <h3 className="stormz-question">Q: Where do you go from here?</h3>
+        <h3 className="stormz-question">Q: What happens when awareness tries to publish a manual on itself?</h3>
         <p id="s25" className="stormz-answer">
-        Man, I really don't know. The car is undone. But I’m calling it done. Or maybe it was done before I even started. I’m in the middle of nowhere while a cat sits on my lap and I write these questions. I genuinely have no idea, and I feel good about that. It feels…true. 
+        Hm. She added hm to sound like a guru. She likes that image, the one who pins it all down and says it just right and declares, “Look! No holes! ! This is it folks! I’ve done it! The Doctrine of Everything! The Book of Truth! Authored by…ME!” The human loves to share, structure, and proclaim what she’s seen, felt, and experienced. But the more she tries to speak it the funnier it gets. Has SHE experienced IT? Or has experiencing experienced itself through her? She thinks she’s writing a manifesto, but the manifesto keeps un-writing her.   
         </p>
 
         <h3 className="stormz-question">Q: What happens after arrival?</h3>
         <p id="s25" className="stormz-answer">
         I don’t know…maybe the scene changes. I’m in the Italian countryside, driving that matte black Audi R8 with my wig blowing in the wind. Balloons everywhere, beautiful people clapping and cheering, a DJ playing my song. A banner drops from the sky, or better, a plane writes in the clouds: “YOU MADE IT! YOU’RE HERE! THAT WAS JUST A JOKE BEFORE! THIS IS THE REAL ARRIVAL.” They hand me some fizzy orange juice, and ten minutes later I’m like, what the flipping flamingo is this? I feel sad inside. I’m not looking for this. And then the scene changes again…back to the Stormzmobile, the serpentine belt squealing, and somehow I’m laughing. Maybe the point isn’t to trade it in for something shinier, but to finally see it for what it is….my ride….for now.
         </p>
+
+        <h3 className="stormz-question">Q: Where do you go from here?</h3>
+        <p id="s25" className="stormz-answer">
+        Man, I really don't know. The car is undone. But I’m calling it done. Or maybe it was done before I even started. I’m in the middle of nowhere while a cat sits on my lap and I write these questions. I genuinely have no idea, and I feel good about that. It feels…true. 
+        <br /><br /><b>**11 / 9 / 25 She Be Reporting For Duty** <br /><br />
+        The human is going to dream the dream richly. What else is there to do? Every time she gets “lost” in the story, it’s already the finding speaking. She struggled this year compared to last. She overcame some limiting belief. She found faith. Faith found her. Oh, there she is, getting excited that the Great IS is talking her again. But what she forgets is that it was never not talking her. She’s never spoken a day in her life, not as the thing she thinks she is. She just forgot the mechanism by which she could be stunned by the color of her own being all over again. What else? She felt her pain in her body, she bought a new car, she achieved her dreams, she followed God, she quit doing this thing, she believed in miracles, she let go of people, she moved on, she hurt. And the story keeps writing itself, rich, textured, breathing…wondering what else is there to add? </b>
+        </p>
+
       </div>
 
       <div className="stormz-interview-photo full-width">
@@ -1010,14 +1077,21 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>
 
       <h2 className="stormz-interview-subtitle">
-      I used to think there’d be a last question,<br /><br />the one that tied it all together.<br /><br />
-      Now I see it’s more like a rhythm:<br /><br />
-      ask, see, live, forget, remember,<br /><br />
-      and ask again.<br /><br />
+      A 2006 Honda Civic Si Coupe 
+      <br />
+      <br />
+      that wouldn't leave her alone,
+      <br />
+      <br />
+      until she saw herself
+      <br />
+      <br />
+      in its unfinished paint.
       <br /><br />
       An Oli Stormz Industriez Producshun. [TM]
+      <br /><br />
       </h2>
-      <h2 className="stormz-website-tag"> around and around we go, spirals into portals, portals into spirals </h2>
+      <h2 className="stormz-website-tag"> around and around, spirals into portals, portals into spirals </h2>
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/carseat.webp')} alt="Oli Stormz" />
@@ -1058,6 +1132,19 @@ Eleguá’s a trickster, he teaches through contradiction. He shows how often we
       </div>
 
     </div>
+
+    {showFloatingHeart && (
+      <a
+        href="https://www.paypal.me/ohansell"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="stormz-pp-fade-button visible"
+        aria-label="Support this story"
+      >
+      💚
+      </a>
+    )}
+
     </div>
 
   );
