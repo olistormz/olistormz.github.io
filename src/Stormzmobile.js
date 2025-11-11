@@ -117,8 +117,8 @@ function Car() {
         const scrollPercent = (scrollY + windowHeight) / docHeight;
 
         // fade in around 40%–70% down the total document height
-        const showPoint = 0.1;
-        const hidePoint = 0.06;
+        const showPoint = 0.7;
+        const hidePoint = 0.6;
 
         if (!showFloatingHeart && scrollPercent > showPoint) {
           setShowFloatingHeart(true);
@@ -174,6 +174,14 @@ function Car() {
           className={`stormz-sidebar-link ${activeId === 's4' ? 'active' : ''}`}
         >
           11/10/25: Where does the story start?
+        </a>
+
+        <a
+          href="#s5"
+          onClick={(e) => handleLinkClick(e, 's5')}
+          className={`stormz-sidebar-link ${activeId === 's5' ? 'active' : ''}`}
+        >
+          11/11/25: Where does the story really start?
         </a>
 
 
@@ -253,7 +261,15 @@ function Car() {
         <p id="s4" className="stormz-answer">
         About a year ago. I had a vision before I came to America. Driving crosscountry in a red sports car, heading west. Something waiting at the end of the road, though I couldn’t say what. I arrived in June, and the car was waiting. Left outside for a decade after an accident…undriven, weathered, with the smashed windshield replaced right before I arrived. Like it somehow knew the role it was about to play long before I did.
         </p>
+        <h3 className="stormz-question">Q: Where does the story really start?</h3>
+        <p id="s5" className="stormz-answer">
+        When I was 16, I drove this car on a trip I’d long buried. But when I turned the key, the radio lit up and said: “HOLAA AMIGO!” I froze. I had programmed that message 15 years ago, on that trip, with that version of me. Since then, I’d (curiously) lived in Spain, learned Spanish…and here it was…saying hello back to me across time. Like a breadcrumb I’d planted for myself, just so that when I arrived, I would remember...it’s always been me. This life, this play, this matrix of time and space, birth and death, before and after…I'm just walking myself, scene by scene, through a movie I’ve already lived, pretending it exists on a linear plane. And catching up to myself in real time. The fun is in the forgetting. 
+        </p>
        </div>
+
+      <div className="stormz-interview-photo full-width">
+          <img src={require('./static/car/amigo.webp')} alt="Oli Stormz" />
+      </div> 
 
 
     </div>
