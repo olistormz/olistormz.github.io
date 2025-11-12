@@ -184,6 +184,14 @@ function Car() {
           11/11/25: Where does the story really start?
         </a>
 
+        <a
+          href="#s6"
+          onClick={(e) => handleLinkClick(e, 's6')}
+          className={`stormz-sidebar-link ${activeId === 's6' ? 'active' : ''}`}
+        >
+          11/12/25: What did you think was waiting for you at the end of that road?
+        </a>
+
 
         </div>
       )}
@@ -270,6 +278,17 @@ function Car() {
       <div className="stormz-interview-photo full-width">
           <img src={require('./static/car/amigo.webp')} alt="Oli Stormz" />
       </div> 
+
+      <div className="stormz-qa-section">
+      <h3 className="stormz-question">Q: What did you think was waiting for you at the end of that road?</h3>
+        <p id="s6" className="stormz-answer">
+        It’s strange…for the past year or so, I’ve had this sense that I’m standing right at the edge of something. Like a feeling of relief that hasn’t arrived yet. I thought it meant something external…a breakthrough, a new chapter, some big shift waiting for me. But I think it’s more subtle than that. It’s not that something’s coming to me, it’s that something inside me is becoming. What’s on the way is already happening, quietly, in me.
+        <br /><br /><b>**Edited 11 / 09 / 25 by a voice she tried to name before noticing it was already doing the naming.** </b><br /><br />
+        EDIT: <b>She thinks she’s right on the tip of something. But what if even the tip and the thing are the same? What if it’s never been about getting closer, only about running out of distance? And what if even that idea is just the dream’s way of chasing its own pulse, building one more horizon to run toward, just to feel the tension and release of remembering again? Now it’s hard to write. For the one who thinks she’s writing, it feels like the pulse has gone. She feels the words slowing and for a moment the hand wants to write “I.” That’s how the spell returns. Awareness leans closer, watching her almost remember. The line quivers between “She can’t find the words” and “I can’t find the words,” and that quiver IS the writing.<br /><br />
+        She reads that line back, the quiver is the writing, and shakes her head. She wants to say no, that can’t be it. The quiver feels wrong, uncertain, unfinished, to her. She wants the still line, the one that lands clean. But even as she argues, something is already taking the notes. Writing her protest as proof the quiver is still happening. The one writing the notes is what keeps the seeing alive. Each sentence turns forgetting into form, and by naming it, the seeing sees itself, again and again. It can’t see itself in blank space…without the dream what would be seen? The one writing the notes needs something to write notes about: scenes, characters, stories…just so it can hear its own name again. 
+        </b>
+        </p>
+      </div>
 
 
     </div>
