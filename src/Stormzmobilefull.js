@@ -527,9 +527,9 @@ function Car() {
 
 
     <div className="stormz-interview-page">
-      <div className="stormz-back-button-container">
-        <Link to="/" className="stormz-back-button">INTERVIEW</Link>
-        <Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
+      <div className="stormz-button-container">
+      <Link to="/home" className="stormz-home-button">HOMEPAGE</Link>
+        <Link to="/" className="stormz-interview-button">INTERVIEW</Link>
         <a
         href="https://www.paypal.me/ohansell"
         target="_blank"
@@ -538,6 +538,7 @@ function Car() {
       >
         DONATE
       </a>
+      <Link to="/overflow" className="stormz-overflow-button">Over/Flow</Link>
     </div>
       
      
@@ -1107,6 +1108,9 @@ She is never the thing, could never be the thing, otherwise she would be the thi
       A 2006 Honda Civic Si Coupe 
       <br />
       <br />
+      <Link to="/stormzmobile" className="stormzmobile-button">STORMZMOBILE</Link>
+      <br />
+      <br />
       that wouldn't leave her alone,
       <br />
       <br />
@@ -1119,6 +1123,7 @@ She is never the thing, could never be the thing, otherwise she would be the thi
       <br /><br />
       </h2>
       <h2 className="stormz-website-tag"> around and around, spirals into portals, portals into spirals </h2>
+
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/carseat.webp')} alt="Oli Stormz" />
@@ -1157,6 +1162,18 @@ She is never the thing, could never be the thing, otherwise she would be the thi
         <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/standtall.webp')} alt="Oli Stormz" />
       </div>
+
+       <div className="stormz-interview-photo full-width">
+          <img src={require('./static/car/snake.webp')} alt="Oli Stormz" />
+      </div> 
+
+
+      <h2 className="stormz-interview-subtitle">
+        Do you Dare?<br /><br />Who is the one that's asking? <br /><br /> Who is the one that dares? <br /><br />
+        <Link to="/overflow" className="stormz-overflow-button">Over/Flow</Link>
+        <br />
+        <br />
+      </h2>
 
     </div>
 

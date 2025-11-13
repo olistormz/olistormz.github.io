@@ -192,6 +192,14 @@ function Car() {
           11/12/25: What did you think was waiting for you at the end of that road?
         </a>
 
+        <a
+          href="#s7"
+          onClick={(e) => handleLinkClick(e, 's7')}
+          className={`stormz-sidebar-link ${activeId === 's7' ? 'active' : ''}`}
+        >
+          11/13/25: Why take the car on?
+        </a>
+
 
         </div>
       )}
@@ -204,9 +212,9 @@ function Car() {
 
 
     <div className="stormz-interview-page">
-      <div className="stormz-back-button-container">
-        <Link to="/" className="stormz-back-button">INTERVIEW</Link>
-        <Link to="/home" className="stormz-home-back-button">HOMEPAGE</Link>
+      <div className="stormz-button-container">
+        <Link to="/home" className="stormz-home-button">HOMEPAGE</Link>
+        <Link to="/" className="stormz-interview-button">INTERVIEW</Link>
         <a
         href="https://www.paypal.me/ohansell"
         target="_blank"
@@ -288,10 +296,20 @@ function Car() {
         She reads that line back, the quiver is the writing, and shakes her head. She wants to say no, that can’t be it. The quiver feels wrong, uncertain, unfinished, to her. She wants the still line, the one that lands clean. But even as she argues, something is already taking the notes. Writing her protest as proof the quiver is still happening. The one writing the notes is what keeps the seeing alive. Each sentence turns forgetting into form, and by naming it, the seeing sees itself, again and again. It can’t see itself in blank space…without the dream what would be seen? The one writing the notes needs something to write notes about: scenes, characters, stories…just so it can hear its own name again. 
         </b>
         </p>
-      </div>
 
+        <h3 className="stormz-question">Q: Why take the car on?</h3>
+        <p id="s7" className="stormz-answer">
+        It felt like I didn’t really have a choice. I think when it’s time, that’s how it feels. From the outside it's like, why didn’t you just buy another car? And from the inside it's like, I didn't have a choice. Life gave me this one. 
+        </p>
+      </div>
+      
+      <div className="stormz-interview-photo">
+        <img src={require('./static/car/djiwork.webp')} alt="Editorial shot" />
+      </div> 
 
     </div>
+
+
 
     {showFloatingHeart && (
       <a
@@ -304,6 +322,15 @@ function Car() {
       💚
       </a>
     )}
+
+    {/* 🆕 Scroll-to-top arrow */}
+    <button
+      className="stormz-scroll-top-button"
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      aria-label="Scroll to top"
+    >
+      ↑
+    </button>
 
 
     </div>

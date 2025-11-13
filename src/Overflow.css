@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 
-.stormz-interview-page {
+.overflow-interview-page {
   background: #fff;
   font-family: 'Jacquard 12', serif;
   color: #000;
@@ -12,14 +12,14 @@ body {
   transition: margin-left 0.3s ease; /* ✅ Added for smooth shifting */
 }
 
-.stormz-interview-title,
-.stormz-interview-subtitle {
+.overflow-interview-title,
+.overflow-interview-subtitle {
   word-break: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
 }
 
-.stormz-interview-title {
+.overflow-interview-title {
   font-family: 'Lacquer', serif;
   font-weight: 700;
 /*  font-family: 'Jacquard 12', serif;*/
@@ -29,7 +29,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-interview-subtitle {
+.overflow-interview-subtitle {
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -39,7 +39,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-website-tag {
+.overflow-website-tag {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -49,7 +49,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-intro-tag {
+.overflow-intro-tag {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
   font-style: none;
@@ -59,18 +59,18 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-interview-photo {
+.overflow-interview-photo {
   width: 100%;
   margin: 0;
 }
 
-.stormz-interview-photo img {
+.overflow-interview-photo img {
   width: 100%;
   display: block;
   margin: 0;
 }
 
-.stormz-interview-text {
+.overflow-interview-text {
   font-family: 'Inter', sans-serif; /* Change to Roboto or Work Sans if you prefer */
   font-size: 1.2rem;
   line-height: 1.8;
@@ -80,12 +80,12 @@ body {
   color: #111;
 }
 
-.stormz-interview-text strong {
+.overflow-interview-text strong {
   font-family: 'Lacquer', serif;
   font-weight: 700;
 }
 
-.stormz-qa-section {
+.overflow-qa-section {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
@@ -94,7 +94,7 @@ body {
 }
 
 /* Question styling */
-.stormz-question {
+.overflow-question {
   font-family: 'Lacquer', serif;
   font-size: 1.6rem;
   color: #111; /* almost black for emphasis */
@@ -103,7 +103,7 @@ body {
 }
 
 /* Answer styling */
-.stormz-answer {
+.overflow-answer {
   font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
   color: #555; /* medium gray for contrast with questions */
@@ -111,10 +111,17 @@ body {
   margin-bottom: 20px;
 }
 
-.stormz-overflow-button {
+/* ✅ ADDED: Wrapper for back button to make it responsive */
+.overflow-button-container {
+  display: flex;
+  justify-content: flex-end; /* right-align on desktop */
+  padding: 1rem 2rem;
+}
+
+.overflow-stormzmobile-button {
   top: 5px;
   left: 5px;
-  background-color: #BF94E4;
+  background-color: #FBAED2;
   color: #FFFFFF;
   padding: 8px 16px; /* Increased padding for better tap area */
   border-radius: 50px;
@@ -126,22 +133,15 @@ body {
   transition: transform 0.2s ease, background-color 0.2s ease;
   z-index: 1000;
 }
-.stormz-overflow-button:hover {
+.overflow-stormzmobile-button:hover {
   transform: scale(1.05);
   background-color: #ffc0cb;
 }
 
-/* ✅ ADDED: Wrapper for back button to make it responsive */
-.stormz-button-container {
-  display: flex;
-  justify-content: flex-end; /* right-align on desktop */
-  padding: 1rem 2rem;
-}
-
-.stormz-interview-button {
+.overflow-interview-button {
   top: 10px;
   left: 10px;
-  background-color: #FFEE8C;
+  background-color: #E6E6FA;
   color: #333;
   padding: 8px 16px; /* Increased padding for better tap area */
   border-radius: 50px;
@@ -153,16 +153,16 @@ body {
   transition: transform 0.2s ease, background-color 0.2s ease;
   z-index: 1000;
 }
-.stormz-interview-button:hover {
+.overflow-interview-button:hover {
   transform: scale(1.05);
   background-color: #ffc0cb;
 }
 
-.stormz-home-button {
+.overflow-home-button {
   top: 5px;
   left: 5px;
-  background-color: #FF69B4;
-  color: #000000;
+  background-color: #C8A2C8;
+  color: #FFFFFF;
   padding: 8px 16px; /* Increased padding for better tap area */
   border-radius: 50px;
   font-family: "Jersey 15", sans-serif;
@@ -173,15 +173,15 @@ body {
   transition: transform 0.2s ease, background-color 0.2s ease;
   z-index: 1000;
 }
-.stormz-home-button:hover {
+.overflow-home-button:hover {
   transform: scale(1.05);
   background-color: #ffc0cb;
 }
 
-.stormz-pp-button {
+.overflow-pp-button {
   top: 5px;
   left: 5px;
-  background-color: #008000;
+  background-color: #EE82EE;
   color: #FFFFFF;
   padding: 8px 16px; /* Increased padding for better tap area */
   border-radius: 50px;
@@ -198,17 +198,17 @@ body {
   50% { transform: scale(1.12); opacity: 1; }
 }
 
-.stormz-pp-button {
+.overflow-pp-button {
   animation: pulse 4s ease-in-out infinite;
 }
 
-.stormz-pp-fade-button {
+.overflow-pp-fade-button {
   position: fixed;
   bottom: 40px;
   right: 20px;
   width: 50px;                /* ✅ Equal width/height = perfect circle */
   height: 50px;
-  background-color: #008000;
+  background-color: #EE82EE;
   color: #FFFFFF;
   font-size: 1.4rem;
   border: none;
@@ -225,12 +225,12 @@ body {
   animation: fadeIn 0.8s forwards, gentlePulse 5s ease-in-out infinite;
 }
 
-.stormz-pp-fade-button.visible {
+.overflow-pp-fade-button.visible {
   opacity: 0.9;
   transform: scale(1);
 }
 
-.stormz-pp-fade-button:hover {
+.overflow-pp-fade-button:hover {
   background-color: #00a000;
   transform: scale(1.1);
 }
@@ -245,15 +245,15 @@ body {
   50% { transform: scale(1.12); opacity: 1; }
 }
 
-.stormz-scroll-top-button {
+.overflow-scroll-top-button {
   position: fixed;
   bottom: 100px;
   right: 20px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: rgba(238, 36, 0, 0.15); /* <— transparent orange */
-  color: #fff;
+  background-color: rgba(211, 211, 255, 0.3);
+  color: #431C52;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
@@ -262,19 +262,18 @@ body {
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.stormz-scroll-top-button:hover {
+.overflow-scroll-top-button:hover {
   transform: scale(1.1);
-  background-color: rgba(238, 36, 0, 0.7);
+  background-color: rgba(67, 28, 82, 0.9);
 }
 
-
 /* Sidebar wrapper */
-.stormz-sidebar-container {
+.overflow-sidebar-container {
   position: fixed; /* ✅ Fixed for both desktop + mobile stickiness */
   top: 0;
   bottom: 0; /* ✅ ADD: make sure it stretches to bottom */
   width: 240px;
-  background: #ee2400;
+  background: #D3D3FF;
   padding: 2rem 1rem 1rem;
   overflow-y: auto;
   flex-shrink: 0;
@@ -283,24 +282,24 @@ body {
 }
 
 /* Collapsed sidebar */
-.stormz-sidebar-container {
+.overflow-sidebar-container {
   transform: translateX(0);
 }
 
-.stormz-sidebar-collapsed .stormz-sidebar-container {
+.overflow-sidebar-collapsed .stormz-sidebar-container {
   transform: translateX(-100%);
   position: absolute;
   left: 0;
 }
 
 /* Toggle button */
-.stormz-sidebar-toggle {
+.overflow-sidebar-toggle {
   position: fixed;
   top: 1rem;
   left: 1rem;
   z-index: 2000; /* ✅ Increased to stay above sidebar on mobile */
   background-color: rgba(255, 255, 255, 0.7);
-  color: #ee2400;
+  color: #431C52;
   border: none;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
@@ -309,7 +308,7 @@ body {
 }
 
 /* Layout wrapper */
-.stormz-interview-layout {
+.overflow-interview-layout {
   display: block; /* ✅ FIX: stop flexbox from creating ghost space */
   width: 100%;
   position: relative;
@@ -318,10 +317,10 @@ body {
   min-height: 100vh; /* ✅ ADDED: Ensures sidebar doesn't get cut off */
 }
 
-.stormz-sidebar-link {
+.overflow-sidebar-link {
   display: block;
   margin-bottom: 1rem;
-  color: #FFFFFF;
+  color: #431C52;
   text-decoration: none;
   font-size: 1rem;
   line-height: 1.4;
@@ -330,91 +329,89 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-.stormz-sidebar-link.active {
-  background-color: #000000;
+.overflow-sidebar-link.active {
+  background-color: #431C52;
   color: #fff;
   font-weight: bold;
 }
 
-.stormz-sidebar-container .stormz-sidebar-link:first-child {
+.overflow-sidebar-container .overflow-sidebar-link:first-child {
     margin-top: 2rem; /* adjust until it clears the pills */
   }
 
 /* ✅ Desktop only: Shift content right when sidebar is open */
 @media (min-width: 769px) {
-  .stormz-sidebar-open .stormz-interview-page {
+  .overflow-sidebar-open .overflow-interview-page {
     margin-left: 240px; /* ✅ Push content to the right */
   }
 
-  .stormz-sidebar-collapsed .stormz-interview-page {
+  .overflow-sidebar-collapsed .overflow-interview-page {
     margin-left: 0; /* ✅ Reset content when collapsed */
   }
 }
 
 /* ✅ Mobile: Make sure toggle button is still visible when sidebar open */
 @media (max-width: 768px) {
-  .stormz-sidebar-container {
+  .overflow-sidebar-container {
     width: 75vw;
     max-width: 300px;
     top: 0;
     left: 0;
     height: 100vh;
-    background: #ee2400;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     position: fixed; /* ✅ Ensure sidebar stays visible while scrolling on mobile */
     padding-bottom: 2.5rem; /* 👈 only affects mobile, fixes cutoff */
   }
 
-  .stormz-sidebar-collapsed .stormz-sidebar-container {
+  .overflow-sidebar-collapsed .overflow-sidebar-container {
     transform: translateX(-100%);
     transition: transform 0.3s ease;
   }
 
-  .stormz-sidebar-toggle {
+  .overflow-sidebar-toggle {
     top: 0.5rem;     /* nudge it up slightly */
     left: 0.5rem;    /* tighter to the corner */
     z-index: 3000;   /* keep it above the back button */
     transform: scale(0.9); /* slightly smaller for less obstruction */
   }
 
-  .stormz-interview-layout {
+  .overflow-interview-layout {
     flex-direction: column;
   }
-  .stormz-button-container {
+  .overflow-button-container {
     justify-content: center; /* ✅ Centered on small screens */
     padding: 1rem;
   }
 
-.stormz-overflow-button {
+  .overflow-inteview-button {
     top: 8px;
     left: 8px;
     font-size: 0.95rem; /* Still slightly smaller for mobile */
     padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
   }
 
-  .stormz-interview-button {
+  .overflow-stormzmobile-button {
     top: 8px;
     left: 8px;
     font-size: 0.95rem; /* Still slightly smaller for mobile */
     padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
   }
 
-  .stormz-home-button {
+  .overflow-home-button {
     top: 8px;
     left: 8px;
     font-size: 0.95rem; /* Still slightly smaller for mobile */
     padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
   }
 
-  .stormz-pp-button {
+  .overflow-pp-button {
     top: 8px;
     right: 8px;
     font-size: 0.95rem; /* Still slightly smaller for mobile */
     padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
   }
-
-  .stormz-pp-fade-button {
+  .overflow-pp-fade-button {
     bottom: 8px;
     right: 8px;
     padding: 6px 8px;  /* Keep bigger padding for touch-friendliness */
@@ -422,14 +419,14 @@ body {
     width: 20px;      /* ✅ smaller circle */
     height: 20px;
   }
-  .stormz-scroll-top-button {
+  .overflow-scroll-top-button {
     bottom: 100px;
     right: 8px;
     padding: 6px 6px;  /* Keep bigger padding for touch-friendliness */
     font-size: 0.9rem;
     width: 40px;      /* ✅ smaller circle */
     height: 40px;
-    background-color: rgba(238, 36, 0, 0.35);
+    background-color: rgba(211, 211, 255, 0.20);
     opacity: 1;
     transition: transform 0.2s ease, background-color 0.3s ease;
   }

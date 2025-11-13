@@ -39,7 +39,7 @@ body {
   letter-spacing: 2px;
 }
 
-.website-tag {
+.interview-website-tag {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -75,7 +75,7 @@ body {
   font-weight: 700;
 }
 
-.qa-section {
+.interview-qa-section {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
@@ -84,7 +84,7 @@ body {
 }
 
 /* Question styling */
-.question {
+.interview-question {
   font-family: 'Lacquer', serif;
   font-size: 1.6rem;
   color: #111; /* almost black for emphasis */
@@ -93,7 +93,7 @@ body {
 }
 
 /* Answer styling */
-.answer {
+.interview-answer {
   font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
   color: #555; /* medium gray for contrast with questions */
@@ -102,13 +102,13 @@ body {
 }
 
 /* ✅ ADDED: Wrapper for back button to make it responsive */
-.back-button-container {
+.interview-button-container {
   display: flex;
   justify-content: flex-end; /* right-align on desktop */
   padding: 1rem 2rem;
 }
 
-.back-button {
+.interview-home-button {
   top: 10px;
   left: 10px;
   background-color: #FF69B4;
@@ -123,8 +123,12 @@ body {
   transition: transform 0.2s ease, background-color 0.2s ease;
   z-index: 1000;
 }
+.interview-home-button:hover {
+  transform: scale(1.05);
+  background-color: #ffc0cb;
+}
 
-.stormzmobile-button {
+.interview-stormzmobile-button {
   top: 5px;
   left: 5px;
   background-color: #FF0000;
@@ -140,9 +144,31 @@ body {
   z-index: 1000;
 }
 
-.back-button:hover {
+.interview-stormzmobile-button:hover {
   transform: scale(1.05);
   background-color: #ffc0cb;
+}
+
+.interview-scroll-top-button {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 238, 140 ,0.25); /* <— transparent orange */
+  color: #000000;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1200;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.interview-scroll-top-button:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 105, 180, 0.7);
 }
 
 
@@ -179,7 +205,7 @@ body {
   top: 1rem;
   left: 1rem;
   z-index: 2000; /* ✅ Increased to stay above sidebar on mobile */
-  background: #FF69B4;
+  background: rgba(255, 105, 180, 0.6);
   color: #FFFFFF;
   border: none;
   padding: 0.5rem 0.75rem;
@@ -234,19 +260,19 @@ body {
 
 /* ✅ Mobile: Make sure toggle button is still visible when sidebar open */
 @media (max-width: 768px) {
-  .back-button-container {
+  .interview-button-container {
     justify-content: center; /* ✅ Centered on small screens */
     padding: 1rem;
   }
 
-  .back-button {
+  .interview-home-button {
     top: 8px;
     left: 8px;
     font-size: 0.95rem; /* Still slightly smaller for mobile */
     padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
   }
 
-  .stormzmobile-button {
+  .interview-stormzmobile-button {
     top: 8px;
     left: 8px;
     font-size: 0.95rem; /* Still slightly smaller for mobile */
@@ -279,6 +305,18 @@ body {
 
   .interview-layout {
     flex-direction: column;
+  }
+
+  .interview-scroll-top-button {
+    bottom: 100px;
+    right: 8px;
+    padding: 6px 6px;  /* Keep bigger padding for touch-friendliness */
+    font-size: 0.9rem;
+    width: 40px;      /* ✅ smaller circle */
+    height: 40px;
+    background-color: rgba(255, 238, 140 ,0.35);
+    opacity: 1;
+    transition: transform 0.2s ease, background-color 0.3s ease;
   }
 
 }
