@@ -157,7 +157,7 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's2')}
           className={`stormz-sidebar-link ${activeId === 's2' ? 'active' : ''}`}
         >
-          11/8/25: What is the Stormzmobile?
+          8/11/25: What is the Stormzmobile?
         </a>
 
         <a
@@ -165,7 +165,7 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's3')}
           className={`stormz-sidebar-link ${activeId === 's3' ? 'active' : ''}`}
         >
-          11/9/25: Why are you telling this story one question at a time?
+          9/11/25: Why are you telling this story one question at a time?
         </a>
 
         <a
@@ -173,7 +173,7 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's4')}
           className={`stormz-sidebar-link ${activeId === 's4' ? 'active' : ''}`}
         >
-          11/10/25: Where does the story start?
+          10/11/25: Where does the story start?
         </a>
 
         <a
@@ -189,7 +189,7 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's6')}
           className={`stormz-sidebar-link ${activeId === 's6' ? 'active' : ''}`}
         >
-          11/12/25: What did you think was waiting for you at the end of that road?
+          12/11/25: What did you think was waiting for you at the end of that road?
         </a>
 
         <a
@@ -197,7 +197,15 @@ function Car() {
           onClick={(e) => handleLinkClick(e, 's7')}
           className={`stormz-sidebar-link ${activeId === 's7' ? 'active' : ''}`}
         >
-          11/13/25: Why take the car on?
+          13/11/25: Why take the car on?
+        </a>
+
+        <a
+          href="#s8"
+          onClick={(e) => handleLinkClick(e, 's8')}
+          className={`stormz-sidebar-link ${activeId === 's8' ? 'active' : ''}`}
+        >
+          14/11/25: Why did you decide to fix things yourself?
         </a>
 
 
@@ -260,7 +268,7 @@ function Car() {
         <h3 className="stormz-question">Q: Why are you telling this story one question at a time?</h3>
         <p id="s3" className="stormz-answer">
         Because neither part of me would. The one that wants everything finished would post it all in one go… fast, raw, just to be done. And the one that loves beauty would want the perfect final reveal, not this slow unfolding. So I’m letting them meet here in the in-between…in awareness…where things can be beautiful and unfinished. For the first few weeks, I’ll move slowly, question by question. Then, when it’s ready, I’ll let the rest spill out all at once. It feels right that way, a rhythm between patience and release.<br /><br />
-        <b>**Edited from the future 11 / 08 / 25, from the moment the telling overtook the teller.**</b> 
+        <b>**Edited from the future 08 / 11 / 25, from the moment the telling overtook the teller.**</b> 
         <br />
         <br />
         [You might ask, "But how does today’s question already contain yesterday's edit, and have the nerve to say it’s “from the future”?" Because this is what happens when time tries to cross the threshold of awareness...it folds.]
@@ -291,7 +299,7 @@ function Car() {
       <h3 className="stormz-question">Q: What did you think was waiting for you at the end of that road?</h3>
         <p id="s6" className="stormz-answer">
         It’s strange…for the past year or so, I’ve had this sense that I’m standing right at the edge of something. Like a feeling of relief that hasn’t arrived yet. I thought it meant something external…a breakthrough, a new chapter, some big shift waiting for me. But I think it’s more subtle than that. It’s not that something’s coming to me, it’s that something inside me is becoming. What’s on the way is already happening, quietly, in me.
-        <br /><br /><b>**Edited 11 / 09 / 25 by a voice she tried to name before noticing it was already doing the naming.** </b><br /><br />
+        <br /><br /><b>**Edited 09 / 11 / 25 by a voice she tried to name before noticing it was already doing the naming.** </b><br /><br />
         EDIT: <b>She thinks she’s right on the tip of something. But what if even the tip and the thing are the same? What if it’s never been about getting closer, only about running out of distance? And what if even that idea is just the dream’s way of chasing its own pulse, building one more horizon to run toward, just to feel the tension and release of remembering again? Now it’s hard to write. For the one who thinks she’s writing, it feels like the pulse has gone. She feels the words slowing and for a moment the hand wants to write “I.” That’s how the spell returns. Awareness leans closer, watching her almost remember. The line quivers between “She can’t find the words” and “I can’t find the words,” and that quiver IS the writing.<br /><br />
         She reads that line back, the quiver is the writing, and shakes her head. She wants to say no, that can’t be it. The quiver feels wrong, uncertain, unfinished, to her. She wants the still line, the one that lands clean. But even as she argues, something is already taking the notes. Writing her protest as proof the quiver is still happening. The one writing the notes is what keeps the seeing alive. Each sentence turns forgetting into form, and by naming it, the seeing sees itself, again and again. It can’t see itself in blank space…without the dream what would be seen? The one writing the notes needs something to write notes about: scenes, characters, stories…just so it can hear its own name again. 
         </b>
@@ -307,10 +315,18 @@ function Car() {
         <img src={require('./static/car/djiwork.webp')} alt="Editorial shot" />
       </div> 
 
+      <div className="stormz-qa-section"> 
+       <h3 className="stormz-question">Q: Why did you decide to fix things yourself?</h3>
+        <p id="s8" className="stormz-answer">
+        I don’t really know. I’ve been trying to find an answer that sounds clear, but none of them feel true. It wasn’t about money necessarily. Or proving something. Maybe it just happened like that. Maybe I just wanted to start. Or maybe that’s the point…there isn’t always a clean reason. Sometimes you just follow a thread.
+        </p>
+      
+      </div>
+
+
+
+
     </div>
-
-
-
     {showFloatingHeart && (
       <a
         href="https://www.paypal.me/ohansell"

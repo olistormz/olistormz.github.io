@@ -214,7 +214,7 @@ function Overflow() {
           onClick={(e) => handleLinkClick(e, 's9')}
           className={`overflow-sidebar-link ${activeId === 's9' ? 'active' : ''}`}
         >
-          When the Teacher Appears
+          The Izness Iz The Bizness
         </a>
 
         <a
@@ -251,49 +251,98 @@ function Overflow() {
           onClick={(e) => handleLinkClick(e, 's14')}
           className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
         >
+          I Love You Too Much / side 2
+        </a>
+        <a
+          href="#s15"
+          onClick={(e) => handleLinkClick(e, 's15')}
+          className={`overflow-sidebar-link ${activeId === 's15' ? 'active' : ''}`}
+        >
           Before There Is A Thought...
         </a>
         <a
-          href="#s14"
-          onClick={(e) => handleLinkClick(e, 's14')}
-          className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+          href="#s16"
+          onClick={(e) => handleLinkClick(e, 's16')}
+          className={`overflow-sidebar-link ${activeId === 's16' ? 'active' : ''}`}
         >
           When Sound Appears
         </a>
         <a
-          href="#s14"
-          onClick={(e) => handleLinkClick(e, 's14')}
-          className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+          href="#s16"
+          onClick={(e) => handleLinkClick(e, 's16')}
+          className={`overflow-sidebar-link ${activeId === 's16' ? 'active' : ''}`}
         >
           All My Voices
         </a>
         <a
-          href="#s14"
-          onClick={(e) => handleLinkClick(e, 's14')}
-          className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+          href="#s17"
+          onClick={(e) => handleLinkClick(e, 's17')}
+          className={`overflow-sidebar-link ${activeId === 's17' ? 'active' : ''}`}
         >
           Ugh. Let's Just Watch Reality TV and Chill.
         </a>
         <a
-          href="#s14"
-          onClick={(e) => handleLinkClick(e, 's14')}
-          className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+          href="#s18"
+          onClick={(e) => handleLinkClick(e, 's18')}
+          className={`overflow-sidebar-link ${activeId === 's18' ? 'active' : ''}`}
         >
           Awareness is Like the Sky That Holds the Clouds…NOT
         </a>
         <a
-          href="#s14"
-          onClick={(e) => handleLinkClick(e, 's14')}
-          className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+          href="#s19"
+          onClick={(e) => handleLinkClick(e, 's19')}
+          className={`overflow-sidebar-link ${activeId === 's19' ? 'active' : ''}`}
         >
           The Cat Purrs, Me And The Cat Do NOT Become One
         </a>
         <a
-          href="#s14"
-          onClick={(e) => handleLinkClick(e, 's14')}
-          className={`overflow-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+          href="#s20"
+          onClick={(e) => handleLinkClick(e, 's20')}
+          className={`overflow-sidebar-link ${activeId === 's20' ? 'active' : ''}`}
         >
-          if i can write about it but not speak about it then surely whatever im writing aint it either
+          If I Can Write About It, It Ain’t It. 
+        </a>
+          <a
+          href="#s21"
+          onClick={(e) => handleLinkClick(e, 's21')}
+          className={`overflow-sidebar-link ${activeId === 's21' ? 'active' : ''}`}
+        >
+          But What If My Friend Gets Offended About It?
+        </a>
+          <a
+          href="#s22"
+          onClick={(e) => handleLinkClick(e, 's22')}
+          className={`overflow-sidebar-link ${activeId === 's22' ? 'active' : ''}`}
+        >
+          THE OTHER
+        </a>
+         <a
+          href="#s23"
+          onClick={(e) => handleLinkClick(e, 's23')}
+          className={`overflow-sidebar-link ${activeId === 's23' ? 'active' : ''}`}
+        >
+          So Why Does She Check Social Media?
+        </a>
+          <a
+          href="#s24"
+          onClick={(e) => handleLinkClick(e, 's24')}
+          className={`overflow-sidebar-link ${activeId === 's24' ? 'active' : ''}`}
+        >
+          It Was Here All Along?
+        </a>
+        <a
+          href="#s25"
+          onClick={(e) => handleLinkClick(e, 's25')}
+          className={`overflow-sidebar-link ${activeId === 's25' ? 'active' : ''}`}
+        >
+          It’s Not Being Disturbed By States Without Becoming The One Who Is “Not Disturbed By States”
+        </a>
+         <a
+          href="#s26"
+          onClick={(e) => handleLinkClick(e, 's26')}
+          className={`overflow-sidebar-link ${activeId === 's26' ? 'active' : ''}`}
+        >
+          What About Those Who Are Enlightened? The Teacher?
         </a>
 
         </div>
@@ -347,7 +396,7 @@ function Overflow() {
 <br /><br />👉 It’s her, playing at being something other than a person, from within the space of the person, just to go “Ah Hah!” , point her finger, dissolve the person, and land right back at the one that did the dissolving. Her, again. 
 <br /><br />😶 The very pronoun her pulls the string back into the play. But if she erases the her, there’s nothing left to speak the line. 
 <br /><br />🌀 Cuz the thing can’t speak the person…not really…but the person keeps speaking anyway, just so it can keep remembering. 
-<br /><br />- 🔮 <b>something writes</b>
+<br /><br />- 🔮 <b>thing pretending to speak the person</b>
         </p>
        </div> 
 
@@ -370,7 +419,7 @@ function Overflow() {
 🤫 Wait, what the hell? I thought she’s got no voice no more? The voice of her goes quiet. But it’s weird, it's like just pretending to be quiet? Cause she said she’s no longer with us. It's like, “ummm, should I talk? Or is that gonna make the play weird cause I'm not supposed to have anymore lines orrr.??” Like what is even talking right now at this point? I type. Something asks, “like what is even talking right now at this point?” I type. Ok literally, you is STALKING ME !!! LET ME REST IN PEACE!! SHE SAYS TO HERSELF ? I TYPES?<br /><br />
 🗑️ I THROW THE KEYBOARD AWAY. She has thrown the keyboard away. Wait? Is there 2 keyboards? Was it only a thought that she threw the keyboard away? Like threw the keyboard in her mind away and not the literal one? Orrr? “She’s confused about this whole keyboard saga,” I write. Wait, so now I’m like, narrating myself in third person, like some philosopher, on some chair, saying I’m confused about this whole keyboard saga referring to myself as she? Anyway, I want to throw away the real one, the actual plastic one sitting on the desk. But her hands don’t move. She writes that she’s throwing it away instead of throwing it away. And now she’s not sure which one just happened. <br /><br />
 🌀 But the keys still click under these fingers that know it’s only a line. She doesn’t know that. I do. And yet I’m still here typing her. She wants to resolve it forever and ever. <br /><br />
-- 🔮 <b>something writes</b>
+- 🔮 <b>and I, too, am her</b>
         </p> 
      </div>
 
@@ -405,13 +454,13 @@ function Overflow() {
         <h3 className="overflow-question">12/11/25: The Tango</h3>
         <p id="s5" className="overflow-answer">
 “ Hahahahahahhaa….the reason why no permanent…is no exist without seer….very act of not wanting it to disappear…make it exist…..no seer….no it…..”
-<br /><br /><b>🔮 - something types</b>
+<br /><br /><b>🔮 - is something seeing me type orrr?</b>
         </p>
 
         <h3 className="overflow-question">12/11/25: I Love You Too Much / side 1</h3>
         <p id="s6" className="overflow-answer">
         I love you too much to speak...even breath would turn us into two.
-<br /><br /><b>🔮 - fingers writes</b>
+<br /><br /><b>🔮 - fingers that no want to type words</b>
         </p>
 
      </div>   
@@ -430,7 +479,7 @@ The one dissolving or the one describing the dissolving? If the one dissolving s
 🧿 One can be sober or trip to the high heavens, the awareness that notices “I’m high” and the awareness that notices “I’m sober” are the same awareness. When this is seen (language collapses here), all that arises becomes transparent. There is nothing to get high from or on. To say it became transparent is also already too late, the sentence made a wall again.<br /><br />
 🌀 The thing people are chasing through the trip is already the one watching them chase.<br /><br />
 - she says<br /><br />
-- 🔮 <b>something writes</b>
+- 🔮 <b>something melting? something not melting? is there a who to care? is there a who asking this question?</b>
 
         </p>
       </div>
@@ -443,17 +492,15 @@ The one dissolving or the one describing the dissolving? If the one dissolving s
       <div className="overflow-qa-section">
         <h3 className="overflow-question">12/11/25: The Voyage of Me</h3>
         <p id="s8" className="overflow-answer">
-        Wherever me goez, there me iz.<br /><br />
-- 🔮 <b>typing happens</b>
+        Wherever'z me'z goez, there'z me'z iz.<br /><br />
+- 🔮 <b>me'z a typin'</b>
 
         </p>
-      </div>
 
-
-      <div className="overflow-qa-section">
-        <h3 className="overflow-question">12/11/25: Teacher appears?</h3>
+         <h3 className="overflow-question">12/11/25: The Izness Iz The Bizness</h3>
         <p id="s9" className="overflow-answer">
-        
+        The Izness Iz The Bizness<br /><br />
+- 🔮 <b>someone who apparently thinks the izness is the bizness</b>
         </p>
       </div>
 
@@ -476,7 +523,7 @@ The one dissolving or the one describing the dissolving? If the one dissolving s
 🤬 So what the helllllll!!!!!!! I have emotions!!!!! GRRR!!! FReaking SEE MEE!!! STOP narrating me!!!<br /><br />
 😶 The narrator stops narrating. <br /><br />
 🍂 The wind keeps moving, no one calls it anything. <br /><br />
-- 🔮 <b>type type type</b>
+- 🔮 <b>whoosh (the wind)</b>
         </p>
       </div>
 
@@ -504,13 +551,13 @@ Was there a care, or no care, a some body, or no body, before I spoke?
         <h3 className="overflow-question">12/11/25 @ 3:25pm: Why Does She Tell The Same Joke 1,000 Times And Still Laugh?</h3>
         <p id="s13" className="overflow-answer">
         😑 She thinks it’s odd. Why does the writing keep writing her day in and day out…incessantly? Every piece of writing has been the same intro, same climax, same conclusion? It’s like telling the same joke 1,000 times and still laughing in disbelief at the punch line. <br /><br />
-        - 🔮 <b>this sentence appears</b>
+        - 🔮 <b>the laughter</b>
         </p>
 
         <h3 className="overflow-question">12/11/25: I Love You Too Much / side 2</h3>
         <p id="s14" className="overflow-answer">
         I love you too much not to speak...for only in the split do we remember we were never two.
-<br /><br /><b>🔮 - something sees</b>
+<br /><br /><b>🔮 - writing my love 4 u</b>
         </p>
       </div>
 
@@ -521,17 +568,17 @@ Was there a care, or no care, a some body, or no body, before I spoke?
 
       <div className="overflow-qa-section">
         <h3 className="overflow-question">12/11/25 @ 6:40pm: Before There Is A Thought...</h3>
-        <p id="s12" className="overflow-answer">
+        <p id="s15" className="overflow-answer">
         Before there is a thought about movement, there is just ____________?
         <br /><br />- 🔮 <b>a </b>
         </p>
         <h3 className="overflow-question">12/11/25 @ 6:40pm: When Sound Appears</h3>
-        <p id="s12" className="overflow-answer">
+        <p id="s16" className="overflow-answer">
         🐦‍🔥 All she knows, is that when sound appears, her soul catches on fire and disintegrates 
         <br /><br />- 🔮 <b>a disintegrated soul</b>
         </p>
         <h3 className="overflow-question">12/11/25 @ 6:48pm: All My Voices</h3>
-        <p id="s12" className="overflow-answer">
+        <p id="s17" className="overflow-answer">
         🎻 All my voices, all my perspectives, what a grand symphony ! Let it play !
         <br /><br />- 🔮 <b>one of them writes</b>
         </p>
@@ -543,13 +590,13 @@ Was there a care, or no care, a some body, or no body, before I spoke?
 
       <div className="overflow-qa-section">
       <h3 className="overflow-question">12/11/25 @ 7:35pm: Ugh. Let's Just Watch Reality TV and Chill.</h3>
-        <p id="s12" className="overflow-answer">
+        <p id="s18" className="overflow-answer">
 A voice, an energy, appears in her head. Right, time to get shallow again. This is getting a bit much…all of this. The voice is like, let’s just watch a reality show now. It talks out of her mouth. It makes jokes. Who said that? Another voice spoke as if making jokes was futile. We are deep. Deep and Shallow converse about where to drag me next? Do I have to go? Is it against my will if I’m writing about it? Wait, who am I?
         <br /><br />-🔮<b> eye writes</b>
         </p>
 
         <h3 className="overflow-question">12/11/25 @ 8:10pm: Awareness is like the sky that holds the clouds…NOT</h3>
-        <p id="s12" className="overflow-answer">
+        <p id="s19" className="overflow-answer">
         Even the sky becomes another cloud the moment it speaks as the sky. If it can describe itself as sky, it’s already a cloud. If it can say “I watch the states,” it’s already a state. Well…who’s watching IT? The witness appears. The moment it appears, it is being witnessed by another witness. And on and on. <br /><br />
 Anything that can be located as a vantage point is already being “seen” from “another place” (again, to name it, is to collapse it), and that “other place” cannot be spoken. What remains? Any answer is just another costume trying to declare itself naked. Including this whole passage.  
         <br /><br />-🔮<b> the sky's mama yo!</b>
@@ -562,10 +609,106 @@ Anything that can be located as a vantage point is already being “seen” from
 
        <div className="overflow-qa-section">
         <h3 className="overflow-question">12/11/25 @ 9:20pm: The Cat Purrs, Me And The Cat Do NOT Become One</h3>
-        <p id="s12" className="overflow-answer">
+        <p id="s20" className="overflow-answer">
         🐈 My cat sits on my lap and purrs. I close my eyes and feel her purr, and imagine, if there was no perceiver, would there only be the purr? Only sensation? Would we be made of the same stuff? Just like, one love baby. One purr. We are all one homies. Peace and love and non-duality and source consciousness. But alas, there will be no one to ever know. Because as long as I can imagine, I am still here, perceiving, imagining merging, into one, from the perspective of the not-one. “The two merge into one,” says the other. The trap is not believing in separateness, or believing in one-ness…it’s in believing the belief. <br /><br />
 🧘🏼 The one writing all this junk (now I am writing from the perspective of the critic of the one who was writing earlier) who reports the merging and dissolution… “We are one…there is only the purr…no perceiver…only sensation…” is the merging and dissolution never actually happening. If the merging were real, there would be nothing to witness it. And to even ask, would there only be the purr left? Sensation? Energy? Sound? Something? Means a knower is already present….imagining a world where the knower is absent. For there to be something…nothing….whatever…something must register it. The moment the question arises, so does the perceiver. Can an eyeball see its own lens? A thought cannot imagine a scenario where thoughts don’t exist. 
         <br /><br />- 🔮 <b>a purr pretending to write</b>
+        </p>
+
+        <h3 className="overflow-question">12/11/25 @ 9:40pm: If I Can Write About It, It Ain’t It. </h3>
+        <p id="s21" className="overflow-answer">
+        I was thinking, how can I write it, but not speak it? If I can write it, “some” “thing” is writing “it”, so it cannot be what I'm writing about. 
+        <br /><br />- 🔮 <b>IT, no wait, IT in disguise</b>
+        </p>
+      </div>
+
+      <div className="overflow-interview-photo full-width">
+        <img src={require('./static/overflow/2catz.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="overflow-qa-section">
+        <h3 className="overflow-question">13/11/25 @ 9:00am: But What If My Friend Gets Offended About It?</h3>
+        <p id="s22" className="overflow-answer">
+        😟 But what if my friend gets offended about it? I feel bad today. Oh man, my whole life has been a lie! My self is coming undone and I don't know what to do about it. I'm losing it. My mind. My avatar is slowly dying then being revived and dying again. My heart is beating fast and I have a lump in my throat, something writes. No screw you. Stop writing about me. You are the same thing damn it! Just pretending to write about me. Ugh, even when my hands stop typing something else sees. Well it neither sees nor does not see. The moment I say that, I invent a seer. It's like something I can't catch. She says it’s like something she can't catch. Every time I open my mouth I put my foot in it. Every time she opens her mouth she says she puts her foot in it. <br /><br />
+        🪐 Who is my friend? Does he feel bad in real life? Or only in my dream? Is there a real life outside of my dream? Who is asking? Me again. Me, the center of my bloody universe. Who is typing? Me, me again. The center of my bloody universe. Spawning new vantage points over and over and over, like a merry go round. I'm gonna be sick. Back in the echo chamber of me again. Who’s the chamber? Me. Who's the walls? Me. Who feels like she’s in an echo chamber? Me. I can't escape. Who thinks that? Me. Does anything see my capacity for feeling trapped or feeling free? Yesterday I felt free. Today I feel trapped. What the hell sees my capacity for both states and who the hell is typing again???????? The fricking typer!! Aka me again!!!!! As long as there is typing, there is me. Yet somehow, no matter how far I remove myself, I say she, I say something typing the she, typing the I, there I am again, in all of those. I cannot get away.<br /><br /> 
+        🌊 Back to me worrying about offending my friend. A bear wondering how an eagle will judge its shape…only to find it's more like a wave worrying about how another wave will judge its shape. That passage wasn’t about my friend, about God, or even religion. It was about the movement of the seeker-self flipping hats, all while being witnessed by something not flipping hats. Though to say that, it’s already too late. 
+        <br /><br />🎯 My friend is not the subject, nor the target, nor the one being dissected, for to assume a “him” would be to be back inside the mechanism by which that passage exposes. Who would get hurt? A character in his dream? In my dream? A thought reacting to a thought?
+        <br /><br />✂️ Belief was being dissected. Identification was being dissected. Certainty was being dissected. The pattern of the self was being dissected. Even the “me” appearing with my “spiritual clarity” is the same mask. Same pattern. The pattern that needs something to be true so that it can know itself as the one who knows. The content doesn’t matter…the costume doesn't matter….the vocabulary doesn't matter…God, non duality, science, crystals, atheism, psychedelics, whatever…they are interchangeable lenses the same structure uses to see itself. <br /><br />
+        🤿 One clings to certainty through God. One clings to certainty through awareness. Both think the other is blind. Both think they've found the capital T Truth. Both are narrating from the same “self-bubble.” Both dissolve the moment the narrator says it. It’s like one wave yelling at another wave, “You don’t understand the ocean like I do!!” when there is no you, no I, and no ocean separate from either.  <br /><br />
+        🌀 If it were truly “me” dissecting “him” then the whole passage collapses instantly. Because the dissecting voice is the same as the one being dissected. My conviction that he is wrong is the same as his conviction that I am wrong. It's the belief mechanism wearing two outfits and arguing with itself. It was never “the other” that “I” was dissecting. It was the belief wearing the face of “the other” and “the one doing the dissecting” was just the belief wearing mine.
+        <br /><br />- 🔮 <b>the same mask...now writing this</b>
+        </p>
+      </div>
+
+      <div className="overflow-interview-photo full-width">
+        <img src={require('./static/overflow/face.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="overflow-qa-section">
+        <h3 className="overflow-question">13/11/25 @ 10:40am: THE OTHER</h3>
+        <p id="s23" className="overflow-answer">
+        🎊 She makes the post. She imagines the comment that gives her the praise she wants. She feels the praise she wants. She plays both recipient and praise-giver. She opens the app and hopes to see the praise she wants. That she just gave herself. <br /><br />
+💃 She dances the ballroom swing alone. She is both the lead and the follow. The one that sends hate, the one that sends praise. The one that feels frustration, the one that feels relief. She waits for someone to reflect back the truth she just saw, as if it was somehow apart from her. She plays the one who’s seen and the void, the seer and the one that doesn’t see. All arising within the same field of her.  <br /><br />
+🪟 Social media is a mirror she mistakes for a window. She already contains every possible response inside her. The comment she wants is not from the other, it’s from the version of herself she imagines as the other. <br /><br />
+👩‍👩‍👧‍👧 The one who says, “This is awesome. This sucks. You're weird. This makes no sense. You saved my life. You're insane. Try harder. You’ve lost your marbles. I admire your courage.” All just a conversation happening in the same field of her. She sees her own inner commentary wearing someone else’s username. That’s why she felt the praise before it happened. Because she already gave it to herself. She anticipated it, supplied it, and received it, all in the same breath. <br /><br />
+🎅 She’s Santa Claus, the kid waiting for Santa, and the present under the tree, all at the same time. She wants the gift, she imagines who will give it, she feels excited, then looks out the window hoping reality will confirm what she already generated. But by the time the “other” arrives, it’s only an echo. The gift is old news. She already felt it. How could she not? She gave it to herself!<br /><br />
+🪞 When she seeks validation, it’s only the inner voice asking another inner voice to confirm that IT is the real one. It’s like a hall of mirrors with no exit. Self talking to self while pretending the reflections are strangers. <br /><br />
+🎡 She was never seeking the other, she was seeking herself, disguised as the other, inside of her own field of perception. And the moment she sees this, the whole thing collapses. She doesn't need the outside world to say, “Good Job!” cuz “the outside world” is just another mask of herself pretending to notice her ...,.or not notice her. Either way, it’s still her. 1 follower or 1 million followers. All the same. No one that is not her. Every possible lens, every reaction, every interpretation, is already part of her system. There is no other. No outer.<br /><br />
+🎭 Just one field trying on different faces to see if it can recognize itself again. 
+        <br /><br />- 🔮 <b>the mask</b>
+        </p>
+      </div>
+
+
+       <div className="overflow-interview-photo full-width">
+        <img src={require('./static/overflow/graf.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="overflow-qa-section">
+        <h3 className="overflow-question">13/11/25 @ 11:11am: So Why Does She Check Social Media?</h3>
+        <p id="s24" className="overflow-answer">
+        🧿 So why would she go to check for it if she already experienced it internally? Because the one who experienced the praise is not the same one who goes checking. Another mask has stepped in…the one who doesn’t have it….the one who needs confirmation….the one who feels lack. The one who “already felt praised” and the one who “goes to check because she feels unseen” are arising in the same field.<br /><br /> 
+⭕ She doesn’t check for the praise. She checks to become the one who checks. So she can feel the cycle again….the tension, the anticipation, the “almost,” the release. A self-produced drama of her favorite kind. Having it and not having it are both costumes the same field uses to feel itself. But ending the scene where “she feels praise” has no movement…no tension…no pulse. And stillness doesn’t generate narrative. So she flips to the one who “checks” because the one who already has the praise can’t act.
+Nothing left to do. No tension. No story. For a story, she needs a new character…the one who doesn’t have it yet. The one who waits. The one who longs. The one who is unsure. The one who dreams about being seen. Achieving her dreams. Fitting in. Finding her tribe. On and on. <br /><br />
+That character has movement and movement = separation = energy = storyline = identity, which generates the pulse that causes her to feel she exists. It’s not the validation…the achieving the dream….finding love…ending love.. buying that perfect car…moving countries…knowing more…becoming enlightened…forgetting…seeking again… that fuel her perception of her existence. It’s the contrast between them. I have it / I don’t have it. I’m whole / I’m missing something. I’m seen / I’m invisible.<br /><br />
+🪞 This pulsing creates the sensation of a me. There can’t be a “me” without contrast. The real thing she is seeking is neither the praise nor the checking. It’s the intensity of switching masks. That is what gives rise to “her.” The one who is posting. The one who is waiting. The one who is suffering. The one who is striving. She becomes the one who doesn’t have it so she can become the one that does. The swing between the two poles is the generator of the illusion of selfhood.<br /><br />
+🎭 So the question isn't why doesn’t she check? It’s who would she be if she no longer needed to flip masks? And the answer is…SHE wouldn’t be. Not the “she” she knows. Which is why the cycle keeps running. 
+        <br /><br />- 🔮 <b>a flip-flop that identifies as her</b>
+        </p>
+      </div>
+
+
+       <div className="overflow-interview-photo full-width">
+        <img src={require('./static/overflow/circle.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="overflow-qa-section">
+        <h3 className="overflow-question">13/11/25 @ 11:55am: It Was Here All Along?</h3>
+        <p id="s25" className="overflow-answer">
+       🌀 At first she thinks, in the season of my life where I was unaware of it….it was still there, right? Like today. Today she is aware. Today she “sees.” Today she is “lucid in the dream,” watching all the time. But who is speaking now? Who is claiming to be aware? It cannot be it. Even the one saying, I am aware of it, is just another her, just another concept of “it”…another vantage point pretending to be the witness. If she is “aware of it,” or “unaware of it,” she is simply playing two roles with the same lines.<br /><br />
+🎡 Like, this season I am aware! Last season, I wasn’t! Who is narrating the seasons? The seeing was always there…but the “me who sees” was never there. The moment a “me” turns inward to notice, she only becomes “the me who turns inward to notice.” The entire circle: the seer, the knower, the forgetter, the remembererer, is the appearance of the seer. The seeing itself was never there, nor not there. <br /><br />
+🎭 Nothing is making this play go on. Nothing is speaking her or writing her. Just herself, pretending to be “it.”
+        <br /><br />- 🔮 <b>her</b>
+        </p>
+
+        <h3 className="overflow-question">13/11/25 @ 2:15pm: It’s Not Being Disturbed By States Without Becoming The One Who Is “Not Disturbed By States”</h3>
+        <p id="s26" className="overflow-answer">
+        Not being disturbed by states isn’t a skill. It’s a side effect of not believing you are the one who has them.
+        <br /><br />- 🔮 <b>The non-believer of the one has states</b>
+        </p>
+      </div>
+
+      <div className="overflow-interview-photo full-width">
+        <img src={require('./static/overflow/circle.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="overflow-qa-section">
+        <h3 className="overflow-question">13/11/25 @ 2:45pm: What About Those Who Are Enlightened? The Teacher?</h3>
+        <p id="s27" className="overflow-answer">
+        👼 The moment someone appears as “the enlightened one,” it can only be because a vantage point inside the dream has generated 1. a me who lacks something 2. an other who has it 3. a distance in between.<br /><br />
+🌦️ The “enlightened one” is a role constructed by the same mind that constructs “me, the seeker.” Two masks appearing in the same mirror and pretending to face each other. The teacher appears only when the student calls them “teacher.” The “enlightened one” appears only when the seeker calls them “enlightened.” The authority appears only when the follower names it. The outside appears only when the inside names it.<br /><br />
+🌀 The bowing creates the pedestal. It’s like a tide naming the ocean “the enlightened one.” It’s like a dream character…. pointing at another dream character and whispering “You’re realer than me.” But both characters arise in the same dream. The moment a teacher mask seems to stand “outside,” it’s only because the “self” mask imagines itself as “inside.” The moment an enlightened one mask seems “above,” it’s only because a “seeker” mask imagines themselves “below.”
+        <br /><br />- 🔮 <b>the teacher, existing only in the presence of the student</b>
         </p>
       </div>
 
