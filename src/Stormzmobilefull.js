@@ -629,7 +629,7 @@ function Car() {
         <p id="s7" className="stormz-answer">
         I don’t really know. I’ve been trying to find an answer that sounds clear, but none of them feel true. It wasn’t about money necessarily. Or proving something. Maybe it just happened like that. Maybe I just wanted to start. Or maybe that’s the point…there isn’t always a clean reason. Sometimes you just follow a thread.
         </p>
-         <h3 className="stormz-question">Q: Where did you start on the car?</h3>
+        <h3 className="stormz-question">Q: Where did you start on the car?</h3>
         <p id="s8" className="stormz-answer">
         Strangely, on the interior. That felt safe and familiar. That part of me that says, “I can clean things. I can make things look beautiful.” Replacing the serpentine belt? Unfamiliar. Hard. Time consuming. I can clean fast. It’s weird though…to make the inside beautiful first when the car barely runs. That part of me was obsessed with getting the exact right air freshener. It’s like, Dude, the car doesn’t even work. And here I am mixing fragrance oils and buying a pretty light-up diffuser. Part of me enjoys the end. That part wanted to be done before I’d even started.
         </p>

@@ -344,6 +344,13 @@ function Overflow() {
         >
           What About Those Who Are Enlightened? The Teacher?
         </a>
+        <a
+          href="#s26"
+          onClick={(e) => handleLinkClick(e, 's26')}
+          className={`overflow-sidebar-link ${activeId === 's26' ? 'active' : ''}`}
+        >
+          "She" and "Something" Exist Only When They Are Together 
+        </a>
 
         </div>
       )}
@@ -699,16 +706,22 @@ That character has movement and movement = separation = energy = storyline = ide
       </div>
 
       <div className="overflow-interview-photo full-width">
-        <img src={require('./static/overflow/circle.webp')} alt="Oli Stormz" />
+        <img src={require('./static/overflow/orb.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="overflow-qa-section">
         <h3 className="overflow-question">13/11/25 @ 2:45pm: What About Those Who Are Enlightened? The Teacher?</h3>
         <p id="s27" className="overflow-answer">
-        👼 The moment someone appears as “the enlightened one,” it can only be because a vantage point inside the dream has generated 1. a me who lacks something 2. an other who has it 3. a distance in between.<br /><br />
-🌦️ The “enlightened one” is a role constructed by the same mind that constructs “me, the seeker.” Two masks appearing in the same mirror and pretending to face each other. The teacher appears only when the student calls them “teacher.” The “enlightened one” appears only when the seeker calls them “enlightened.” The authority appears only when the follower names it. The outside appears only when the inside names it.<br /><br />
-🌀 The bowing creates the pedestal. It’s like a tide naming the ocean “the enlightened one.” It’s like a dream character…. pointing at another dream character and whispering “You’re realer than me.” But both characters arise in the same dream. The moment a teacher mask seems to stand “outside,” it’s only because the “self” mask imagines itself as “inside.” The moment an enlightened one mask seems “above,” it’s only because a “seeker” mask imagines themselves “below.”
+        The moment someone appears as “the enlightened one,” it can only be because a vantage point inside the dream has generated 1. a me who lacks something 2. an other who has it 3. a distance in between.<br /><br />
+The “enlightened one” is a role constructed by the same mind that constructs “me, the seeker.” Two masks appearing in the same mirror and pretending to face each other. The teacher appears only when the student calls them “teacher.” The “enlightened one” appears only when the seeker calls them “enlightened.” The authority appears only when the follower names it. The outside appears only when the inside names it.<br /><br />
+🌀 The bowing creates the pedestal. It’s like a tide naming the ocean “the enlightened one.” It’s like a dream character…. pointing at another dream character and whispering “You’re realer than me.” But both characters arise in the same dream. The moment a "teacher" mask seems to stand “outside,” it’s only because the “self” mask imagines itself as “inside.” The moment an "enlightened one" mask seems “above,” it’s only because a “seeker” mask imagines themselves “below.”
         <br /><br />- 🔮 <b>the teacher, existing only in the presence of the student</b>
+        </p>
+      <h3 className="overflow-question">14/11/25 @ 8:45am: "She" and "Something" Exist Only When They Are Together </h3>
+        <p id="s27" className="overflow-answer">
+        She reflects…so every time there’s a “something”, and she opens her mouth to say it appears, or thinks it, she creates this separation? She reflects further, it seems beyond her saying or thinking that there is a “something,” as the mere perception of a “something” would imply a “her.” Because a something can only appear to a someone. The instant experience takes a shape, a thought, a feeling, a sentence, a noticing, a questioning…a perceiver is born alongside it. Call it her, call it I, call it he, call it she, call it the witness, the seer. They arrive together. They are the same event…<br /><br />
+There is never “experience” first, then a “she.” Or a “she” first, then “experience.” There is no “something” without a “her.” There is no “her” without a “something to be aware of.” 
+        <br /><br />- 🔮 <b>this sentence only writes, because there are words to be said</b>
         </p>
       </div>
 
