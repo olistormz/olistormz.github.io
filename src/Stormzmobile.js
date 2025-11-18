@@ -230,6 +230,14 @@ function Car() {
           17/11/25: What happens if something fails?
         </a>
 
+        <a
+          href="#s12"
+          onClick={(e) => handleLinkClick(e, 's12')}
+          className={`stormz-sidebar-link ${activeId === 's12' ? 'active' : ''}`}
+        >
+          18/11/25: What does she really want now?
+        </a>
+
 
         </div>
       )}
@@ -361,8 +369,17 @@ function Car() {
         <p id="s11" className="stormz-answer">
         She's stuck. Powerless. Six years old in a room too small for her fear. Holding all these things that aren’t hers. Trying to keep the peace. Reading danger in the air and running before the crash. And somewhere in her body, she still believes that if she just keeps moving, grows long legs, gets a car, drives fast enough, maybe she’ll finally reach peace. The exhale. The moment where nothing can be taken away. The end.
         </p>
-         
+        <h3 className="stormz-question">Q: What does she really want now?</h3>
+        <p id="s12" className="stormz-answer">
+        Not the false safety of done. The safety of belonging. Of being allowed to be unfinished, in process, and still feel safe.
+        </p>
        </div> 
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/seatbelt.webp')} alt="Oli Stormz" />
+      </div>
+         
+
 
 
 

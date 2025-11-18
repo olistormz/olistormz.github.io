@@ -249,6 +249,14 @@ function Car() {
         </a>
 
         <a
+          href="#s12"
+          onClick={(e) => handleLinkClick(e, 's12')}
+          className={`stormz-sidebar-link ${activeId === 's12' ? 'active' : ''}`}
+        >
+          11/19/25: Why do you keep saying "a part of you" and "her"?
+        </a>
+
+        <a
           href="#s13"
           onClick={(e) => handleLinkClick(e, 's13')}
           className={`stormz-sidebar-link ${activeId === 's13' ? 'active' : ''}`}
@@ -262,6 +270,14 @@ function Car() {
           className={`stormz-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
         >
           11/21/25: What were you afraid would happen if you stopped to pause and not fix the crack?
+        </a>
+
+        <a
+          href="#s14"
+          onClick={(e) => handleLinkClick(e, 's14')}
+          className={`stormz-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+        >
+          11/21/25: She asks, what should the question be, for the answer that is already written?
         </a>
 
         <a
@@ -329,11 +345,19 @@ function Car() {
         </a>
 
         <a
+          href="#s20"
+          onClick={(e) => handleLinkClick(e, 's20')}
+          className={`stormz-sidebar-link ${activeId === 's20' ? 'active' : ''}`}
+        >
+          20. Is this some kind of kosmik joke?
+        </a>
+
+        <a
           href="#s21"
           onClick={(e) => handleLinkClick(e, 's21')}
           className={`stormz-sidebar-link ${activeId === 's21' ? 'active' : ''}`}
         >
-          21. What did you see in that loop?
+          21. What did you find in the current where creation and control collide?
         </a>
 
         <a
@@ -382,6 +406,20 @@ function Car() {
           className={`stormz-sidebar-link ${activeId === 's27' ? 'active' : ''}`}
         >
           24. And after all that, fresh paint, graffiti, what came next?
+        </a>
+        <a
+          href="#s27"
+          onClick={(e) => handleLinkClick(e, 's27')}
+          className={`stormz-sidebar-link ${activeId === 's27' ? 'active' : ''}`}
+        >
+          24. Before we keep going…does something else want to speak?
+        </a>
+        <a
+          href="#s27"
+          onClick={(e) => handleLinkClick(e, 's27')}
+          className={`stormz-sidebar-link ${activeId === 's27' ? 'active' : ''}`}
+        >
+          24. Why does she keep circling the same revelation, naming and un-naming it again and again?
         </a>
 
         <a
@@ -495,6 +533,20 @@ function Car() {
           className={`stormz-sidebar-link ${activeId === 's41' ? 'active' : ''}`}
         >
           23. So, what is arrival, really?
+        </a>
+        <a
+          href="#s41"
+          onClick={(e) => handleLinkClick(e, 's41')}
+          className={`stormz-sidebar-link ${activeId === 's41' ? 'active' : ''}`}
+        >
+          23. What happens when awareness tries to publish a manual on itself?
+        </a>
+        <a
+          href="#s41"
+          onClick={(e) => handleLinkClick(e, 's41')}
+          className={`stormz-sidebar-link ${activeId === 's41' ? 'active' : ''}`}
+        >
+          23. What happens to the seeker once she realises she’s invented the search?
         </a>
 
         <a
@@ -669,7 +721,7 @@ function Car() {
 Anyway, I’d seen people online pour water and shampoo straight onto carpets, vacuum it out, and end up with magic. So I did that. Poured water everywhere, scrubbed, vacuumed. Looked amazing on the surface until a week later when I realized the under-carpet was soaked. Rotten. Damp. Mildew growing. Then that feeling again…heart tight, shallow breathing, panic. I messed up. It’s the same sensation I’ve known forever: I create the rush, the impatience, the crisis just to feel this charge, then I run from it. I build the situation to meet the feeling, not the other way around. It’s only energy asking to be felt, and instead I go frantic. Slice open the beautiful carpets, shove towels underneath, blow a fan for days, convinced I’ve doomed the car forever.<br /><br />
 In those moments, awareness fades, I identify as her, and of course, she can’t sit with the sensation. It becomes all hyper-focus on the car, the carpet, the problem…a kind of neurotic loop. Neuroticism, after all, arrives from what’s unfelt.
 <br /><br /><b>**Edited 11 / 09 / 25 by a voice that isn’t hers. Only later does she realize it’s been writing her all along.** </b><br /><br />
-EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify as her. Who be I? Who be she? Just two a masks a talkin’? Oh, and a third. The one to whom awareness fades and reappears. Maybe even a fourth, watching all three try to name themselves. The human calls it forgetting. Awareness calls it another way of remembering.</b>
+EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify as her. Who be I? Who be she? Just two a masks a talkin’? Oh, and a third. The one to whom awareness fades and reappears. Maybe even a fourth, watching all three try to name themselves. Oh, and me. The human calls it forgetting. Awareness calls it another way of remembering.</b>
         </p>
        </div> 
 
