@@ -238,6 +238,14 @@ function Car() {
           18/11/25: What does she really want now?
         </a>
 
+        <a
+          href="#s13"
+          onClick={(e) => handleLinkClick(e, 's13')}
+          className={`stormz-sidebar-link ${activeId === 's13' ? 'active' : ''}`}
+        >
+          19/11/25: So you started cleaning the inside? What was that like?
+        </a>
+
 
         </div>
       )}
@@ -377,6 +385,22 @@ function Car() {
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/seatbelt.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
+         <h3 className="stormz-question">Q: So you started cleaning the inside? What was that like?</h3>
+        <p id="s13" className="stormz-answer">
+        At first it felt good, that part of me thinking, ”Yeah, I’m doing something. Progress.” I wanted it spotless, new, reborn. The funny thing is it wasn’t even dirty. I could’ve just vacuumed. My action was totally overboard, that craving for new and shiny…to wipe the past away. Like, look, it’s unrecognizable now. When I wrote that word unrecognizable, I almost deleted it and replaced it with perfect, but I caught myself. I’m leaving it. It’s a paper trail of the psyche. <br /><br />
+Anyway, I’d seen people online pour water and shampoo straight onto carpets, vacuum it out, and end up with magic. So I did that. Poured water everywhere, scrubbed, vacuumed. Looked amazing on the surface until a week later when I realized the under-carpet was soaked. Rotten. Damp. Mildew growing. Then that feeling again…heart tight, shallow breathing, panic. I messed up. It’s the same sensation I’ve known forever: I create the rush, the impatience, the crisis just to feel this charge, then I run from it. I build the situation to meet the feeling, not the other way around. It’s only energy asking to be felt, and instead I go frantic. Slice open the beautiful carpets, shove towels underneath, blow a fan for days, convinced I’ve doomed the car forever.<br /><br />
+In those moments, awareness fades, I identify as her, and of course, she can’t sit with the sensation. It becomes all hyper-focus on the car, the carpet, the problem…a kind of neurotic loop. Neuroticism, after all, arrives from what’s unfelt.
+<br /><br /><b>**Edited 09 / 11 / 25 by a voice that isn’t hers. Only later does she realize it’s been writing her all along.** </b><br /><br />
+EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify as her. Who be I? Who be she? Just two a masks a talkin’? Oh, and a third. The one to whom awareness fades and reappears. Maybe even a fourth, watching all three try to name themselves. Oh, and me. The human calls it forgetting. Awareness calls it another way of remembering.</b>
+        </p>
+       </div> 
+
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/carpet.webp')} alt="Oli Stormz" />
       </div>
          
 
