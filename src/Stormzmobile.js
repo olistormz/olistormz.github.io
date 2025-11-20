@@ -245,6 +245,13 @@ function Car() {
         >
           19/11/25: So you started cleaning the inside? What was that like?
         </a>
+        <a
+          href="#s14"
+          onClick={(e) => handleLinkClick(e, 's14')}
+          className={`stormz-sidebar-link ${activeId === 's14' ? 'active' : ''}`}
+        >
+          20/11/25: Why do you keep saying "a part of you" and "her"?
+        </a>
 
 
         </div>
@@ -398,9 +405,20 @@ EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify a
         </p>
        </div> 
 
-
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/carpet.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: Why do you keep saying "a part of you" and "her"?</h3>
+        <p id="s14" className="stormz-answer">
+        <b>**Edited 08 / 11 / 25 by a voice from somewhere down the line.** <br /><br />
+        I didn’t write this question when I started. It came after, once I'd already written half the interview and realized something else was happening. I’m dropping it here like a breadcrumb from the future. Because by the time I got to the middle, I wasn't the same “I” who began. It started as a car story. A story about her, the one chasing, fixing, yearning. I’m sure you’ve met her by now. But who is the you who has met her? Who is asking? Somewhere along the way, the pronouns started to blur and shift from “she”, to “I”, to “parts of me.” Maybe that’s what this is, not a story, but awareness watching itself wake up, one question at a time. 
+        </b></p>
+       </div> 
+
+       <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/portal.webp')} alt="Oli Stormz" />
       </div>
          
 
