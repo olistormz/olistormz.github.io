@@ -253,6 +253,14 @@ function Car() {
           20/11/25: Why do you keep saying "a part of you" and "her"?
         </a>
 
+        <a
+          href="#s15"
+          onClick={(e) => handleLinkClick(e, 's15')}
+          className={`stormz-sidebar-link ${activeId === 's15' ? 'active' : ''}`}
+        >
+          21/11/25: Okay, so you ended up drying the carpet, then what?
+        </a>
+
 
         </div>
       )}
@@ -420,6 +428,21 @@ EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify a
        <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/portal.webp')} alt="Oli Stormz" />
       </div>
+
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: Okay, so you ended up drying the carpet, then what?</h3>
+        <p id="s15" className="stormz-answer">
+        Then it was the radio. You give a mouse some cheese, it wants a cookie. You feed the unconscious, it wants more. I wanted the radio to feel modern. Sleek. New. The old one worked fine, but I thought it dated the car. So I ripped it out without reading too much. Cracked the frame in the process. No problem, I thought. It’s going to the junkyard anyway. Wrong.<br /><br />
+One thing led to another, turns out the wiring in this version is complicated. Special amp. Extra harness. Rabbit hole. That part of me couldn’t deal with it. I just said, Nope. We’re not doing this. More parts. More waiting. More money. More confusion. So I tried to put the old one back in, and that damn crack killed me. I couldn’t bear to see it. My perfect dream car was slowly decaying, one piece at a time and the blood was all on my hands. Ripped carpet. Cracked radio. It was perfect before I touched it.<br /><br />
+Of course, rather than sit with the crack, I tried to buy another unit on eBay. Didn’t fit. Couldn’t even get the original radio apart to swap it. A hundred tiny screws, all stuck. I remember sitting there thinking: “Damn it, I just want to change the radio.” Go back to normal. Go back to how it was… beautiful, fine.
+Get away from this feeling. How am I back at square one… but worse?
+        </p>
+      </div> 
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/group.webp')} alt="Oli Stormz" />
+      </div>
+
          
 
 
