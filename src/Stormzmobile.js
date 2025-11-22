@@ -117,8 +117,8 @@ function Car() {
         const scrollPercent = (scrollY + windowHeight) / docHeight;
 
         // fade in around 40%–70% down the total document height
-        const showPoint = 0.7;
-        const hidePoint = 0.6;
+        const showPoint = 0.4;
+        const hidePoint = 0.3;
 
         if (!showFloatingHeart && scrollPercent > showPoint) {
           setShowFloatingHeart(true);
@@ -260,6 +260,15 @@ function Car() {
         >
           21/11/25: Okay, so you ended up drying the carpet, then what?
         </a>
+
+         <a
+          href="#s16"
+          onClick={(e) => handleLinkClick(e, 's16')}
+          className={`stormz-sidebar-link ${activeId === 's16' ? 'active' : ''}`}
+        >
+          22/11/25: What were you afraid would happen if you stopped to pause and not fix the crack?
+        </a>
+
 
 
         </div>
@@ -442,6 +451,14 @@ Get away from this feeling. How am I back at square one… but worse?
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/group.webp')} alt="Oli Stormz" />
       </div>
+
+       <div className="stormz-qa-section">
+       <h3 className="stormz-question">Q: What were you afraid would happen if you stopped to pause and not fix the crack?</h3>
+        <p id="s16" className="stormz-answer">
+        That I’d have to feel it. The thing under the thing. Not the car. Not the crack. The hum beneath my heart. I’d have to meet that hum without moving…and let it echo through me until it became my teacher instead of my master.
+        </p>
+       
+       </div> 
 
          
 
