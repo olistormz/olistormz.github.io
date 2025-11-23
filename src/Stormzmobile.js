@@ -252,7 +252,6 @@ function Car() {
         >
           20/11/25: Why do you keep saying "a part of you" and "her"?
         </a>
-
         <a
           href="#s15"
           onClick={(e) => handleLinkClick(e, 's15')}
@@ -260,13 +259,19 @@ function Car() {
         >
           21/11/25: Okay, so you ended up drying the carpet, then what?
         </a>
-
          <a
           href="#s16"
           onClick={(e) => handleLinkClick(e, 's16')}
           className={`stormz-sidebar-link ${activeId === 's16' ? 'active' : ''}`}
         >
           22/11/25: What were you afraid would happen if you stopped to pause and not fix the crack?
+        </a>
+         <a
+          href="#s17"
+          onClick={(e) => handleLinkClick(e, 's17')}
+          className={`stormz-sidebar-link ${activeId === 's17' ? 'active' : ''}`}
+        >
+          23/11/25: She asks, what should the question be, for the answer that is already written?
         </a>
 
 
@@ -456,6 +461,12 @@ Get away from this feeling. How am I back at square one… but worse?
        <h3 className="stormz-question">Q: What were you afraid would happen if you stopped to pause and not fix the crack?</h3>
         <p id="s16" className="stormz-answer">
         That I’d have to feel it. The thing under the thing. Not the car. Not the crack. The hum beneath my heart. I’d have to meet that hum without moving…and let it echo through me until it became my teacher instead of my master.
+        </p>
+        <h3 className="stormz-question">Q: She asks, what should the question be, for the answer that is already written?</h3>
+        <p id="s17" className="stormz-answer">
+        <b>**Edited 09 / 11 / 25 by the thing she can’t find a name for.**<br /><br />
+        It’s strange. The hum she called by a million names depending on who was speaking, rushing, seeking, anxiety, fear…the thing she thought would take lifetimes to fix or heal, was really the quiet engine of remembering. She’d believed she had an impossible task: to find peace, to calm her nervous system, to reach some far off finish line called healed. All true, in her dream. But that’s how she came home. All that compulsion, striving, thinking, cleaning, fixing, and rushing was the universe drawing breath through her lungs, getting ready to speak again. <br /><br />
+        She reflects, "What a cruel and tender joke, to make the wound the doorway and the ache the map back." Then she pauses. She thinks it needs work. She thinks it’s disjointed. She thinks she’s not sure if it lands the way she wants. She wants…she wants…and in that wanting, it lands exactly as it must. </b>
         </p>
        
        </div> 
