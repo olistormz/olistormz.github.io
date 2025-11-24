@@ -274,6 +274,14 @@ function Car() {
           23/11/25: She asks, what should the question be, for the answer that is already written?
         </a>
 
+        <a
+          href="#s18"
+          onClick={(e) => handleLinkClick(e, 's18')}
+          className={`stormz-sidebar-link ${activeId === 's18' ? 'active' : ''}`}
+        >
+          24/11/25: When you got busy with other stuff and the car sat there, what did the silence feel like?
+        </a>
+
 
 
         </div>
@@ -468,8 +476,15 @@ Get away from this feeling. How am I back at square one… but worse?
         It’s strange. The hum she called by a million names depending on who was speaking, rushing, seeking, anxiety, fear…the thing she thought would take lifetimes to fix or heal, was really the quiet engine of remembering. She’d believed she had an impossible task: to find peace, to calm her nervous system, to reach some far off finish line called healed. All true, in her dream. But that’s how she came home. All that compulsion, striving, thinking, cleaning, fixing, and rushing was the universe drawing breath through her lungs, getting ready to speak again. <br /><br />
         She reflects, "What a cruel and tender joke, to make the wound the doorway and the ache the map back." Then she pauses. She thinks it needs work. She thinks it’s disjointed. She thinks she’s not sure if it lands the way she wants. She wants…she wants…and in that wanting, it lands exactly as it must. </b>
         </p>
-       
+        <h3 className="stormz-question">Q: When you got busy with other stuff and the car sat there, what did the silence feel like?</h3>
+        <p id="s18" className="stormz-answer">
+        Like dreams dying. Momentum stopping. Progress halting. Stuck forever. Out of options. Confined. I’ll just wither and die here, in the land of unfinished projects. The land of potential. I hate that place.
+        </p>
        </div> 
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/djinails.webp')} alt="Oli Stormz" />
+      </div>
 
          
 
