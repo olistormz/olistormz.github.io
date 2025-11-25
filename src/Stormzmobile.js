@@ -282,6 +282,14 @@ function Car() {
           24/11/25: When you got busy with other stuff and the car sat there, what did the silence feel like?
         </a>
 
+        <a
+          href="#s19"
+          onClick={(e) => handleLinkClick(e, 's19')}
+          className={`stormz-sidebar-link ${activeId === 's19' ? 'active' : ''}`}
+        >
+          25/11/25: What were you really afraid of?
+        </a>
+
 
 
         </div>
@@ -485,6 +493,15 @@ Get away from this feeling. How am I back at square one… but worse?
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/djinails.webp')} alt="Oli Stormz" />
       </div>
+
+       <div className="stormz-qa-section">
+         <h3 className="stormz-question">Q: What were you really afraid of?</h3>
+        <p id="s19" className="stormz-answer">
+        Feeling powerless. Like I’m a passenger in my own life and someone else is driving, taking me somewhere I don’t want to go. Part of me has known that feeling since I was young, the sense of being trapped inside someone else’s will. Wanting out. Wanting the power to choose. 
+        </p>  
+
+      </div>
+
 
          
 
