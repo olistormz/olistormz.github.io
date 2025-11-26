@@ -289,6 +289,13 @@ function Car() {
         >
           25/11/25: What were you really afraid of?
         </a>
+        <a
+          href="#s20"
+          onClick={(e) => handleLinkClick(e, 's20')}
+          className={`stormz-sidebar-link ${activeId === 's20' ? 'active' : ''}`}
+        >
+          26/11/25: What words or thoughts would come up each time you looked at the car sitting still?
+        </a>
 
 
 
@@ -498,8 +505,15 @@ Get away from this feeling. How am I back at square one… but worse?
          <h3 className="stormz-question">Q: What were you really afraid of?</h3>
         <p id="s19" className="stormz-answer">
         Feeling powerless. Like I’m a passenger in my own life and someone else is driving, taking me somewhere I don’t want to go. Part of me has known that feeling since I was young, the sense of being trapped inside someone else’s will. Wanting out. Wanting the power to choose. 
-        </p>  
+        </p>
+        <h3 className="stormz-question">Q: What words or thoughts would come up each time you looked at the car sitting still?</h3>
+        <p id="s20" className="stormz-answer">
+        Decay. Unfinished. Pain. Reliance. Dependence. Stagnant. Death. Rot. Waste.
+        </p>
+      </div>
 
+       <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/hood.webp')} alt="Oli Stormz" />
       </div>
 
 
