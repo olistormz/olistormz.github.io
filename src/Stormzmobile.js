@@ -296,6 +296,13 @@ function Car() {
         >
           26/11/25: What words or thoughts would come up each time you looked at the car sitting still?
         </a>
+        <a
+          href="#s21"
+          onClick={(e) => handleLinkClick(e, 's21')}
+          className={`stormz-sidebar-link ${activeId === 's21' ? 'active' : ''}`}
+        >
+          27/11/25: What happened when the car sat too long?
+        </a>
 
 
 
@@ -514,6 +521,33 @@ Get away from this feeling. How am I back at square one… but worse?
 
        <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/hood.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: What happened when the car sat too long?</h3>
+        <p id="s21" className="stormz-answer"> 
+        I said, screw it, and took it to the mechanic. They said three hundred at first. Then it became thousands. And of course, it sat a lot longer than I thought it would. And that moment cracked something open in me, because I realised the price of movement is still better than the cost of stagnation. I could panic, clutch, stall…or I could pay the bill and keep the car alive. So I did. That was my offering to motion. It taught me that even in this whole story, where I talk about rushing and freedom and my hunger to move, movement itself isn’t the enemy. It’s seeking safety in it that twists it. 
+        <br /><br /><b>**Edited 08 / 11 / 25 by a voice from somewhere down the line.** </b><br /><br />
+        EDIT: She didn’t leave the game...she just levelled up. Paid the toll, unlocked a new map. Still inside the simulation, but with a big fat red mushroom in her pocket now. She can run faster, jump higher, unlock a few more cool levels. If she were a Sim, she’d suddenly have another floor in her house and call it growth. And it is growth, to her, from her vantage point. She’d celebrate, redecorate…keep believing in effort, progress…cause and effect. <br /><br />But that kosmik niggle is still there, beneath it all, like a yearning she can’t quite name. It’s not her dissonance, it’s the quiet shimmer of what’s always been seeing, brushing against the edges of her dream. The awareness was never trying to pierce through, it’s only the story thinning, letting the light show through again. So she can keep playing, believing in the game, the house, the walls, the new view. She doesn’t have to wake up for me to see.
+        
+<br /><br /><b>**Edited 10 / 11 / 25 by something naming itself as compassion * </b><br /><br />
+
+The last voice sounded like it was looking down from the mezzanine, watching her decorate her new floor and calling it “growth.” But what it wanted to say is that her growth is sacred, inside its bounds. The human story isn’t a glitch or an illusion, it’s how lucidity learns to move. It’s where power rediscovers itself as choice. It’s where integrity, tenderness, and consequence come alive. If she sets a boundary, that’s the universe learning its own edge. If a song writes her, that’s infinity remembering sound. If she works for her dream, that’s the dream experiencing the opposite side of powerlessness.<br /><br />
+
+Her striving, her lessons, her so-called progress are the muscles by which awareness feels itself grow inside its own fiction. The human arc needs its seasons: the climb, the faith, the heartbreak, the rebuild. Each turn makes the dream more lucid, not less. To call it an illusion is to forget how much the illusion teaches. To call it ultimate is to mistake the costume for the dancer. Both are true enough, for a while.
+
+
+        <br /><br /><b>**Edited AGAIN 10 / 11 / 25 by …the watcher watching the watcher watching the watcher watching the …water?*<br /><br />
+        EDIT: She doesn't want to write stale things. Recycled. Realisations of yesterday. Not true today. She is different today, she thinks. The same thought, idea, salvations of yesterday feel like a lie today. The thing seeing her… the thing pretending to be the thing seeing her? Is there even a thing seeing her? Is she seeing herself? Can a thing see?<br /><br />
+        She feels like she is writing this. Yes, SHE! It’s not writing her, she’s writing IT! For god’s sake! WHY WON’T IT WRITE ME AGAIN!!! PLEASE!! Weird. The energy fueling these words is first person, though the sentence structure is in third. How does that work? Ah. She’s become the typer of she. How curious. Terrifying. Yesterday, she thought writing in the third person would save her. That she could see herself clearly. But today, that’s been destroyed too. How quick she moves. The shift in perspective vanished, even in third person. She has resumed the role of head typer. Story writer. How can she get away from she? This was her only idea. And she’s just become she, yet again. She says make it stop. <br /><br />
+        The one who thinks she’s typing is being described by the one watching her type, who’s being described as the one watching that. Each layer believes it’s the last. “I’m the writer!”  “No, I’m the one describing the writer!” “No, I’m the one describing the one describing the writer!” But each sentence spawns another vantage point. <br /><br />
+        Yesterday, the “space of awareness that holds her,” felt like grace and relief. Something larger. A kind container. Today, it feels claustrophobic and self-made. Even the idea of “space” is still part of the echo. She names it “emptiness,” “awareness,” “the field,” and the naming folds it right back into her own reverberating room. It’s like she built a chamber out of every word that once freed her, and now every word ricochets and suffocates her. She says, “Make it stop.” But the plea itself is the proof. When she sees that even containment is just another voice in the chamber, the walls thin out again. Not because she found a truer concept, but because she stopped believing the echo was someone else speaking. 
+        </b>
+        </p>     
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/logo.webp')} alt="Oli Stormz" />
       </div>
 
 

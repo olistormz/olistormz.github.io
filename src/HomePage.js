@@ -31,6 +31,7 @@ import image11 from './static/image-11.webp';
 import image12 from './static/image-12.webp';
 import image13 from './static/image-13.webp';
 import image15 from './static/image-15.webp';
+import image16 from './static/image-16.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -52,16 +53,16 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function HomePage() {
   const elements = [
-    // SHEKADI
+    // BIG FIN
     {
-      image: image15,
-      videoUrl: 'https://www.youtube.com/embed/e8MQzUMtIow?si=pL1726XStbMfrJ0h',
-      title: 'Shekadi: Released 10.31.25',
-      description: 'Inspired by the Shekere & West African Traditions',
+      image: image16,
+      videoUrl: 'https://www.youtube.com/embed/2PvPM2fOVxs?si=eCRiUmsMnGEd7C_F',
+      title: 'Big Fin: Released 11.28.25',
+      description: 'I invented the game, of course I win.',
       links: [
-        { label: 'Short', url: 'https://www.youtube.com/shorts/XlXiFbN1D9Y' },
-        { label: 'Reel', url: 'https://www.instagram.com/p/DQZQNEXgHs_/' },
-        { label: 'Spotify', url: 'https://open.spotify.com/album/55CKtiQiZi6To0x52QAAxc' },
+        { label: 'Short', url: 'https://www.youtube.com/shorts/PjN9Qes5UWE' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DRe7cmrjYML/' },
+        { label: 'Spotify', url: '/' },
       ],
       animation: 'float3', // Unique animation class
     },
@@ -75,6 +76,26 @@ function HomePage() {
       isPostIt: true,
       backgroundColor: '#FFEE8C',
       animation: 'float1',
+    },
+    // SHEKADI
+    {
+      image: image15,
+      videoUrl: 'https://www.youtube.com/embed/e8MQzUMtIow?si=pL1726XStbMfrJ0h',
+      title: 'Shekadi: Released 10.31.25',
+      description: 'Inspired by the Shekere & West African Traditions',
+      links: [
+        { label: 'Short', url: 'https://www.youtube.com/shorts/XlXiFbN1D9Y' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DQZQNEXgHs_/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/55CKtiQiZi6To0x52QAAxc' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
+    // Post-it Note 2
+    {
+      noteText: 'Alignment is what your field says before you speak.',
+      isPostIt: true,
+      backgroundColor: '#B0E0E6', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
     // Every Time U Come Around
     {
