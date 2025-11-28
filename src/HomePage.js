@@ -60,9 +60,9 @@ function HomePage() {
       title: 'Big Fin: Released 11.28.25',
       description: 'I invented the game, of course I win.',
       links: [
-        { label: 'Short', url: 'https://www.youtube.com/shorts/PjN9Qes5UWE' },
+        { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DRe7cmrjYML/' },
-        { label: 'Spotify', url: '/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/0Kfq6ONYChymGZqm1sU8rE?si=9isQUuDTTli7hKDhdcMZPw' },
       ],
       animation: 'float3', // Unique animation class
     },
