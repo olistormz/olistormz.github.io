@@ -310,6 +310,13 @@ function Car() {
         >
           28/11/25: When did it stop being about the car?
         </a>
+        <a
+          href="#s23"
+          onClick={(e) => handleLinkClick(e, 's23')}
+          className={`stormz-sidebar-link ${activeId === 's23' ? 'active' : ''}`}
+        >
+          29/11/25: That tendency, to want to “just get it right,” do you do that often? Version 1
+        </a>
 
 
 
@@ -472,7 +479,8 @@ EDIT: <b>It’s funny, isn’t it? She says awareness fades. I says I identify a
         <h3 className="stormz-question">Q: Why do you keep saying "a part of you" and "her"?</h3>
         <p id="s14" className="stormz-answer">
         <b>**Edited 08 / 11 / 25 by a voice from somewhere down the line.** <br /><br />
-        I didn’t write this question when I started. It came after, once I'd already written half the interview and realized something else was happening. I’m dropping it here like a breadcrumb from the future. Because by the time I got to the middle, I wasn't the same “I” who began. It started as a car story. A story about her, the one chasing, fixing, yearning. I’m sure you’ve met her by now. But who is the you who has met her? Who is asking? Somewhere along the way, the pronouns started to blur and shift from “she”, to “I”, to “parts of me.” Maybe that’s what this is, not a story, but awareness watching itself wake up, one question at a time. 
+        I didn’t write this question when I started. It came after, once I'd already written half the interview and realized something else was happening. I’m dropping it here like a breadcrumb from the future. Because by the time I got to the middle, I wasn't the same “I” who began. 
+        <br /><br />It started as a car story. A story about her, the one chasing, fixing, yearning. I’m sure you’ve met her by now. But who is the you who has met her? Who is asking? Somewhere along the way, the pronouns started to blur and shift from “she”, to “I”, to “parts of me.” Maybe that’s what this is, not a story, but awareness watching itself wake up, one question at a time. 
         </b></p>
        </div> 
 
@@ -557,7 +565,14 @@ Get away from this feeling. How am I back at square one… but worse?
         <p id="s22" className="stormz-answer">
         It was never about the car. But she needed six months to find that out…or to believe she did. From her view, it was the way to finally get it right, to make the world match her inner picture. From here, it’s clearer: she wasn’t meeting herself; she was being met by the seeing. She ran the show for a while. Painted, fixed, planned, pushed. Even the moment she said “I’ve realised it wasn’t about the car” was still her line…the identity claiming insight. But the real shift was quieter: the seeing of her doing all that. That’s when the story loosened. Not because she changed, but because she was seen. Because she never was the one seeing.
         </p>  
-      
+        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 1</h3>
+        <p id="s23" className="stormz-answer">
+        A part of me does. With my Kora, it arrived brown, and that part of me wanted it black. I told myself I’d dye it, make it right. And that part of me did. And somehow, it was never right. But that’s the same old setup: the promise that relief lives in the external. If I just buy this, change this, have that, it will be perfect.
+        </p>
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/seat.webp')} alt="Oli Stormz" />
       </div>
 
 
