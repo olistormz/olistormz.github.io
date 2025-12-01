@@ -324,6 +324,13 @@ function Car() {
         >
           30/11/25: That tendency, to want to “just get it right,” do you do that often? Version 2
         </a>
+         <a
+          href="#s25"
+          onClick={(e) => handleLinkClick(e, 's25')}
+          className={`stormz-sidebar-link ${activeId === 's25' ? 'active' : ''}`}
+        >
+          1/12/25: That tendency, to want to “just get it right,” do you do that often? Version 3
+        </a>
 
 
 
@@ -595,6 +602,19 @@ I’m not in the business of watching life from a safe distance, trying not to m
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/cheetahstand.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 3</h3>
+        <p id="s25" className="stormz-answer">
+        She keeps picking the almost version, then hustling to turn the almost into the thing she actually wanted. She sets up the pattern just so she can watch herself do it. So I can see myself seeing. It’s not the perfect radio that she wants. The black Kora. The brand new carpets. The perfect paint job. The matte black Audi R8. Those are just costumes…temporary skins for the same ache. What she’s really chasing is the feeling she perceives is behind them, the fantasy of arriving somewhere untouched. The pristine-ness, the new-ness, the untainted, the completion, the relief, the place where nothing hurts. Her idea of the end of suffering, from her vantage point, seen from within the dream. <br /><br />
+But really, she’s chasing the polarity itself. The current between the chaser and the chased. The swing that gives rise to striving, the striving that gives rise to story, and the story that gives rise to meaning. That’s the engine of her existence. How could it not be? From the moment she “came into the world,” as she perceives herself to have done so, she was bombarded with stories. Her name. Her birthday. The city she was born in. What she likes. What she fears. Who she’s supposed to become. Even the date she’ll die someday…all of it, a narrative scaffold around a center that was never actually there. So of course she builds her life around motion, chasing the next chapter, the next version, the next self. Because the swing keeps the story alive. The story keeps her alive. And as long as I think I’m her, yes, I’ll keep meeting myself in every car, every house, every moment of striving. <br /><br />
+But who’s talking now? Who’s seeing her? Who’s containing all of them? The ones who desire, reject, strive, hate, love, push, pull, repent, repeat? Do they need to be corrected? To renounce desire? Who would be the one correcting them, if not yet another one of them? Teacher face correcting student face. Spiritual-hat commanding true-self-hat. No. They just have to be seen. That’s all. Why try to change what I’m not? Why fix what was never broken? Awareness doesn’t need to edit the dream, only notice it’s dreaming.
+        </p>
+      </div>  
+
+       <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/glare.webp')} alt="Oli Stormz" />
       </div>
 
 

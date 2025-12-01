@@ -856,7 +856,6 @@ But who’s talking now? Who’s seeing her? Who’s containing all of them? The
         </p>
       </div>  
 
-
        <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/glare.webp')} alt="Oli Stormz" />
       </div>
