@@ -317,6 +317,13 @@ function Car() {
         >
           29/11/25: That tendency, to want to “just get it right,” do you do that often? Version 1
         </a>
+        <a
+          href="#s24"
+          onClick={(e) => handleLinkClick(e, 's24')}
+          className={`stormz-sidebar-link ${activeId === 's24' ? 'active' : ''}`}
+        >
+          30/11/25: That tendency, to want to “just get it right,” do you do that often? Version 2
+        </a>
 
 
 
@@ -573,6 +580,21 @@ Get away from this feeling. How am I back at square one… but worse?
 
       <div className="stormz-interview-photo full-width">
         <img src={require('./static/car/seat.webp')} alt="Oli Stormz" />
+      </div>
+
+      <div className="stormz-qa-section">
+        <h3 className="stormz-question">Q: That tendency, to want to “just get it right”, do you do that often? Version 2</h3>
+        <p id="s24" className="stormz-answer">
+        I don’t know if it’s about “getting it right.” It’s more that a part of me feels the pull of what she wants, the ache of the thing she can’t quite have. Always just beyond reach. When I bought my Kora, there was a black one, sleek, beautiful, exactly what I wanted, but it was triple the price and would’ve taken six months to arrive. So I bought the brown one instead and told myself I’d dye it, make it right. But of course, it never really was. <br /><br />
+The Kora wasn’t asking to be black. A part of me was. Trying to turn what she had into what she couldn’t have. And why couldn’t she have it? Because life wouldn’t let her sleepwalk through the illusion. It was protecting her, always trying to wake her up. Showing her that the ache itself was the doorway. That the wanting was never about the thing, it was the hand pulling her into suffering as “the one that wants and can't have” so that awareness could witness her. <br /><br />
+I’m here, writing her. The one who wanted. The one who ached. The one who looped. But if I can see her, her patterns, her pain, her identity, narrate her, from a place outside of her, then I can’t be her. Which means there’s something else here. <br /><br />
+And now back to a voice that wants to speak, “And that impulse to fix, to change, to adjust, where does it really come from? Trauma? Taste? Preference? Avoidance? Love? Beauty? Do we just like what we like? Is it just a quiet knowing in your gut that something could be more alive? More harmonious? More disruptive? More striking? More expressive? Different than what it is? The brown didn’t move me, it didn’t sing. Maybe other people can’t understand why. Why change something already perfect? Why destroy the carpet? Crack the radio? Maybe I’ve internalized those voices and this is my rebellion. Maybe it’s the story of being human, this itch. How do you think I’m even able to write this? On a high-speed laptop, for the world to see, with color photos and code I wrote myself? It’s that same thing: the drive to move, to make, to meet what wants to exist.<br /><br />
+I’m not in the business of watching life from a safe distance, trying not to mess up. I’m a conscious participant. So I have to go through it. Feel it. Break it. Mess up just to remember. Just to ask, what does “messing up” even mean? Does it exist? When does vision turn into escape?”
+        </p>
+      </div>
+
+      <div className="stormz-interview-photo full-width">
+        <img src={require('./static/car/cheetahstand.webp')} alt="Oli Stormz" />
       </div>
 
 
