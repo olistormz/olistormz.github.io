@@ -1,0 +1,211 @@
+.stormz-nav {
+  position: sticky; /* stays at top, scrolls with page */
+  top: 0;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.0);
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  z-index: 3000; /* ABOVE sidebar & buttons */
+  pointer-events: none; /* ← navbar itself ignores pointer events */
+}
+
+.stormz-nav > * {
+  pointer-events: auto !important;
+}
+
+/* All navbar active states */
+.stormz-nav > *.active {
+  background: transparent;
+  border: 2px solid #333;
+  color: #333;
+  transform: scale(1.05);
+  font-weight: bold;
+}
+
+@media (min-width: 769px) {
+  /* When ANY sidebar is open on ANY page, shift navbar */
+  .sidebar-container-open .stormz-nav,
+  .overflow-sidebar-open .stormz-nav,
+  .stormz-sidebar-open .stormz-nav,
+  .alt-sidebar-open .stormz-nav {
+    margin-left: 240px;
+  }
+
+  /* When ANY sidebar is closed */
+  .sidebar-collapsed .stormz-nav,
+  .overflow-sidebar-collapsed .stormz-nav,
+  .stormz-sidebar-collapsed .stormz-nav,
+  .alt-sidebar-collapsed .stormz-nav {
+    margin-left: 0;
+  }
+}
+
+
+/* UNFOLD I */
+
+.nav-unfoldI {
+  top: 5px;
+  left: 5px;
+  background-color: #FBAED2;
+  color: #000000;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-unfoldI:hover {
+  transform: scale(1.05);
+  background-color: #FBAED2;
+}
+
+/*UNFOLD2*/
+
+.nav-unfoldII {
+  top: 10px;
+  left: 10px;
+  background-color: #E6E6FA;
+  color: #333;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-unfoldII:hover {
+  transform: scale(1.05);
+  background-color: #E6E6FA;
+}
+
+/* UNFOLD3 */
+
+.nav-unfoldIII {
+  top: 10px;
+  left: 10px;
+  background-color: #DAF0F7;
+  color: #333;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-unfoldIII:hover {
+  transform: scale(1.05);
+  background-color: #DAF0F7;
+}
+
+
+/* UNFOLD4 */
+
+.nav-unfoldIV {
+  top: 10px;
+  left: 10px;
+  background-color: #FFDBBB;
+  color: #333;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-unfoldIV:hover {
+  transform: scale(1.05);
+  background-color: #FFDBBB;
+}
+
+
+/* MUSIC */
+
+.nav-music {
+  top: 5px;
+  left: 5px;
+  background-color: #C8A2C8;
+  color: #FFFFFF;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-music:hover {
+  transform: scale(1.05);
+  background-color: #C8A2C8;
+}
+
+/* DONATE */
+
+.nav-donate {
+  top: 5px;
+  left: 5px;
+  background-color: #7CA37C;
+  color: #FFFFFF;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.12); opacity: 1; }
+}
+.nav-donate {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+
+@media (max-width: 768px) {
+
+  /* tighten navbar */
+  .stormz-nav {
+    gap: 0.25rem;       /* MUCH smaller space between buttons */
+    padding: 0.3rem 0;  /* thinner navbar height */
+    flex-wrap: wrap;    /* allow 2 lines if needed */
+  }
+
+  /* shrink all nav buttons */
+  .stormz-nav > * {
+    padding: 4px 8px;          /* smaller touch size */
+    font-size: 0.8rem;        /* small text */
+    border-radius: 20px;       /* smaller pill shape */
+    margin: 0;                 /* remove any leftover gaps */
+    box-shadow: none;          /* optional: cleaner mobile look */
+  }
+
+  /* optional: make active state smaller too */
+  .stormz-nav > *.active {
+    transform: scale(1.02);    /* gentle instead of large pulse */
+  }
+}

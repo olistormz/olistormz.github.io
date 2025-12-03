@@ -320,11 +320,11 @@ function Interview() {
 
 
     <div className="interview-page">
-      <div className="interview-button-container">
-        <Link to="/home" className="interview-home-button">HOMEPAGE</Link><Link to="/stormzmobile" className="interview-stormzmobile-button">STORMZMOBILE</Link>
-      </div>
      
       <h1 className="interview-title">I Inter-Galactically-Viewed Myself</h1>
+      <h2 className="interview-log">
+      <s>Log Opened: June 30, 2025 | Log Closed: July 31, 2025</s>
+      </h2>  
       <h2 className="interview-subtitle">
       This isn’t press. It’s prophecy. Press-ophecy. 
       <br />
@@ -614,9 +614,9 @@ Just… allow. I can’t believe it took so long… to finally just begin to get
       </div>
 
       <h2 className="interview-subtitle">
-      Good Golly Molly. Ms. Jackson, I'm sorry.<br /><br />I ate the cookies in the cookie jar and now I'm Tip Tallin.<br /><br />This isn't content, it's Odyssey.<br /><br />1 subconscious lobotomy.<br /><br />When a venus fly trap snaps,<br /><br />There's no going back to the lobby...<br /><br />Mother of Pearl, I've lost it.<br /><br />Debating with the Sock Heads.<br /><br />Don’t count me out,<br /><br />I’m right on time,<br /><br />Why, I’m just getting started.<br /><br />An Oli Stormz Industriez Producshun. [TM]
+      Good Golly Molly. Ms. Jackson, I'm sorry.<br /><br />I ate the cookies in the cookie jar and now I'm Tip Tallin.<br /><br />This isn't content, it's Odyssey.<br /><br />1 subconscious lobotomy.<br /><br />When a venus fly trap snaps,<br /><br />There's no going back to the lobby...<br /><br />Mother of Pearl, I've lost it.<br /><br />Debating with the Sock Heads.<br /><br />Don’t count me out,<br /><br />I’m right on time,<br /><br />Why, I’m just getting started.
       </h2>
-      <h2 className="interview-website-tag"> um and yeah my single Every Time U Come Around drops September 12th </h2>
+      <h2 className="interview-website-tag">An Oli Stormz Industriez Producshun. [TM]</h2>
 
     </div>
 

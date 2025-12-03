@@ -39,6 +39,17 @@ body {
   letter-spacing: 2px;
 }
 
+.overflow-log {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 200;
+  color: #666;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+  margin: 30px 0;
+  letter-spacing: 2px;
+}
+
 .overflow-website-tag {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
@@ -111,97 +122,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* ✅ ADDED: Wrapper for back button to make it responsive */
-.overflow-button-container {
-  display: flex;
-  justify-content: flex-end; /* right-align on desktop */
-  padding: 1rem 2rem;
-}
-
-.overflow-stormzmobile-button {
-  top: 5px;
-  left: 5px;
-  background-color: #FBAED2;
-  color: #FFFFFF;
-  padding: 8px 16px; /* Increased padding for better tap area */
-  border-radius: 50px;
-  font-family: "Jersey 15", sans-serif;
-  font-size: 1.2rem; /* Slightly larger font size */
-  border: none;
-  text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  z-index: 1000;
-}
-.overflow-stormzmobile-button:hover {
-  transform: scale(1.05);
-  background-color: #ffc0cb;
-}
-
-.overflow-interview-button {
-  top: 10px;
-  left: 10px;
-  background-color: #E6E6FA;
-  color: #333;
-  padding: 8px 16px; /* Increased padding for better tap area */
-  border-radius: 50px;
-  font-family: "Jersey 15", sans-serif;
-  font-size: 1.2rem; /* Slightly larger font size */
-  border: none;
-  text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  z-index: 1000;
-}
-.overflow-interview-button:hover {
-  transform: scale(1.05);
-  background-color: #ffc0cb;
-}
-
-.overflow-home-button {
-  top: 5px;
-  left: 5px;
-  background-color: #C8A2C8;
-  color: #FFFFFF;
-  padding: 8px 16px; /* Increased padding for better tap area */
-  border-radius: 50px;
-  font-family: "Jersey 15", sans-serif;
-  font-size: 1.2rem; /* Slightly larger font size */
-  border: none;
-  text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  z-index: 1000;
-}
-.overflow-home-button:hover {
-  transform: scale(1.05);
-  background-color: #ffc0cb;
-}
-
-.overflow-pp-button {
-  top: 5px;
-  left: 5px;
-  background-color: #EE82EE;
-  color: #FFFFFF;
-  padding: 8px 16px; /* Increased padding for better tap area */
-  border-radius: 50px;
-  font-family: "Jersey 15", sans-serif;
-  font-size: 1.2rem; /* Slightly larger font size */
-  border: none;
-  text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  z-index: 1000;
-}
-@keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 0.85; }
-  50% { transform: scale(1.12); opacity: 1; }
-}
-
-.overflow-pp-button {
-  animation: pulse 4s ease-in-out infinite;
-}
-
 .overflow-pp-fade-button {
   position: fixed;
   bottom: 40px;
@@ -231,7 +151,7 @@ body {
 }
 
 .overflow-pp-fade-button:hover {
-  background-color: #00a000;
+  background-color: #522081;
   transform: scale(1.1);
 }
 
@@ -286,7 +206,7 @@ body {
   transform: translateX(0);
 }
 
-.overflow-sidebar-collapsed .stormz-sidebar-container {
+.overflow-sidebar-collapsed .overflow-sidebar-container {
   transform: translateX(-100%);
   position: absolute;
   left: 0;
@@ -357,7 +277,7 @@ body {
     max-width: 300px;
     top: 0;
     left: 0;
-    height: 100vh;
+    bottom: 0;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     position: fixed; /* ✅ Ensure sidebar stays visible while scrolling on mobile */
@@ -379,38 +299,7 @@ body {
   .overflow-interview-layout {
     flex-direction: column;
   }
-  .overflow-button-container {
-    justify-content: center; /* ✅ Centered on small screens */
-    padding: 1rem;
-  }
-
-  .overflow-inteview-button {
-    top: 8px;
-    left: 8px;
-    font-size: 0.95rem; /* Still slightly smaller for mobile */
-    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
-  }
-
-  .overflow-stormzmobile-button {
-    top: 8px;
-    left: 8px;
-    font-size: 0.95rem; /* Still slightly smaller for mobile */
-    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
-  }
-
-  .overflow-home-button {
-    top: 8px;
-    left: 8px;
-    font-size: 0.95rem; /* Still slightly smaller for mobile */
-    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
-  }
-
-  .overflow-pp-button {
-    top: 8px;
-    right: 8px;
-    font-size: 0.95rem; /* Still slightly smaller for mobile */
-    padding: 8px 14px;  /* Keep bigger padding for touch-friendliness */
-  }
+  
   .overflow-pp-fade-button {
     bottom: 8px;
     right: 8px;

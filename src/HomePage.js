@@ -32,6 +32,7 @@ import image12 from './static/image-12.webp';
 import image13 from './static/image-13.webp';
 import image15 from './static/image-15.webp';
 import image16 from './static/image-16.webp';
+import image17 from './static/image-17.webp';
 
 // IMAGES
 import noclickimage1 from './static/noclickimage-1.webp';
@@ -53,6 +54,26 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function HomePage() {
   const elements = [
+    // IN YA FACE
+    {
+      image: image17,
+      videoUrl: 'https://www.youtube.com/embed/2PvPM2fOVxs?si=eCRiUmsMnGEd7C_F',
+      title: 'IN YA FACE: Released 13.12.25',
+      description: 'Karmic contract: closed. Transmission delivered.',
+      links: [
+        { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DRe7cmrjYML/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/0Kfq6ONYChymGZqm1sU8rE?si=9isQUuDTTli7hKDhdcMZPw' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
+    // Post-it Note 2
+    {
+      noteText: 'The art happens without an artist.',
+      isPostIt: true,
+      backgroundColor: '#FFEE8C', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // BIG FIN
     {
       image: image16,
@@ -66,16 +87,12 @@ function HomePage() {
       ],
       animation: 'float3', // Unique animation class
     },
-     // INTERVIEW POST IT
+    // Post-it Note 2
     {
-      noteText: (
-        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-        I Inter-Galactically viewed Myself (CLICK ME)
-        </Link>
-      ),
+      noteText: 'These blue mountains have witnessed the unfolding',
       isPostIt: true,
-      backgroundColor: '#FFEE8C',
-      animation: 'float1',
+      backgroundColor: '#FFDEAD', // Example pastel color
+      animation: 'float1', // Unique animation class
     },
     // SHEKADI
     {
@@ -347,26 +364,6 @@ function HomePage() {
       backgroundColor: '#bae1ff', // Example pastel color
       animation: 'float1', // Unique animation class
     },
-    // What The Officer Said
-    {
-      image: image1,
-      videoUrl: 'https://www.youtube.com/embed/jINjek6prIk',
-      title: 'What The Officer Said: Debut 6.6.24',
-      description: 'My debut. Improvised in one take...deep meanings to be found?',
-      links: [
-        { label: 'Lyrics', url: 'https://youtu.be/24jJIePbmMo' },
-        { label: 'Reel', url: 'https://www.instagram.com/p/C8ZcOepNlLi/' },
-        { label: 'Spotify', url: 'https://open.spotify.com/album/6GLwkFoC9b5yfQlEw7TXKQ' },
-      ],
-      animation: 'float4', // Unique animation class
-    },
-      // Post-it Note 1
-    {
-      noteText: 'leave someone alone too long and they blow thru barriers.',
-      isPostIt: true,
-      backgroundColor: '#FFDEAD', // Example pastel color
-      animation: 'float1', // Unique animation class
-    },
     // Driftin
     {
       image: image2,
@@ -377,6 +374,26 @@ function HomePage() {
         { label: 'Lyrics', url: 'https://youtu.be/rdFQalUYEwk' },
         { label: 'Reel', url: 'https://www.instagram.com/p/C9Hd6A3NkKu/' },
         { label: 'Spotify', url: 'https://open.spotify.com/track/4apOH7UZYFmrt5Fyc32Q5J' },
+      ],
+      animation: 'float4', // Unique animation class
+    },
+      // Post-it Note 1
+    {
+      noteText: 'leave someone alone too long and they blow thru barriers.',
+      isPostIt: true,
+      backgroundColor: '#FFDEAD', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
+    // What The Officer Said
+    {
+      image: image1,
+      videoUrl: 'https://www.youtube.com/embed/jINjek6prIk',
+      title: 'What The Officer Said: Debut 6.6.24',
+      description: 'My debut. Improvised in one take...deep meanings to be found?',
+      links: [
+        { label: 'Lyrics', url: 'https://youtu.be/24jJIePbmMo' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/C8ZcOepNlLi/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/6GLwkFoC9b5yfQlEw7TXKQ' },
       ],
       animation: 'float4', // Unique animation class
     },
@@ -435,9 +452,6 @@ function HomePage() {
           <a href="https://www.instagram.com/olistormz" target="_blank" rel="noopener noreferrer">
             <img src={instagramIcon} alt="Instagram" className="social-icon" />
           </a>
-          <a href="https://www.tiktok.com/@olistormz" target="_blank" rel="noopener noreferrer">
-            <img src={tiktokIcon} alt="TikTok" className="social-icon" />
-          </a>
         </div>
         <div className="social-media-group">
           <a href="https://www.youtube.com/@olistormz" target="_blank" rel="noopener noreferrer">
@@ -445,9 +459,6 @@ function HomePage() {
           </a>
           <a href="https://open.spotify.com/artist/0qLSNquxJm7uXg5SRUlYgj/discography/all" target="_blank" rel="noopener noreferrer">
             <img src={spotifyIcon} alt="Spotify" className="social-icon" />
-          </a>
-          <a href="mailto:management@olistormz.com" aria-label="Email Management">
-            <img src={require('./static/email.png')} alt="Email" className="social-icon email-icon" />
           </a>
         </div>
       </div>

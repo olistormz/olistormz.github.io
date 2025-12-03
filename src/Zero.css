@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 
-.stormz-interview-page {
+.zero-interview-page {
   background: #fff;
   font-family: 'Jacquard 12', serif;
   color: #000;
@@ -12,14 +12,14 @@ body {
   transition: margin-left 0.3s ease; /* ✅ Added for smooth shifting */
 }
 
-.stormz-interview-title,
-.stormz-interview-subtitle {
+.zero-interview-title,
+.zero-interview-subtitle {
   word-break: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
 }
 
-.stormz-interview-title {
+.zero-interview-title {
   font-family: 'Lacquer', serif;
   font-weight: 700;
 /*  font-family: 'Jacquard 12', serif;*/
@@ -29,7 +29,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-interview-subtitle {
+.zero-interview-subtitle {
   font-family: "Jersey 15", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -39,7 +39,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-log {
+.zero-log {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
   color: #666;
@@ -50,7 +50,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-website-tag {
+.zero-website-tag {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -60,7 +60,7 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-intro-tag {
+.zero-intro-tag {
   font-family: "Jersey 15", sans-serif;
   font-weight: 200;
   font-style: none;
@@ -70,18 +70,18 @@ body {
   letter-spacing: 2px;
 }
 
-.stormz-interview-photo {
+.zero-interview-photo {
   width: 100%;
   margin: 0;
 }
 
-.stormz-interview-photo img {
+.zero-interview-photo img {
   width: 100%;
   display: block;
   margin: 0;
 }
 
-.stormz-interview-text {
+.zero-interview-text {
   font-family: 'Inter', sans-serif; /* Change to Roboto or Work Sans if you prefer */
   font-size: 1.2rem;
   line-height: 1.8;
@@ -91,12 +91,12 @@ body {
   color: #111;
 }
 
-.stormz-interview-text strong {
+.zero-interview-text strong {
   font-family: 'Lacquer', serif;
   font-weight: 700;
 }
 
-.stormz-qa-section {
+.zero-qa-section {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
@@ -105,7 +105,7 @@ body {
 }
 
 /* Question styling */
-.stormz-question {
+.zero-question {
   font-family: 'Lacquer', serif;
   font-size: 1.6rem;
   color: #111; /* almost black for emphasis */
@@ -114,7 +114,7 @@ body {
 }
 
 /* Answer styling */
-.stormz-answer {
+.zero-answer {
   font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
   color: #555; /* medium gray for contrast with questions */
@@ -122,13 +122,14 @@ body {
   margin-bottom: 20px;
 }
 
-.stormz-pp-fade-button {
+
+.zero-pp-fade-button {
   position: fixed;
   bottom: 40px;
   right: 20px;
   width: 50px;                /* ✅ Equal width/height = perfect circle */
   height: 50px;
-  background-color: #008000;
+  background-color: #FFDBBB;
   color: #FFFFFF;
   font-size: 1.4rem;
   border: none;
@@ -145,13 +146,13 @@ body {
   animation: fadeIn 0.8s forwards, gentlePulse 5s ease-in-out infinite;
 }
 
-.stormz-pp-fade-button.visible {
+.zero-pp-fade-button.visible {
   opacity: 0.9;
   transform: scale(1);
 }
 
-.stormz-pp-fade-button:hover {
-  background-color: #00a000;
+.zero-pp-fade-button:hover {
+  background-color: #FF8C00;
   transform: scale(1.1);
 }
 
@@ -165,15 +166,15 @@ body {
   50% { transform: scale(1.12); opacity: 1; }
 }
 
-.stormz-scroll-top-button {
+.zero-scroll-top-button {
   position: fixed;
   bottom: 100px;
   right: 20px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: rgba(238, 36, 0, 0.15); /* <— transparent orange */
-  color: #fff;
+  background-color: rgba(255, 165, 0, 0.3);
+  color: #FFFFFF;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
@@ -182,19 +183,18 @@ body {
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.stormz-scroll-top-button:hover {
+.zero-scroll-top-button:hover {
   transform: scale(1.1);
-  background-color: rgba(238, 36, 0, 0.7);
+  background-color: rgba(199,110,0, 0.9);
 }
 
-
 /* Sidebar wrapper */
-.stormz-sidebar-container {
+.zero-sidebar-container {
   position: fixed; /* ✅ Fixed for both desktop + mobile stickiness */
   top: 0;
   bottom: 0; /* ✅ ADD: make sure it stretches to bottom */
   width: 240px;
-  background: #ee2400;
+  background: #FFDBBB;
   padding: 2rem 1rem 1rem;
   overflow-y: auto;
   flex-shrink: 0;
@@ -203,24 +203,24 @@ body {
 }
 
 /* Collapsed sidebar */
-.stormz-sidebar-container {
+.zero-sidebar-container {
   transform: translateX(0);
 }
 
-.stormz-sidebar-collapsed .stormz-sidebar-container {
+.zero-sidebar-collapsed .zero-sidebar-container {
   transform: translateX(-100%);
   position: absolute;
   left: 0;
 }
 
 /* Toggle button */
-.stormz-sidebar-toggle {
+.zero-sidebar-toggle {
   position: fixed;
   top: 1rem;
   left: 1rem;
   z-index: 2000; /* ✅ Increased to stay above sidebar on mobile */
   background-color: rgba(255, 255, 255, 0.7);
-  color: #ee2400;
+  color: #431C52;
   border: none;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
@@ -229,7 +229,7 @@ body {
 }
 
 /* Layout wrapper */
-.stormz-interview-layout {
+.zero-interview-layout {
   display: block; /* ✅ FIX: stop flexbox from creating ghost space */
   width: 100%;
   position: relative;
@@ -238,10 +238,10 @@ body {
   min-height: 100vh; /* ✅ ADDED: Ensures sidebar doesn't get cut off */
 }
 
-.stormz-sidebar-link {
+.zero-sidebar-link {
   display: block;
   margin-bottom: 1rem;
-  color: #FFFFFF;
+  color: #330e00;
   text-decoration: none;
   font-size: 1rem;
   line-height: 1.4;
@@ -250,59 +250,56 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-.stormz-sidebar-link.active {
-  background-color: #000000;
+.zero-sidebar-link.active {
+  background-color: #330e00;
   color: #fff;
   font-weight: bold;
 }
 
-.stormz-sidebar-container .stormz-sidebar-link:first-child {
+.zero-sidebar-container .zero-sidebar-link:first-child {
     margin-top: 2rem; /* adjust until it clears the pills */
   }
 
 /* ✅ Desktop only: Shift content right when sidebar is open */
 @media (min-width: 769px) {
-  .stormz-sidebar-open .stormz-interview-page {
+  .zero-sidebar-open .zero-interview-page {
     margin-left: 240px; /* ✅ Push content to the right */
   }
 
-  .stormz-sidebar-collapsed .stormz-interview-page {
+  .zero-sidebar-collapsed .zero-interview-page {
     margin-left: 0; /* ✅ Reset content when collapsed */
   }
 }
 
 /* ✅ Mobile: Make sure toggle button is still visible when sidebar open */
 @media (max-width: 768px) {
-  .stormz-sidebar-container {
+  .zero-sidebar-container {
     width: 75vw;
     max-width: 300px;
     top: 0;
     left: 0;
     bottom: 0;
-    background: #ee2400;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     position: fixed; /* ✅ Ensure sidebar stays visible while scrolling on mobile */
     padding-bottom: 2.5rem; /* 👈 only affects mobile, fixes cutoff */
   }
 
-  .stormz-sidebar-collapsed .stormz-sidebar-container {
+  .zero-sidebar-collapsed .zero-sidebar-container {
     transform: translateX(-100%);
     transition: transform 0.3s ease;
   }
 
-  .stormz-sidebar-toggle {
+  .zero-sidebar-toggle {
     top: 0.5rem;     /* nudge it up slightly */
     left: 0.5rem;    /* tighter to the corner */
     z-index: 3000;   /* keep it above the back button */
     transform: scale(0.9); /* slightly smaller for less obstruction */
   }
-
-  .stormz-interview-layout {
+  .zero-interview-layout {
     flex-direction: column;
   }
-
-  .stormz-pp-fade-button {
+  .zero-pp-fade-button {
     bottom: 8px;
     right: 8px;
     padding: 6px 8px;  /* Keep bigger padding for touch-friendliness */
@@ -310,14 +307,14 @@ body {
     width: 20px;      /* ✅ smaller circle */
     height: 20px;
   }
-  .stormz-scroll-top-button {
+  .zero-scroll-top-button {
     bottom: 100px;
     right: 8px;
     padding: 6px 6px;  /* Keep bigger padding for touch-friendliness */
     font-size: 0.9rem;
     width: 40px;      /* ✅ smaller circle */
     height: 40px;
-    background-color: rgba(238, 36, 0, 0.35);
+    background-color: rgba(255, 165, 0, 0.3);
     opacity: 1;
     transition: transform 0.2s ease, background-color 0.3s ease;
   }
