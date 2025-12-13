@@ -57,12 +57,12 @@ function HomePage() {
     // IN YA FACE
     {
       image: image17,
-      videoUrl: 'https://www.youtube.com/embed/2PvPM2fOVxs?si=eCRiUmsMnGEd7C_F',
+      videoUrl: 'https://www.youtube.com/embed/wcrwA5YcxoA?si=6Bp43FNJzt7EfeRf',
       title: 'IN YA FACE: Released 12.13.25',
       description: 'Karmic contract: closed. Transmission delivered. Timelines updated.',
       links: [
         // { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
-        { label: 'Reel', url: 'https://www.instagram.com/p/DRe7cmrjYML/' },
+        { label: 'Reel', url: 'https://www.instagram.com/reel/DSIlVKCjrYM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/72SCgtRTpNOxLeFlTMQszN' },
       ],
       animation: 'float3', // Unique animation class
