@@ -62,7 +62,7 @@ function HomePage() {
       description: 'Karmic contract: closed. Transmission delivered. Timelines updated.',
       links: [
         // { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
-        { label: 'Reel', url: 'https://www.instagram.com/reel/DSIlVKCjrYM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' },
+        { label: 'Reel', url: 'https://www.instagram.com/reel/DSNIhoYAIpc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/72SCgtRTpNOxLeFlTMQszN' },
       ],
       animation: 'float3', // Unique animation class
