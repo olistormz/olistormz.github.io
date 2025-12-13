@@ -17,36 +17,36 @@ import './HomePage.css';
 // BACKGROUND
 import backgroundVideo from './static/background-video.mp4';
 // ALBUM COVERS
-import image1 from './static/image-1.webp';
-import image2 from './static/image-2.webp';
-import image3 from './static/image-3.webp';
-import image4 from './static/image-4.webp';
-import image5 from './static/image-5.webp';
-import image6 from './static/image-6.webp';
-import image7 from './static/image-7.webp';
-import image8 from './static/image-8.webp';
-import image9 from './static/image-9.webp';
-import image10 from './static/image-10.webp';
-import image11 from './static/image-11.webp';
-import image12 from './static/image-12.webp';
-import image13 from './static/image-13.webp';
-import image15 from './static/image-15.webp';
-import image16 from './static/image-16.webp';
-import image17 from './static/image-17.webp';
+import image1 from './static/music/image-1.webp';
+import image2 from './static/music/image-2.webp';
+import image3 from './static/music/image-3.webp';
+import image4 from './static/music/image-4.webp';
+import image5 from './static/music/image-5.webp';
+import image6 from './static/music/image-6.webp';
+import image7 from './static/music/image-7.webp';
+import image8 from './static/music/image-8.webp';
+import image9 from './static/music/image-9.webp';
+import image10 from './static/music/image-10.webp';
+import image11 from './static/music/image-11.webp';
+import image12 from './static/music/image-12.webp';
+import image13 from './static/music/image-13.webp';
+import image15 from './static/music/image-15.webp';
+import image16 from './static/music/image-16.webp';
+import image17 from './static/music/image-17.webp';
 
 // IMAGES
-import noclickimage1 from './static/noclickimage-1.webp';
-import noclickimage2 from './static/noclickimage-2.webp';
-import noclickimage3 from './static/noclickimage-3.webp';
-import noclickimage4 from './static/noclickimage-4.webp';
+import noclickimage1 from './static/music/noclickimage-1.webp';
+import noclickimage2 from './static/music/noclickimage-2.webp';
+import noclickimage3 from './static/music/noclickimage-3.webp';
+import noclickimage4 from './static/music/noclickimage-4.webp';
 // HEADER
-import headerImage from './static/header.png'; // Import the header image
+import headerImage from './static/music/header.png'; // Import the header image
 // SOCIAL MEDIA ICONS
-import instagramIcon from './static/instagram.png'; // Import Instagram icon
-import tiktokIcon from './static/tiktok.png';       // Import TikTok icon
-import youtubeIcon from './static/youtube.png';     // Import YouTube icon
-import spotifyIcon from './static/spotify.png';     // Import Spotify icon
-import pushpin from './static/pushpin.png'; // Import the pushpin image
+import instagramIcon from './static/logo/instagram.png'; // Import Instagram icon
+import tiktokIcon from './static/logo/tiktok.png';       // Import TikTok icon
+import youtubeIcon from './static/logo/youtube.png';     // Import YouTube icon
+import spotifyIcon from './static/logo/spotify.png';     // Import Spotify icon
+import pushpin from './static/logo/pushpin.png'; // Import the pushpin image
 
 
 // Lazy load FloatingElement
@@ -58,12 +58,12 @@ function HomePage() {
     {
       image: image17,
       videoUrl: 'https://www.youtube.com/embed/2PvPM2fOVxs?si=eCRiUmsMnGEd7C_F',
-      title: 'IN YA FACE: Released 13.12.25',
-      description: 'Karmic contract: closed. Transmission delivered.',
+      title: 'IN YA FACE: Released 12.13.25',
+      description: 'Karmic contract: closed. Transmission delivered. Timelines updated.',
       links: [
-        { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
+        // { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DRe7cmrjYML/' },
-        { label: 'Spotify', url: 'https://open.spotify.com/album/0Kfq6ONYChymGZqm1sU8rE?si=9isQUuDTTli7hKDhdcMZPw' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/72SCgtRTpNOxLeFlTMQszN' },
       ],
       animation: 'float3', // Unique animation class
     },
@@ -81,7 +81,7 @@ function HomePage() {
       title: 'Big Fin: Released 11.28.25',
       description: 'I invented the game, of course I win.',
       links: [
-        { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
+        // { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DRe7cmrjYML/' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/0Kfq6ONYChymGZqm1sU8rE?si=9isQUuDTTli7hKDhdcMZPw' },
       ],
@@ -99,9 +99,9 @@ function HomePage() {
       image: image15,
       videoUrl: 'https://www.youtube.com/embed/e8MQzUMtIow?si=pL1726XStbMfrJ0h',
       title: 'Shekadi: Released 10.31.25',
-      description: 'Inspired by the Shekere & West African Traditions',
+      description: 'Rhythm Moves Itself',
       links: [
-        { label: 'Short', url: 'https://www.youtube.com/shorts/XlXiFbN1D9Y' },
+        // { label: 'Short', url: 'https://www.youtube.com/shorts/XlXiFbN1D9Y' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DQZQNEXgHs_/' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/55CKtiQiZi6To0x52QAAxc' },
       ],
@@ -119,9 +119,9 @@ function HomePage() {
       image: image13,
       videoUrl: 'https://www.youtube.com/embed/vkE6gU9UoJM?si=S7-6PDAaMc2PMEAp',
       title: 'Every Time U Come Around: Released 9.12.25',
-      description: 'Dance/Pop/House/Electronic',
+      description: 'Take A Number',
       links: [
-        { label: 'Short', url: 'https://youtube.com/shorts/rcb4VbrIJYU' },
+        // { label: 'Short', url: 'https://youtube.com/shorts/rcb4VbrIJYU' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DOV_iyyDfwW/' },
         { label: 'Spotify', url: 'https://open.spotify.com/track/3hV0vC4MjyjCa6DLE330yZ?si=e91700de24204991' },
       ],
@@ -137,11 +137,11 @@ function HomePage() {
     // Shadow Wrath
     {
       image: image12,
-      videoUrl: 'https://www.youtube.com/embed/0r5ivx56RIA?si=Hb2-MdoQTVqW7nzQ',
+      videoUrl: 'https://www.youtube.com/embed/5Q8fgIkwGlM?si=6A40StWFpGaAXWrO',
       title: 'Shadow Wrath: Released 5.5.25',
-      description: 'UK Drill. Freestyle. Chop Skrew.',
+      description: 'No Way Out',
       links: [
-        { label: 'Short', url: 'https://youtube.com/shorts/nwaaJqhi07o' },
+        // { label: 'Short', url: 'https://youtube.com/shorts/nwaaJqhi07o' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DIBCamHN5_L/' },
         { label: 'Spotify', url: 'https://open.spotify.com/track/4rF7YsKVjJi2v2bLdZWSgo?si=5be7e891622f4185' },
       ],
@@ -159,9 +159,9 @@ function HomePage() {
       image: image11,
       videoUrl: 'https://www.youtube.com/embed/poykJzi017M?si=tDrXfYk0iBYcJu2B',
       title: 'Ode To Flight: Released 4.4.25',
-      description: 'Lift Off. Electronic/Melodic',
+      description: 'Stand In the height of your being',
       links: [
-        { label: 'Short', url: 'https://www.youtube.com/shorts/PDFrAAuypgE' },
+        // { label: 'Short', url: 'https://www.youtube.com/shorts/PDFrAAuypgE' },
         { label: 'Reel', url: 'https://www.instagram.com/reel/DJPplDvtBs0/?igsh=MTh2YnpvNXJ1OXBybg==' },
         { label: 'Spotify', url: 'https://open.spotify.com/album/2KRYbExuiGt8knRYtgmSey' },
       ],
@@ -218,7 +218,7 @@ function HomePage() {
       image: image8,
       videoUrl: 'https://www.youtube.com/embed/SeTMdCWDAqs?si=dbaB8AmJNBG-HWcX',
       title: 'Dedryhated Making Declarations: Released 1.11.25',
-      description: '3 part freestyle.  A psychoanalyis of the world.',
+      description: 'A psychoanalyis of the world.',
       links: [
         { label: 'Pt. 2', url: 'https://youtu.be/80vIzSej470' },
         { label: 'Reel', url: 'https://www.instagram.com/reel/DER-QVFN_V-/' },
@@ -263,7 +263,7 @@ function HomePage() {
       image: image6,
       videoUrl: 'https://www.youtube.com/embed/p_SSrNH27Ms?si=G9wWzU-MliTtL6be',
       title: 'Diana: Released 11.11.24',
-      description: 'Melodic afrobeats. An ode to Diana and Athena.',
+      description: 'An ode to Diana and Athena.',
       links: [
         { label: 'Lyrics', url: 'https://youtu.be/OSMezVjWNwY' },
         { label: 'Reel', url: 'https://www.instagram.com/p/DCOorY-tIyr/' },
@@ -316,7 +316,7 @@ function HomePage() {
       image: image4,
       videoUrl: 'https://www.youtube.com/embed/C2fdW4BHmx8',
       title: 'Gun Dutta One: Released 9.9.24',
-      description: 'Primal strength and powa...techno..tribal..house..',
+      description: 'Primal strength and powa',
       links: [
         { label: 'Lyrics', url: 'https://youtu.be/gGZ7JyQ2RvM' },
         { label: 'Reel', url: 'https://www.instagram.com/p/C_gC12MtFvz/' },
@@ -349,7 +349,7 @@ function HomePage() {
       image: image3,
       videoUrl: 'https://www.youtube.com/embed/37le8XBBtPg',
       title: 'There I Go: Released 8.8.24',
-      description: 'Light electronic summertime bop. Catch me skating.',
+      description: 'Catch me skating.',
       links: [
         { label: 'Lyrics', url: 'https://youtu.be/m9L3wqVAHXQ' },
         { label: 'Reel', url: 'https://www.instagram.com/p/C-Zy5Wzt52u/' },
@@ -389,7 +389,7 @@ function HomePage() {
       image: image1,
       videoUrl: 'https://www.youtube.com/embed/jINjek6prIk',
       title: 'What The Officer Said: Debut 6.6.24',
-      description: 'My debut. Improvised in one take...deep meanings to be found?',
+      description: 'The debut. Improvised in one take...deep meanings to be found?',
       links: [
         { label: 'Lyrics', url: 'https://youtu.be/24jJIePbmMo' },
         { label: 'Reel', url: 'https://www.instagram.com/p/C8ZcOepNlLi/' },

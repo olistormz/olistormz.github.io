@@ -48,7 +48,7 @@
 .nav-unfoldI {
   top: 5px;
   left: 5px;
-  background-color: #FBAED2;
+  background-color: #fcc6df;
   color: #000000;
   padding: 8px 16px; /* Increased padding for better tap area */
   border-radius: 50px;
@@ -68,33 +68,10 @@
 
 /*UNFOLD2*/
 
-.nav-unfoldII {
-  top: 10px;
-  left: 10px;
-  background-color: #E6E6FA;
-  color: #333;
-  padding: 8px 16px; /* Increased padding for better tap area */
-  border-radius: 50px;
-  font-family: "Jersey 15", sans-serif;
-  font-size: 1.2rem; /* Slightly larger font size */
-  border: none;
-  text-decoration: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  z-index: 1000;
-}
-
-.nav-unfoldII:hover {
-  transform: scale(1.05);
-  background-color: #E6E6FA;
-}
-
-/* UNFOLD3 */
-
 .nav-unfoldIII {
   top: 10px;
   left: 10px;
-  background-color: #DAF0F7;
+  background-color: #E6E6FA;
   color: #333;
   padding: 8px 16px; /* Increased padding for better tap area */
   border-radius: 50px;
@@ -109,7 +86,30 @@
 
 .nav-unfoldIII:hover {
   transform: scale(1.05);
+  background-color: #bcbcf2;
+}
+
+/* UNFOLD3 */
+
+.nav-unfoldII {
+  top: 10px;
+  left: 10px;
   background-color: #DAF0F7;
+  color: #333;
+  padding: 8px 16px; /* Increased padding for better tap area */
+  border-radius: 50px;
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.2rem; /* Slightly larger font size */
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 1000;
+}
+
+.nav-unfoldII:hover {
+  transform: scale(1.05);
+  background-color: #c4d8de;
 }
 
 
@@ -133,7 +133,7 @@
 
 .nav-unfoldIV:hover {
   transform: scale(1.05);
-  background-color: #FFDBBB;
+  background-color: #ffb36f;
 }
 
 
@@ -157,7 +157,7 @@
 
 .nav-music:hover {
   transform: scale(1.05);
-  background-color: #C8A2C8;
+  background-color: #b582b5;
 }
 
 /* DONATE */

@@ -292,7 +292,7 @@ body {
   }
 
   .stormz-sidebar-toggle {
-    top: 0.5rem;     /* nudge it up slightly */
+    top: 2rem;     /* nudge it up slightly */
     left: 0.5rem;    /* tighter to the corner */
     z-index: 3000;   /* keep it above the back button */
     transform: scale(0.9); /* slightly smaller for less obstruction */

@@ -339,7 +339,7 @@ function Interview() {
       </h2>
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-1.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-1.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -364,7 +364,7 @@ function Interview() {
     
 
       <div className="interview-photo">
-        <img src={require('./static/interview-2.webp')} alt="Editorial shot" />
+        <img src={require('./static/interview/interview-2.webp')} alt="Editorial shot" />
       </div>
 
       <div className="interview-qa-section">
@@ -389,7 +389,7 @@ The music is just the external echo of all that. It’s not about the art itself
 
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-3.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-3.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -408,7 +408,7 @@ There’s a relationship between them and the wearer… it’s symbiotic. The ob
       </div>
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-4.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-4.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -431,7 +431,7 @@ A lot of people don’t realize they’re even doing it. It’s unconscious. So,
 
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-11.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-11.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -452,7 +452,7 @@ My ego tucks it into my body, into my subconscious, like a secret I’m not read
 
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-5.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-5.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -469,7 +469,7 @@ Always hopeful. I’ve never given up. It’s never even crossed my mind. Life i
        </div> 
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-6.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-6.webp')} alt="Oli Stormz" />
       </div>
 
        <div className="interview-qa-section">
@@ -485,7 +485,7 @@ This past year, when I’ve been creating all this stuff, I was laughing because
 
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-7.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-7.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -502,7 +502,7 @@ But then that got flipped on its head. And it was like, light and dark. Opinion 
       </div>
 
        <div className="interview-photo full-width">
-        <img src={require('./static/interview-8.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-8.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -520,7 +520,7 @@ Their words stuck with me. Not because I didn’t already know who I was, but be
       </div>
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-15.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-15.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -541,7 +541,7 @@ Oh, absolutely. I’ve become her literal fantasy. I remember being seven or eig
       </div>
 
        <div className="interview-photo full-width">
-        <img src={require('./static/interview-13.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-13.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="interview-qa-section">
@@ -566,7 +566,7 @@ People love independent thinking, until you disagree with them. Honesty until th
       </div>
 
       <div className="interview-photo full-width">
-          <img src={require('./static/interview-16.webp')} alt="Oli Stormz" />
+          <img src={require('./static/interview/interview-16.webp')} alt="Oli Stormz" />
         </div>
 
       <div className="interview-qa-section">
@@ -588,7 +588,7 @@ I think life is mystical. And people want to figure it out. But if you just let 
   
 
         <div className="interview-photo full-width">
-          <img src={require('./static/interview-10.webp')} alt="Oli Stormz" />
+          <img src={require('./static/interview/interview-10.webp')} alt="Oli Stormz" />
         </div>
 
       <div className="interview-qa-section">
@@ -610,7 +610,7 @@ Just… allow. I can’t believe it took so long… to finally just begin to get
       </div>
 
       <div className="interview-photo full-width">
-        <img src={require('./static/interview-14.webp')} alt="Oli Stormz" />
+        <img src={require('./static/interview/interview-14.webp')} alt="Oli Stormz" />
       </div>
 
       <h2 className="interview-subtitle">
