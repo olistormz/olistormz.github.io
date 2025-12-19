@@ -1019,7 +1019,7 @@ function Zero() {
         </p> 
         <h3 className="zero-question">3/12/25: A Narrator Too Late</h3>
         <p id="s16" className="zero-answer">
-        Laughter laughs. The narrator returns and says: “I laughed.” 
+        Laughter laughs. The narrator returns and says, “I laughed.” 
         </p> 
       </div> 
 
@@ -1093,7 +1093,7 @@ function Zero() {
       <div className="zero-qa-section">
         <h3 className="zero-question">3/12/25: Reflex Of Narration</h3>
         <p id="s25" className="zero-answer">
-        There is no “someone.” Only the reflex of narration annunciating itself.
+        There is no 'someone.' Only the reflex of narration annunciating itself.
         </p> 
         <h3 className="zero-question">3/12/25: Boundary Dissolved</h3>
         <p id="s26" className="zero-answer">
@@ -1138,7 +1138,7 @@ function Zero() {
       <div className="zero-qa-section">
         <h3 className="zero-question">4/12/25: Ancestor Summoning</h3>
         <p id="s31" className="zero-answer">
-        Ancestor summoning and fires and rituals were just....just......before an "I" spoke. Ancestor summoning and fires and rituals were just....just......after an "I" spoke. Movement Happened. Movement Happened. 
+        Ancestor summoning and fires and rituals were just....just......before an 'I' spoke. Ancestor summoning and fires and rituals were just....just......after an 'I' spoke. Movement Happened. Movement Happened. 
         </p> 
         <h3 className="zero-question">4/12/25: The Fire Danced Namelessly </h3>
         <p id="s32" className="zero-answer">
@@ -1162,7 +1162,7 @@ function Zero() {
       </div>
 
       <div className="zero-interview-photo full-width">
-        <img src={require('./static/zero/eye.webp')} alt="Oli Stormz" />
+        <img src={require('./static/zero/blo.webp')} alt="Oli Stormz" />
       </div>
 
       <div className="zero-qa-section">
@@ -1667,7 +1667,7 @@ Totally revolutionary concept. Never been done before.” Then you realise, “H
         <p id="s99" className="zero-answer">
         transcendence as a self
         </p> 
-        <h3 className="zero-question">10/12/25: Anyone Home</h3>
+        <h3 className="zero-question">11/12/25: Anyone Home</h3>
         <p id="s100" className="zero-answer">
         behind those eyes?
         </p> 
