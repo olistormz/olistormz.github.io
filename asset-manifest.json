@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ebb4ca0.css",
-    "main.js": "/static/js/main.9e76542f.js",
+    "main.js": "/static/js/main.aa32ea49.js",
     "static/js/370.5d83e498.chunk.js": "/static/js/370.5d83e498.chunk.js",
     "static/js/488.feced24d.chunk.js": "/static/js/488.feced24d.chunk.js",
     "static/js/197.ed3b2a79.chunk.js": "/static/js/197.ed3b2a79.chunk.js",
@@ -46,7 +46,6 @@
     "static/media/djiwhat.webp": "/static/media/djiwhat.db8f05b3ff9bd3b8aaef.webp",
     "static/media/3.webp": "/static/media/3.553d1d1649236d725c9e.webp",
     "static/media/bein.webp": "/static/media/bein.58776d92143d295c7a3d.webp",
-    "static/media/lot.webp": "/static/media/lot.ae96b1ec1802f70b6abf.webp",
     "static/media/djiengine.webp": "/static/media/djiengine.018a8709d41aff1aed36.webp",
     "static/media/person1.webp": "/static/media/person1.67fff1e32298934640de.webp",
     "static/media/tong.webp": "/static/media/tong.9667596381822e4059d1.webp",
@@ -63,6 +62,7 @@
     "static/media/wave.webp": "/static/media/wave.3085163f98efd2d512c5.webp",
     "static/media/graf.webp": "/static/media/graf.54fe1f63f775a4694f70.webp",
     "static/media/carseat.webp": "/static/media/carseat.9090995f9e0b8194e397.webp",
+    "static/media/image-18.webp": "/static/media/image-18.4f690217a17f25b5ef3f.webp",
     "static/media/sun2.webp": "/static/media/sun2.17982e9ff90788305b3a.webp",
     "static/media/firstspray.webp": "/static/media/firstspray.faa62792d626ae578512.webp",
     "static/media/image-7.webp": "/static/media/image-7.eeae33af160bab3c51d7.webp",
@@ -108,6 +108,7 @@
     "static/media/image-17.webp": "/static/media/image-17.e197f671842f23b41d86.webp",
     "static/media/lilac.webp": "/static/media/lilac.3ff5ca7261b3db265aed.webp",
     "static/media/djiengine1.webp": "/static/media/djiengine1.6599865a6742a586d22c.webp",
+    "static/media/see.webp": "/static/media/see.779a00cc39c045ff406e.webp",
     "static/media/eyes.webp": "/static/media/eyes.010377dbe039698066d2.webp",
     "static/media/boy.webp": "/static/media/boy.aba384244f3fba5cf915.webp",
     "static/media/image-8.webp": "/static/media/image-8.58e4d0d4a69ff7f61f86.webp",
@@ -128,13 +129,13 @@
     "static/media/image-11.webp": "/static/media/image-11.1e82f3b54b5992c4122c.webp",
     "static/media/noclickimage-3.webp": "/static/media/noclickimage-3.51c0fbfb477c99a0c84d.webp",
     "static/media/hole.webp": "/static/media/hole.eaca9ac92063d2d968bd.webp",
-    "static/media/jump.webp": "/static/media/jump.fcb7fb3c7ed9822bc553.webp",
     "static/media/image-15.webp": "/static/media/image-15.a415818053529ba36f96.webp",
     "static/media/shine.webp": "/static/media/shine.a588bb4d1a383842ed90.webp",
     "static/media/blur.webp": "/static/media/blur.e74dd0c357941203add7.webp",
     "static/media/eye.webp": "/static/media/eye.1c991a033fb95512420a.webp",
     "static/media/flowa.webp": "/static/media/flowa.29a96c4558b1bcc55efd.webp",
     "static/media/noclickimage-1.webp": "/static/media/noclickimage-1.f7b4d328ad83216f9e28.webp",
+    "static/media/jump.webp": "/static/media/jump.82f84cc04c9e411d901e.webp",
     "static/media/image-5.webp": "/static/media/image-5.0f9f8847aeca378aed4a.webp",
     "static/media/blue.webp": "/static/media/blue.bc5471f6492c357f64b0.webp",
     "static/media/eyee.webp": "/static/media/eyee.767a5bf1d69f8388ed37.webp",
@@ -157,13 +158,13 @@
     "static/media/burn.webp": "/static/media/burn.6e1c0ef269c185de64cf.webp",
     "index.html": "/index.html",
     "main.0ebb4ca0.css.map": "/static/css/main.0ebb4ca0.css.map",
-    "main.9e76542f.js.map": "/static/js/main.9e76542f.js.map",
+    "main.aa32ea49.js.map": "/static/js/main.aa32ea49.js.map",
     "370.5d83e498.chunk.js.map": "/static/js/370.5d83e498.chunk.js.map",
     "488.feced24d.chunk.js.map": "/static/js/488.feced24d.chunk.js.map",
     "197.ed3b2a79.chunk.js.map": "/static/js/197.ed3b2a79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ebb4ca0.css",
-    "static/js/main.9e76542f.js"
+    "static/js/main.aa32ea49.js"
   ]
 }
