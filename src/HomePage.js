@@ -33,6 +33,7 @@ import image13 from './static/music/image-13.webp';
 import image15 from './static/music/image-15.webp';
 import image16 from './static/music/image-16.webp';
 import image17 from './static/music/image-17.webp';
+import image18 from './static/music/image-18.webp';
 
 // IMAGES
 import noclickimage1 from './static/music/noclickimage-1.webp';
@@ -54,6 +55,33 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function HomePage() {
   const elements = [
+    // Post-it Note 2
+    // {
+    //   noteText: "me likkle but me tallawah",
+    //   isPostIt: true,
+    //   backgroundColor: '#ff7ecd', // Example pastel color
+    //   animation: 'float1', // Unique animation class
+    // },
+    // hex on yuh
+    {
+      image: image18,
+      videoUrl: 'https://www.youtube.com/embed/-UfBJ8LnhKY?si=nJLPe94kQfDiWN-I',
+      title: 'Hex On Yuh: Released 1.11.26',
+      description: 'Mek, I See, I Do.',
+      links: [
+        // { label: 'Short', url: 'https://youtube.com/shorts/HJYvrcjHtHU' },
+        { label: 'Reel', url: 'https://www.instagram.com/p/DTYHDIfgO22/?img_index=1' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/0iSEd6ljyxWw7V6wikfHTN' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
+    // Post-it Note 2
+    {
+      noteText: "True freedom isn’t handed over. It's seized, cherished, and vigorously defended.",
+      isPostIt: true,
+      backgroundColor: '#7afcff', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // IN YA FACE
     {
       image: image17,
@@ -91,7 +119,7 @@ function HomePage() {
     {
       noteText: 'These blue mountains have witnessed the unfolding',
       isPostIt: true,
-      backgroundColor: '#FFDEAD', // Example pastel color
+      backgroundColor: '#cdfc93', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // SHEKADI
@@ -111,7 +139,7 @@ function HomePage() {
     {
       noteText: 'Alignment is what your field says before you speak.',
       isPostIt: true,
-      backgroundColor: '#B0E0E6', // Example pastel color
+      backgroundColor: '#FFA500', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // Every Time U Come Around

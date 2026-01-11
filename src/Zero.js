@@ -850,6 +850,14 @@ function Zero() {
          Anyone Home?
         </a>
 
+        <a
+          href="#s101"
+          onClick={(e) => handleLinkClick(e, 's101')}
+          className={`zero-sidebar-link ${activeId === 's101' ? 'active' : ''}`}
+        >
+         Ongoing Recognition
+        </a>
+
 
 
         </div>
@@ -1031,7 +1039,7 @@ function Zero() {
       <div className="zero-qa-section">
         <h3 className="zero-question">3/12/25: The Pilot Arrives After The Plane Is Flying</h3>
         <p id="s17" className="zero-answer">
-        An airplane assembles itself. Takes flight. A millisecond later, a figure appears, sweating, clipbpoard in one hand, wrench in the other, and announces, "I'm Captain Awakening, builder of the plane. Everyone take your seats. You're in for the ride of your life." The echo applauds. The teaching forms. The explanation takes shape. A sky is invoked, only to turn into another cloud in another sky in another explanation invoking another sky that dissolves again.
+        An airplane assembles itself. Takes flight. A millisecond later, a figure appears, sweating, clipboard in one hand, wrench in the other, and announces, "I'm Captain Awakening, builder of the plane. Everyone take your seats. You're in for the ride of your life." The echo applauds. The teaching forms. The explanation takes shape. A sky is invoked, only to turn into another cloud in another sky in another explanation invoking another sky that dissolves again.
         </p> 
         <h3 className="zero-question">3/12/25: Legs Don't Have Questions</h3>
         <p id="s18" className="zero-answer">
@@ -1677,10 +1685,16 @@ Totally revolutionary concept. Never been done before.” Then you realise, “H
         <img src={require('./static/zero/flo.webp')} alt="Oli Stormz" />
       </div>
 
+       <div className="zero-qa-section">
+        <h3 className="zero-question">2/1/26: Ongoing Recognition</h3>
+        <p id="s101" className="zero-answer">
+        There is an ongoing recognition that what once functioned as unquestioned ground is, in fact, assumed, and nothing needs to be done about it.
+        </p> 
+      </div>
 
-
-
-
+       <div className="zero-interview-photo full-width">
+        <img src={require('./static/zero/see.webp')} alt="Oli Stormz" />
+      </div>
 
 
       <h2 className="zero-interview-subtitle">
