@@ -34,6 +34,7 @@ import image15 from './static/music/image-15.webp';
 import image16 from './static/music/image-16.webp';
 import image17 from './static/music/image-17.webp';
 import image18 from './static/music/image-18.webp';
+import image19 from './static/music/image-19.webp';
 
 // IMAGES
 import noclickimage1 from './static/music/noclickimage-1.webp';
@@ -55,13 +56,26 @@ const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded 
 
 function HomePage() {
   const elements = [
+    // nothing requires defense because there is no one to defend. A poet cannot recite a poem in the middle of a war. weather doesn’t answer questions. It happens.
+
+    {
+      image: image19,
+      videoUrl: 'https://www.youtube.com/embed/KbnGucMOYXs?si=IsTL3Z4aMGQmlDwa',
+      title: '39 Dingo Teeth: Released 2.2.26',
+      description: 'U Could Make a Tanghululu.',
+      links: [
+        { label: 'Reel', url: 'https://www.instagram.com/p/DUQaEmjgOVE/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/6DzNmlxxZAt2oO7LDtkxZb' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
     // Post-it Note 2
-    // {
-    //   noteText: "me likkle but me tallawah",
-    //   isPostIt: true,
-    //   backgroundColor: '#ff7ecd', // Example pastel color
-    //   animation: 'float1', // Unique animation class
-    // },
+    {
+      noteText: "Some seek fulfillment through experience. Others through fidelity to their own nature.",
+      isPostIt: true,
+      backgroundColor: '#cdfc93', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     // hex on yuh
     {
       image: image18,
@@ -105,7 +119,7 @@ function HomePage() {
     // BIG FIN
     {
       image: image16,
-      videoUrl: 'https://www.youtube.com/embed/2PvPM2fOVxs?si=eCRiUmsMnGEd7C_F',
+      videoUrl: 'https://www.youtube.com/embed/KjyQn0Pcsno?si=oHblyAoqRnAG87Mv',
       title: 'Big Fin: Released 11.28.25',
       description: 'I invented the game, of course I win.',
       links: [
@@ -139,7 +153,7 @@ function HomePage() {
     {
       noteText: 'Alignment is what your field says before you speak.',
       isPostIt: true,
-      backgroundColor: '#FFA500', // Example pastel color
+      backgroundColor: '#fff68b', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // Every Time U Come Around
