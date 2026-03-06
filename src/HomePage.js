@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 // App.js
-import React, { useState, lazy, Suspense } from 'react';
+import React, { useEffect, useRef, useState, lazy, Suspense } from 'react';
 import Dialog from '@mui/material/Dialog';
 import Modal from '@mui/material/Modal';
 import Grid from '@mui/material/Grid';
@@ -35,6 +35,8 @@ import image16 from './static/music/image-16.webp';
 import image17 from './static/music/image-17.webp';
 import image18 from './static/music/image-18.webp';
 import image19 from './static/music/image-19.webp';
+import image20 from './static/music/image-20.webp';
+import image21 from './static/music/image-21.webp';
 
 // IMAGES
 import noclickimage1 from './static/music/noclickimage-1.webp';
@@ -54,10 +56,33 @@ import pushpin from './static/logo/pushpin.png'; // Import the pushpin image
 // Lazy load FloatingElement
 const FloatingElement = lazy(() => import('./FloatingElement')); // Lazy-loaded component
 
-function HomePage() {
-  const elements = [
-    // nothing requires defense because there is no one to defend. A poet cannot recite a poem in the middle of a war. weather doesn’t answer questions. It happens.
 
+
+function HomePage() {
+  const audioRef = useRef(null);
+  const elements = [
+    // What if there's no actor? Just responsiveness? / What if there’s no place you belong, because there’s no place you aren’t? When one does not leak energy, it concentrates. nothing requires defense because there is no one to defend. weather doesn’t answer questions. It happens.
+    // if the center isn’t fixed as a character, then there’s no contradiction in being at home everywhere.
+    // And one day, you get to live in what you built.
+    // every day i carry madam zaroni up the mountain
+    {
+      image: image20,
+      videoUrl: 'https://www.youtube.com/embed/X1zx6q_1oxs?si=MZYF4pa54ZUKb6hx',
+      title: 'Chrome Intentions: Released 6.6.26',
+      description: 'You ever let it just ride?',
+      links: [
+        { label: 'Reel', url: 'https://www.instagram.com/p/DViwXXZALwy/' },
+        { label: 'Spotify', url: 'https://open.spotify.com/album/2zZ6CDfBDczN9hcdv315Rp' },
+      ],
+      animation: 'float3', // Unique animation class
+    },
+    // Post-it Note 2
+    {
+      noteText: "A poet cannot recite a poem in the middle of a war.",
+      isPostIt: true,
+      backgroundColor: '#fff200', // Example pastel color
+      animation: 'float1', // Unique animation class
+    },
     {
       image: image19,
       videoUrl: 'https://www.youtube.com/embed/KbnGucMOYXs?si=IsTL3Z4aMGQmlDwa',
@@ -133,7 +158,7 @@ function HomePage() {
     {
       noteText: 'These blue mountains have witnessed the unfolding',
       isPostIt: true,
-      backgroundColor: '#cdfc93', // Example pastel color
+      backgroundColor: '#d5fd51', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // SHEKADI
@@ -153,7 +178,7 @@ function HomePage() {
     {
       noteText: 'Alignment is what your field says before you speak.',
       isPostIt: true,
-      backgroundColor: '#fff68b', // Example pastel color
+      backgroundColor: '#fff200', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // Every Time U Come Around
@@ -171,7 +196,7 @@ function HomePage() {
     },
        // Post-it Note 0
     {
-      noteText: 'Life is as sacred or mundane as you make it',
+      noteText: 'Life is as sacred or as mundane as you make it',
       isPostIt: true,
       backgroundColor: '#baffc9', // Example pastel color
       animation: 'float4', // Unique animation class
@@ -193,7 +218,7 @@ function HomePage() {
     {
       noteText: 'follow the path for the path to unfold',
       isPostIt: true,
-      backgroundColor: '#B0E0E6', // Example pastel color
+      backgroundColor: '#85f2ff', // Example pastel color
       animation: 'float4', // Unique animation class
     },
     // Ode To Flight
@@ -250,7 +275,7 @@ function HomePage() {
       animation: 'float2', // Unique animation class
     },
     {
-      noteText: 'Whatever you do, do it with the outmost devotion.',
+      noteText: 'Whatever you do, do it with the utmost devotion.',
       isPostIt: true,
       backgroundColor: '#FFDEAD', // Example pastel color
       animation: 'float1', // Unique animation class
@@ -383,7 +408,7 @@ function HomePage() {
     {
       noteText: 'An accumulation of choices and actions aimed at peace, tranquility, sustenance, and insight',
       isPostIt: true,
-      backgroundColor: '#ffd4e5', // Example pastel color
+      backgroundColor: '#d5fd51', // Example pastel color
       animation: 'float4', // Unique animation class
     },
     // There I Go
@@ -403,7 +428,7 @@ function HomePage() {
     {
       noteText: 'Ha Ha I Remember When Fear Used To Scare Me !',
       isPostIt: true,
-      backgroundColor: '#bae1ff', // Example pastel color
+      backgroundColor: '#85f2ff', // Example pastel color
       animation: 'float1', // Unique animation class
     },
     // Driftin
@@ -453,6 +478,43 @@ function HomePage() {
     },
   ];
 
+    useEffect(() => {
+    let fade = null;
+
+    const startAudio = () => {
+      const audio = audioRef.current;
+      if (!audio) return;
+
+      if (fade) { clearInterval(fade); fade = null; }
+      if (!audio.paused) return;
+
+      audio.volume = 0;
+      audio.play().then(() => {
+        let vol = 0;
+        fade = setInterval(() => {
+          vol = Math.min(1, vol + 0.01);
+          audio.volume = vol;
+
+          if (vol >= 1) {
+            clearInterval(fade);
+            fade = null;
+          }
+        }, 200);
+      }).catch(err => {
+        console.log("Audio blocked:", err);
+      });
+
+      document.addEventListener("pointerdown", startAudio, { capture: true });
+    };
+
+    document.addEventListener("pointerdown", startAudio, { capture: true });
+
+    return () => {
+      document.addEventListener("pointerdown", startAudio, { capture: true });
+      if (fade) clearInterval(fade);
+    };
+  }, []);
+
   return (
     <div className="app">
       <video className="background-video" autoPlay loop muted playsInline>
@@ -487,6 +549,12 @@ function HomePage() {
           </Grid>
         ))}
       </Grid>
+
+      {/* Musicc */}
+      <audio ref={audioRef} loop playsInline>
+        <source src="/chrome.m4a" type="audio/mp4" />
+        <source src="/chrome.mp3" type="audio/mpeg" />
+      </audio>
 
       {/* Social Media Icons */}
       <div className="social-media-icons">
